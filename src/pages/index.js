@@ -13,27 +13,7 @@ import {
 } from '@heroicons/react/24/outline'
 
 export default function Home() {
-    const [pricingTab, setPricingTab] = useState(1); // 1: 1 user, 2: 2-19, 3: 20-99
-
-    const [openFaq, setOpenFaq] = useState(0);
-
-    const pricingData = {
-        1: [
-            { name: "Standard", price: "29.99", features: ["Unlimited calling within the US", "Free number transfer", "AI voicemail transcription"] },
-            { name: "Business Pro", price: "34.99", features: ["HD voice", "500 toll-free minutes", "Unlimited virtual fax"], popular: true },
-            { name: "Advanced", price: "49.99", features: ["AI call transcriptions", "Contact center solution", "Popular CRM integrations"] }
-        ],
-        2: [
-            { name: "Standard", price: "19.99", features: ["Unlimited calling within the US", "Free number transfer", "AI voicemail transcription"] },
-            { name: "Business Pro", price: "24.99", features: ["HD voice", "500 toll-free minutes", "Unlimited virtual fax"], popular: true },
-            { name: "Advanced", price: "39.99", features: ["AI call transcriptions", "Contact center solution", "Popular CRM integrations"] }
-        ],
-        3: [
-            { name: "Standard", price: "17.99", features: ["Unlimited calling within the US", "Free number transfer", "AI voicemail transcription"] },
-            { name: "Business Pro", price: "19.99", features: ["HD voice", "500 toll-free minutes", "Unlimited virtual fax"], popular: true },
-            { name: "Advanced", price: "34.99", features: ["AI call transcriptions", "Contact center solution", "Popular CRM integrations"] }
-        ]
-    };
+    const[openFaq, setOpenFaq] = useState(0);
 
     return (
         <Layout title="Nemerald | Business Phone System Built for Modern Teams">
@@ -55,10 +35,8 @@ export default function Home() {
                     />
                 </div>
 
-                {/* Main Container - Added 2xl:max-w-[96rem] to let it grow massive on huge screens */}
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-20 lg:items-center lg:gap-x-12 2xl:gap-x-20">
 
-                    {/* TEXT COLUMN - Shifts to 40% width on 2xl screens to give the image more room */}
                     <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:w-5/12 2xl:w-[40%] lg:pt-8">
                         <h1 className="mt-10 text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
                             AI-Powered Business Phone System Built for Modern Teams
@@ -68,19 +46,23 @@ export default function Home() {
                         </p>
 
                         <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-4">
-                            <a
-                                href="#"
+                            {/* Updated to link to Contacts page */}
+                            <Link
+                                to="/contacts"
                                 className="rounded-full bg-[#F08439] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#d97530] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F08439] transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
                             >
                                 Book a Demo
-                            </a>
-                            <a href="#" className="text-sm font-semibold text-gray-900 border border-gray-900 rounded-full px-6 py-2.5 hover:bg-gray-900 hover:text-white transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base">
+                            </Link>
+                            {/* Updated to link to Pricing page */}
+                            <Link 
+                                to="/pricing" 
+                                className="text-sm font-semibold text-gray-900 border border-gray-900 rounded-full px-6 py-2.5 hover:bg-gray-900 hover:text-white transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
+                            >
                                 See Pricing
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
-                    {/* IMAGE COLUMN - Shifts to 60% width on 2xl screens so the image naturally scales up beautifully */}
                     <div className="mx-auto mt-16 flex w-full max-w-2xl sm:mt-24 lg:mt-0 lg:max-w-none lg:w-7/12 2xl:w-[60%] justify-center">
                         <img
                             alt="App screenshot"
@@ -92,11 +74,10 @@ export default function Home() {
             </div>
 
             {/* --- DEVICES GRID --- */}
-            <section className="py-24 sm:py-32 bg-white">
-                {/* Updated Wrapper - Matches the Hero's max-w-7xl and 2xl:max-w-[96rem] fluid sizing */}
+            {/* Added id="devices" so we can smooth scroll here later */}
+            <section id="devices" className="py-24 sm:py-32 bg-white">
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 lg:px-8">
 
-                    {/* Updated Header - Stronger, action-oriented marketing text */}
                     <div className="text-center mb-16 sm:mb-24">
                         <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-gray-900 mb-6 leading-tight max-w-4xl mx-auto">
                             Connect from Anywhere, on Any Device
@@ -106,7 +87,6 @@ export default function Home() {
                         </p>
                     </div>
 
-                    {/* Added 2xl:gap-12 so the cards don't feel too stretched out on huge screens */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 2xl:gap-12">
                         {[
                             { title: "Cordless", sub: "VoIP phones", img: "device-1.png" },
@@ -120,20 +100,16 @@ export default function Home() {
                                 key={i}
                                 className="group relative bg-white rounded-3xl p-6 shadow-sm ring-1 ring-gray-900/5 transition-all duration-300 hover:shadow-lg hover:shadow-[#F08439]/10 hover:ring-[#F08439]/20 flex items-center overflow-hidden h-[220px] 2xl:h-[260px]"
                             >
-                                {/* The glowing orb - sized up slightly for larger screens */}
                                 <div className="absolute -left-12 -top-12 w-48 h-48 2xl:w-64 2xl:h-64 bg-gradient-to-br from-[#F08439]/40 to-[#F08439]/5 rounded-full blur-2xl group-hover:bg-[#F08439]/30 transition-colors duration-500 z-0"></div>
 
-                                {/* Left side: Image container */}
                                 <div className="relative z-10 w-[45%] h-full flex items-center justify-center">
                                     <img
                                         src={`/img/home/${device.img}`}
                                         alt={device.title}
-                                        // Ensures images scale beautifully inside the new wider cards
                                         className="max-h-[140px] 2xl:max-h-[170px] w-auto drop-shadow-md group-hover:scale-110 group-hover:drop-shadow-xl transition-all duration-500 object-contain"
                                     />
                                 </div>
 
-                                {/* Right side: Text container */}
                                 <div className="relative z-10 w-[55%] pl-6 pr-2">
                                     <h3 className="text-xl 2xl:text-2xl font-semibold text-gray-900 leading-tight">
                                         {device.title}
@@ -226,7 +202,6 @@ export default function Home() {
                         </p>
                     </div>
 
-                    {/* Row 1 */}
                     <div className="relative mt-16 sm:mt-20 lg:mt-24 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
                         <div>
                             <h3 className="text-2xl md:text-3xl 2xl:text-4xl font-semibold tracking-tight text-gray-900 leading-tight">
@@ -285,7 +260,6 @@ export default function Home() {
                         </div>
                     </div>
 
-                    {/* Row 2 */}
                     <div className="relative mt-20 sm:mt-24 lg:mt-32 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
                         <div className="relative order-2 lg:order-1">
                             <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-[#F08439]/10 via-[#F08439]/5 to-transparent blur-2xl"></div>
@@ -350,7 +324,6 @@ export default function Home() {
             <section className="py-24 sm:py-32 bg-white">
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 lg:px-8">
                     <div className="grid grid-cols-1 items-center gap-x-12 gap-y-16 lg:grid-cols-2">
-                        {/* Left column */}
                         <div className="mx-auto w-full max-w-2xl lg:mx-0">
                             <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-gray-900 leading-tight">
                                 Compatible with the brands businesses already trust
@@ -375,22 +348,23 @@ export default function Home() {
                             </dl>
 
                             <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-4">
-                                <a
-                                    href="#"
+                                {/* Updated to scroll up to the devices section smoothly */}
+                                <Link
+                                    to="#devices"
                                     className="rounded-full bg-[#F08439] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#d97530] transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
                                 >
                                     Explore Devices
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                {/* Updated to link to Contacts */}
+                                <Link
+                                    to="/contacts"
                                     className="text-sm font-semibold text-gray-900 border border-gray-900 rounded-full px-6 py-2.5 hover:bg-gray-900 hover:text-white transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
                                 >
                                     Contact Sales
-                                </a>
+                                </Link>
                             </div>
                         </div>
 
-                        {/* Right column */}
                         <div className="mx-auto w-full max-w-2xl lg:mx-0 lg:max-w-none">
                             <div className="rounded-[2rem] bg-[#fffaf5] p-8 sm:p-10 2xl:p-12 shadow-sm ring-1 ring-gray-900/5">
                                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-10 items-center">
@@ -428,7 +402,8 @@ export default function Home() {
 
 
             {/* --- FAQ --- */}
-            <section className="py-24 sm:py-32 bg-[#fffaf5]">
+            {/* Added id="faq" so we can smooth scroll here later */}
+            <section id="faq" className="py-24 sm:py-32 bg-[#fffaf5]">
                 <div className="mx-auto max-w-4xl 2xl:max-w-5xl px-6 lg:px-8">
                     <div className="mx-auto max-w-3xl text-center">
                         <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-gray-900 leading-tight">
@@ -542,15 +517,12 @@ export default function Home() {
             <section className="py-24 sm:py-32 bg-white">
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 lg:px-8">
 
-                    {/* The Floating CTA Card */}
                     <div className="relative isolate overflow-hidden bg-[#F08439] rounded-[2.5rem] px-6 py-16 shadow-2xl shadow-[#F08439]/20 sm:px-16 md:py-20 lg:flex lg:items-center lg:justify-between lg:gap-x-20">
 
-                        {/* Subtle internal glow to prevent the orange from feeling "flat" */}
                         <div className="absolute -top-24 -right-24 -z-10 transform-gpu blur-3xl" aria-hidden="true">
                             <div className="aspect-[1404/767] w-[87.75rem] bg-gradient-to-tr from-white/30 to-white/10 opacity-40" />
                         </div>
 
-                        {/* Text Content */}
                         <div className="text-center lg:text-left lg:w-3/5">
                             <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-white mb-4">
                                 Still have questions?
@@ -560,12 +532,7 @@ export default function Home() {
                             </p>
                         </div>
 
-                        {/* CTA Buttons */}
                         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-end gap-4 lg:mt-0 lg:w-2/5">
-                            {/* 
-                    Note: I kept your <Link> component, but updated the styling. 
-                    "Talk to an Expert" converts much better than "SEND QUESTION". 
-                */}
                             <Link
                                 to="/contacts"
                                 className="rounded-full bg-white px-8 py-4 text-base 2xl:text-lg font-semibold text-[#F08439] shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white whitespace-nowrap"
@@ -573,12 +540,12 @@ export default function Home() {
                                 Talk to an Expert
                             </Link>
 
-                            {/* Optional secondary text link - adds credibility and an alternative path */}
+                            {/* Updated to link to the new Tutorials page we built instead of a dead # link! */}
                             <Link
-                                to="/faq"
+                                to="/tutorials"
                                 className="text-sm 2xl:text-base font-semibold leading-6 text-white hover:text-white/80 transition-colors whitespace-nowrap px-4 py-2"
                             >
-                                Visit Help Center <span aria-hidden="true">→</span>
+                                Watch Tutorials <span aria-hidden="true">→</span>
                             </Link>
                         </div>
 
