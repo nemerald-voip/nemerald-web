@@ -9,7 +9,6 @@ export default function Footer() {
     { name: 'Internet', href: '/internet' },
     { name: 'Managed IT', href: '/managed-it' },
     { name: 'Pricing', href: '/pricing' },
-    { name: 'Downloads', href: '/downloads' },
     // External portal links pulled from your original site
     { name: 'Admin portal', href: 'https://portal.us.nemerald.net/' }, 
   ];
