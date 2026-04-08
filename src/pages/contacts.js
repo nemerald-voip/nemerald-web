@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import {
@@ -11,6 +11,63 @@ import {
 export default function Contacts() {
     const [loading, setLoading] = useState(false);
     const [formStatus, setFormStatus] = useState({ type: '', message: '' });
+    const [turnstileToken, setTurnstileToken] = useState('');
+    const turnstileContainerRef = useRef(null);
+    const widgetIdRef = useRef(null);
+
+    useEffect(() => {
+        const scriptId = 'cf-turnstile-script';
+
+        function renderWidget() {
+            if (!window.turnstile || !turnstileContainerRef.current || widgetIdRef.current !== null) {
+                return;
+            }
+
+            widgetIdRef.current = window.turnstile.render(turnstileContainerRef.current, {
+                sitekey: '0x4AAAAAAC2UzWmkWXJFLGYP',
+                callback: function (token) {
+                    setTurnstileToken(token);
+                    setFormStatus((prev) =>
+                        prev.type === 'error' && prev.message === 'Please complete the Turnstile verification.'
+                            ? { type: '', message: '' }
+                            : prev
+                    );
+                },
+                'expired-callback': function () {
+                    setTurnstileToken('');
+                },
+                'error-callback': function () {
+                    setTurnstileToken('');
+                    setFormStatus({
+                        type: 'error',
+                        message: 'Verification failed. Please try again.',
+                    });
+                },
+            });
+        }
+
+        if (window.turnstile) {
+            renderWidget();
+            return;
+        }
+
+        const existingScript = document.getElementById(scriptId);
+        if (existingScript) {
+            existingScript.addEventListener('load', renderWidget);
+            return () => existingScript.removeEventListener('load', renderWidget);
+        }
+
+        const script = document.createElement('script');
+        script.id = scriptId;
+        script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+        script.defer = true;
+        script.addEventListener('load', renderWidget);
+        document.head.appendChild(script);
+
+        return () => {
+            script.removeEventListener('load', renderWidget);
+        };
+    }, []);
 
     async function handleSubmit(e) {
         e.preventDefault();
@@ -31,12 +88,22 @@ export default function Contacts() {
             email,
             phone,
             message,
+            'cf-turnstile-response': turnstileToken,
         };
 
         if (!payload.name || !payload.email || !payload.phone) {
             setFormStatus({
                 type: 'error',
                 message: 'Name, email, and phone are required.',
+            });
+            setLoading(false);
+            return;
+        }
+
+        if (!turnstileToken) {
+            setFormStatus({
+                type: 'error',
+                message: 'Please complete the Turnstile verification.',
             });
             setLoading(false);
             return;
@@ -64,13 +131,19 @@ export default function Contacts() {
 
             form.reset();
         } catch (error) {
+            if (window.turnstile && widgetIdRef.current !== null) {
+                window.turnstile.reset(widgetIdRef.current);
+            }
+
+            setTurnstileToken('');
+
             setFormStatus({
                 type: 'error',
                 message: error.message || 'Something went wrong.',
             });
         } finally {
             setLoading(false);
-        } 
+        }
     }
 
     return (
@@ -271,6 +344,10 @@ export default function Contacts() {
                                             By providing your phone number, you are providing your express written consent to receive SMS or calls.
                                         </label>
                                     </div>
+                                </div>
+
+                                <div className="mt-6">
+                                    <div ref={turnstileContainerRef} />
                                 </div>
 
                                 {formStatus.message && (
