@@ -13,64 +13,67 @@ import {
 } from '@heroicons/react/24/outline'
 
 export default function Home() {
-    const[openFaq, setOpenFaq] = useState(0);
+    const [openFaq, setOpenFaq] = useState(0);
 
     return (
         <Layout title="Nemerald | Business Phone System Built for Modern Teams">
 
-            {/* --- HERO SECTION --- */}
-            <div className="relative isolate overflow-hidden rounded-[2.5rem] bg-gradient-to-r from-[#fffaf5] via-[#F08439]/15 to-[#F08439]/40 m-4 sm:m-6" style={{ colorScheme: 'light' }}>
+            <div className='bg-white'>
+                {/* --- HERO SECTION --- */}
+                <div className="relative isolate overflow-hidden rounded-[2.5rem] bg-gradient-to-r from-[#fffaf5] via-[#F08439]/15 to-[#F08439]/40 m-4 sm:m-6" style={{ colorScheme: 'light' }}>
 
-                {/* Background blurred blob */}
-                <div
-                    aria-hidden="true"
-                    className="absolute top-10 left-[calc(50%-4rem)] -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:top-[calc(50%-30rem)] lg:left-48 xl:left-[calc(50%-24rem)]"
-                >
+                    {/* Background blurred blob */}
                     <div
-                        style={{
-                            clipPath:
-                                'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
-                        }}
-                        className="aspect-1108/632 w-277 bg-[#F08439] opacity-25"
-                    />
-                </div>
-
-                <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-20 lg:items-center lg:gap-x-12 2xl:gap-x-20">
-
-                    <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:w-5/12 2xl:w-[40%] lg:pt-8">
-                        <h1 className="mt-10 text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
-                            AI-Powered Business Phone System Built for Modern Teams
-                        </h1>
-                        <p className="mt-8 text-base font-medium text-pretty text-gray-700 sm:text-lg lg:text-xl/8 2xl:text-2xl/9">
-                            Desk phones, mobile apps, call routing, voicemail, and AI analytics in one business-ready system.
-                        </p>
-
-                        <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-4">
-                            {/* Updated to link to Contacts page */}
-                            <Link
-                                to="/contacts"
-                                className="rounded-full bg-[#F08439] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#d97530] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F08439] transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
-                            >
-                                Book a Demo
-                            </Link>
-                            {/* Updated to link to Pricing page */}
-                            <Link 
-                                to="/pricing" 
-                                className="text-sm font-semibold text-gray-900 border border-gray-900 rounded-full px-6 py-2.5 hover:bg-gray-900 hover:text-white transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
-                            >
-                                See Pricing
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="mx-auto mt-16 flex w-full max-w-2xl sm:mt-24 lg:mt-0 lg:max-w-none lg:w-7/12 2xl:w-[60%] justify-center">
-                        <img
-                            alt="App screenshot"
-                            src="/img/home/main.png"
-                            className="w-full h-auto object-contain drop-shadow-xl"
+                        aria-hidden="true"
+                        className="absolute top-10 left-[calc(50%-4rem)] -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:top-[calc(50%-30rem)] lg:left-48 xl:left-[calc(50%-24rem)]"
+                    >
+                        <div
+                            style={{
+                                clipPath:
+                                    'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',
+                            }}
+                            className="aspect-1108/632 w-277 bg-[#F08439] opacity-25"
                         />
                     </div>
+
+                    <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-20 lg:items-center lg:gap-x-12 2xl:gap-x-20">
+
+                        <div className="mx-auto max-w-2xl shrink-0 lg:mx-0 lg:w-5/12 2xl:w-[40%] lg:pt-8">
+                            <h1 className="mt-10 text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
+                                AI-Powered Business Phone System Built for Modern Teams
+                            </h1>
+                            <p className="mt-8 text-base font-medium text-pretty text-gray-700 sm:text-lg lg:text-xl/8 2xl:text-2xl/9">
+                                Desk phones, mobile apps, call routing, voicemail, and AI analytics in one business-ready system.
+                            </p>
+
+                            <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-4">
+                                {/* Updated to link to Contacts page */}
+                                <Link
+                                    to="/contacts"
+                                    className="rounded-full bg-[#F08439] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#d97530] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F08439] transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
+                                >
+                                    Book a Demo
+                                </Link>
+                                {/* Updated to link to Pricing page */}
+                                <Link
+                                    to="/pricing"
+                                    className="text-sm font-semibold text-gray-900 border border-gray-900 rounded-full px-6 py-2.5 hover:bg-gray-900 hover:text-white transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
+                                >
+                                    See Pricing
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="mx-auto mt-16 flex w-full max-w-2xl sm:mt-24 lg:mt-0 lg:max-w-none lg:w-7/12 2xl:w-[60%] justify-center">
+                            <img
+                                alt="App screenshot"
+                                src="/img/home/main.png"
+                                className="w-full h-auto object-contain drop-shadow-xl"
+                            />
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
             {/* --- DEVICES GRID --- */}
