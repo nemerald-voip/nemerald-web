@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import Layout from '@theme/Layout';
+import Layout from '@site/src/components/PageLayout';
 import Link from '@docusaurus/Link';
 import { CheckIcon, MinusIcon } from '@heroicons/react/24/outline';
 import PricingSection from '../components/PricingSection';
+import FaqSection from '../components/FaqSection';
 
 export default function Pricing() {
+    const [openFaq, setOpenFaq] = useState(null);
 
     // The data extracted exactly from your original HTML table
     const comparisonFeatures = [
@@ -108,10 +110,10 @@ export default function Pricing() {
     // Helper to render checkmarks, dashes, or beautiful text badges
     const renderValue = (value) => {
         if (value === true) {
-            return <CheckIcon className="mx-auto h-6 w-6 text-[#F08439]" aria-hidden="true" />;
+            return <><CheckIcon className="mx-auto h-6 w-6 text-gray-900" aria-hidden="true" /><span className="sr-only">Included</span></>;
         }
         if (value === false) {
-            return <MinusIcon className="mx-auto h-5 w-5 text-gray-200" aria-hidden="true" />;
+            return <><MinusIcon className="mx-auto h-5 w-5 text-gray-600" aria-hidden="true" /><span className="sr-only">Not included</span></>;
         }
         // Turns text like "Optional" or "500" into sleek gray UI pills
         return (
@@ -128,6 +130,7 @@ export default function Pricing() {
             <PricingSection
                 title="Transparent pricing for teams of all sizes"
                 isMainHeader={true}
+                onTrialDetailsClick={() => setOpenFaq('trial-details')}
             />
 
             {/* --- DETAILED COMPARISON TABLE --- */}
@@ -142,12 +145,13 @@ export default function Pricing() {
 
                     {/* Elevated Table Container */}
                     <div className="overflow-hidden rounded-[2rem] ring-1 ring-gray-900/5 shadow-2xl shadow-gray-900/10 bg-white">
-                        <div className="overflow-x-auto">
+                        <div className="relative overflow-x-auto" tabIndex={0} role="region" aria-label="Plan feature comparison; scroll horizontally to see all plans">
 
                             <table
                                 style={{ display: 'table', width: '100%' }}
                                 className="min-w-[900px] table-fixed border-collapse m-0 border-hidden"
                             >
+                                <caption className="sr-only">Features included in Standard, Business Pro, and Advanced plans</caption>
                                 <thead className="bg-white sticky top-0 z-20">
                                     <tr>
                                         <th scope="col" className="py-8 px-6 text-sm font-semibold text-gray-900 w-[34%] border-0 border-b border-gray-200 bg-white">
@@ -163,11 +167,11 @@ export default function Pricing() {
                                             {/* Bold orange lip on top */}
                                             <div className="absolute inset-x-0 top-0 h-1.5 bg-[#F08439]"></div>
 
-                                            <div className="inline-flex items-center gap-1.5 rounded-full bg-[#F08439]/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-[#F08439] mb-3">
+                                            <div className="inline-flex items-center gap-1.5 rounded-full bg-[#F08439]/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-gray-900 mb-3">
                                                 <span className="h-1.5 w-1.5 rounded-full bg-[#F08439] animate-pulse"></span>
                                                 Most Popular
                                             </div>
-                                            <div className="text-xl font-bold text-[#F08439]">Business Pro</div>
+                                            <div className="text-xl font-bold text-gray-900">Business Pro</div>
                                         </th>
 
                                         <th scope="col" className="py-8 px-6 text-center w-[22%] border-0 border-b border-gray-200 bg-white">
@@ -197,9 +201,9 @@ export default function Pricing() {
                                             {/* Feature Rows */}
                                             {section.features.map((feature) => (
                                                 <tr key={feature.name} className="hover:bg-gray-50/60 transition-colors group">
-                                                    <td className="py-5 px-6 text-sm text-gray-600 font-medium border-0 border-b border-gray-100 group-hover:text-gray-900 transition-colors">
+                                                    <th scope="row" className="py-5 px-6 text-left text-sm text-gray-600 font-medium border-0 border-b border-gray-100 group-hover:text-gray-900 transition-colors">
                                                         {feature.name}
-                                                    </td>
+                                                    </th>
                                                     <td className="py-5 px-6 text-center border-0 border-b border-gray-100">
                                                         {renderValue(feature.tiers.Standard)}
                                                     </td>
@@ -227,23 +231,25 @@ export default function Pricing() {
                 </div>
             </section>
 
+            <FaqSection pricingOnly openId={openFaq} onOpenChange={setOpenFaq} />
+
             {/* --- REUSED CTA SECTION --- */}
             <section className="py-24 bg-white">
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 lg:px-8">
-                    <div className="relative isolate overflow-hidden bg-[#F08439] rounded-[2.5rem] px-6 py-16 shadow-2xl shadow-[#F08439]/20 sm:px-16 md:py-20 lg:flex lg:items-center lg:justify-between lg:gap-x-20">
+                    <div className="relative isolate overflow-hidden bg-brand-fill rounded-[2.5rem] px-6 py-16 shadow-2xl shadow-[#F08439]/20 sm:px-16 md:py-20 lg:flex lg:items-center lg:justify-between lg:gap-x-20">
                         <div className="absolute -top-24 -right-24 -z-10 transform-gpu blur-3xl" aria-hidden="true">
                             <div className="aspect-[1404/767] w-[87.75rem] bg-gradient-to-tr from-white/30 to-white/10 opacity-40" />
                         </div>
                         <div className="text-center lg:text-left lg:w-3/5">
-                            <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-white mb-4">
+                            <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-gray-900 mb-4">
                                 Still have questions?
                             </h2>
-                            <p className="text-lg 2xl:text-xl text-white/90 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                            <p className="text-lg 2xl:text-xl text-gray-900 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
                                 Our team of communication experts is here to help you find the perfect setup for your business. Let's talk it through.
                             </p>
                         </div>
                         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-end gap-4 lg:mt-0 lg:w-2/5">
-                            <Link to="/contacts" className="rounded-full bg-white px-8 py-4 text-base 2xl:text-lg font-semibold text-[#F08439] shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-50">
+                            <Link to="/contacts" className="rounded-full bg-white px-8 py-4 text-base 2xl:text-lg font-semibold text-gray-900 shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-50">
                                 Talk to an Expert
                             </Link>
                         </div>

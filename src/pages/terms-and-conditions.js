@@ -1,9 +1,11 @@
 import React from 'react';
-import Layout from '@theme/Layout';
+import Layout from '@site/src/components/PageLayout';
 import Link from '@docusaurus/Link';
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import { ExclamationTriangleIcon, ScaleIcon } from '@heroicons/react/24/outline';
 
 export default function TermsAndConditions() {
+    useBrokenLinks().collectAnchor('billing-and-cancellation');
     return (
         <Layout title="Terms and Conditions | Nemerald">
             
@@ -16,14 +18,14 @@ export default function TermsAndConditions() {
 
                 {/* --- HEADER --- */}
                 <div className="mx-auto max-w-4xl px-6 lg:px-8 text-center mb-16">
-                    <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-[#d97530] ring-1 ring-[#F08439]/15 mb-6">
+                    <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-gray-900 ring-1 ring-[#F08439]/15 mb-6">
                         Legal Agreements
                     </div>
                     <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                         Terms and Conditions
                     </h1>
                     <p className="mt-4 text-lg text-gray-500">
-                        Effective Date: March 2026
+                        Last updated: September 29, 2026
                     </p>
                 </div>
 
@@ -91,30 +93,49 @@ export default function TermsAndConditions() {
 
                         {/* SECTION 3: BILLING & CANCELLATION */}
                         <div>
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Billing, Terms, & Cancellation</h2>
-                            
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                                <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-gray-900 mb-2">Automatic Renewals</h4>
-                                    <p className="text-sm">The Term for all Service plans will renew automatically for successive Terms of the same length without further action by You, unless You notify us of non-renewal at least thirty (30) days before the end of the current Term.</p>
-                                </div>
-                                <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100">
-                                    <h4 className="font-bold text-gray-900 mb-2">Late Payments</h4>
-                                    <p className="text-sm">Failure to pay in full within 30 days will result in immediate account suspension. Reactivation requires the balance paid in full plus a $35 reconnection fee. Late fees of $30 or 5% per month may apply.</p>
-                                </div>
-                            </div>
+                            <h2 id="billing-and-cancellation" className="text-2xl font-bold text-gray-900 mb-4">3. Billing, Terms, & Cancellation</h2>
 
-                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Early Termination</h3>
+                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">14-Day Trial</h3>
                             <p className="mb-4">
-                                If Customer terminates the Agreement before the end of the Initial Term or any Renewal Term, NEMERALD TECHNOLOGIES will charge an early termination charge equal to 100% of the Monthly Service Fee for the terminated Service(s) multiplied by the number of months remaining in the term.
+                                Your 14-day trial automatically converts to paid service unless you cancel before the trial ends. Your first invoice is issued and you are first charged when the trial ends. To cancel during the trial and avoid service charges, send a written request to <a href="mailto:billing@nemerald.com" className="text-gray-900 font-semibold underline underline-offset-4">billing@nemerald.com</a> before your trial ends.
+                            </p>
+                            <p className="mb-4">
+                                Cancellation before the trial ends is not subject to the thirty (30) day notice requirement or an early termination charge. These trial cancellation terms take precedence over the paid-service renewal, notice, early-termination, and refund provisions below.
                             </p>
 
                             <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">How to Cancel Services</h3>
                             <p className="mb-4">
-                                Either party may terminate the Agreement upon thirty (30) days’ notice. <strong>You must cancel services through two steps:</strong> (i) contact Customer Care by telephone during normal business hours AND (ii) send a cancellation request to <a href="mailto:billing@nemerald.com" className="text-[#F08439] font-semibold hover:underline">billing@nemerald.com</a>. We will not accept cancellation via fax, SMS, or other methods.
+                                Send your written cancellation or non-renewal request by email to <a href="mailto:billing@nemerald.com" className="text-gray-900 font-semibold underline underline-offset-4">billing@nemerald.com</a>. A telephone call is not required. Please identify your business, account, and the services you want to cancel so we can match the request to your account.
                             </p>
+
+                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Paid Month-to-Month Service</h3>
+                            <p className="mb-4">
+                                Paid month-to-month service renews monthly. Either party may cancel it with thirty (30) days’ written notice. Service charges remain payable during the notice period. There is no separate early termination charge for month-to-month service. The notice requirement applies only after paid service begins; it does not apply to cancellation before the trial ends.
+                            </p>
+
+                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Fixed-Term Service and Renewal</h3>
+                            <p className="mb-4">
+                                Some special-pricing agreements have a one-, two-, or three-year service commitment, as specified in your service order. Paying monthly does not make a fixed-term agreement month to month. After paid service begins, a fixed-term agreement renews for successive terms of the same length unless either party gives written notice of non-renewal at least thirty (30) days before the current term ends, or the service order specifies otherwise.
+                            </p>
+
+                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Early Termination of Fixed-Term Service</h3>
+                            <p className="mb-4">
+                                If you end paid fixed-term service before the initial or renewal term expires, the early termination charge is 100% of the Monthly Service Fee for the canceled services multiplied by the number of months remaining in that term, unless your service order or applicable law provides otherwise. Amounts already paid or separately billed for the same remaining service period are deducted from this charge to avoid duplicate billing. Giving thirty (30) days’ notice does not waive the remaining fixed-term commitment. This charge does not apply to month-to-month service or cancellation before the trial ends.
+                            </p>
+
+                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Refunds and Billing Corrections</h3>
+                            <p className="mb-4">
+                                Valid paid-service charges already billed are non-refundable, and unused portions of an already-billed service period are not prorated upon cancellation. This rule does not override the trial cancellation terms above, correction of billing errors, refunds required by applicable law, refunds expressly agreed in writing, or equipment returns covered by Section 4. Send billing questions or requests to correct an error to <a href="mailto:billing@nemerald.com" className="text-gray-900 font-semibold underline underline-offset-4">billing@nemerald.com</a>.
+                            </p>
+
+                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Equipment Installments</h3>
+                            <p className="mb-4">
+                                Equipment purchased on a separate installment agreement, including a 24-month payment plan, is separate from your service subscription. Canceling service does not by itself cancel that purchase or its remaining payment obligations. The equipment agreement and the return provisions in Section 4 govern any remaining balance or eligible return.
+                            </p>
+
+                            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-2">Late Payments</h3>
                             <p>
-                                NEMERALD TECHNOLOGIES does not refund in whole or in part, or issue credits for any charges already billed to your account.
+                                Failure to pay in full within 30 days will result in immediate account suspension. Reactivation requires the balance paid in full plus a $35 reconnection fee. Late fees of $30 or 5% per month may apply.
                             </p>
                         </div>
 
@@ -135,7 +156,7 @@ export default function TermsAndConditions() {
                         {/* SECTION 5: 911 E-SERVICES (HIGH VISIBILITY UI) */}
                         <div className="bg-[#fffaf5] border-l-4 border-[#F08439] rounded-r-2xl p-6 sm:p-8 my-10 shadow-sm">
                             <div className="flex items-center gap-3 mb-4">
-                                <ExclamationTriangleIcon className="h-8 w-8 text-[#F08439]" />
+                                <ExclamationTriangleIcon className="h-8 w-8 text-gray-900" />
                                 <h2 className="text-2xl font-bold text-gray-900 mb-0">5. Emergency Services & 911 Dialing</h2>
                             </div>
                             <p className="text-gray-900 font-semibold mb-4">

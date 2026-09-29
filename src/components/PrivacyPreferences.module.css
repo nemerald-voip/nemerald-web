@@ -1,0 +1,64 @@
+.banner {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 150;
+  max-height: 65dvh;
+  overflow: auto;
+  border-top: 3px solid #F08439;
+  background: #fff;
+  color: #111827;
+  box-shadow: 0 -4px 24px rgb(17 24 39 / 10%);
+  padding: 1.25rem max(1rem, env(safe-area-inset-left)) max(1.25rem, env(safe-area-inset-bottom));
+}
+
+.bannerInner { max-width: 80rem; margin: 0 auto; display: flex; align-items: center; gap: 2rem; }
+.banner h2 { font-size: 1.125rem; margin: 0 0 0.4rem; }
+.banner p { font-size: 0.875rem; line-height: 1.6; margin: 0; max-width: 48rem; }
+.banner a, .dialog a { color: #111827; text-decoration: underline; text-underline-offset: 3px; }
+.actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+.banner .actions { flex: 0 0 22rem; }
+.choice {
+  flex: 1 1 auto;
+  border: 1px solid #F08439;
+  border-radius: 9999px;
+  padding: 0.65rem 1rem;
+  background: #F08439;
+  color: #111827;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+.choice:hover { text-decoration: underline; }
+.textButton { border: 0; padding: 0.25rem 0; background: transparent; color: #111827; font: inherit; font-size: 0.875rem; text-decoration: underline; cursor: pointer; }
+.banner .textButton { margin: 0 auto; }
+.spacer { height: var(--cookie-banner-height, 0px); flex-shrink: 0; }
+.dialog {
+  border: 1px solid #d1d5db;
+  border-top: 4px solid #F08439;
+  border-radius: 1.25rem;
+  padding: 0;
+  margin: auto;
+  width: min(38rem, calc(100% - 2rem));
+  max-height: 90dvh;
+  background: #fff;
+  color: #111827;
+  overflow: auto;
+}
+.dialog::backdrop { background: rgb(17 24 39 / 55%); }
+.dialogBody { padding: 1.75rem; }
+.dialog h2 { margin: 0 0 1rem; font-size: 1.5rem; }
+.dialog h3 { margin: 0 0 0.5rem; font-size: 1rem; }
+.dialog h3 span { display: block; color: #4b5563; font-size: 0.875rem; font-weight: 400; margin-top: 0.25rem; }
+.dialog p { font-size: 0.875rem; line-height: 1.65; margin: 0 0 1rem; }
+.category { padding: 1rem 0; border-top: 1px solid #d1d5db; }
+.category p { margin-bottom: 0; }
+.checkbox { display: flex; align-items: center; gap: 0.75rem; font-weight: 650; margin-bottom: 0.5rem; cursor: pointer; }
+.checkbox input { width: 1.25rem; height: 1.25rem; accent-color: #111827; flex-shrink: 0; }
+.notice { padding: 0.75rem; background: #fff7f1; border-left: 3px solid #F08439; }
+@media (max-width: 767px) {
+  .bannerInner { display: block; }
+  .banner .actions { margin-top: 0.875rem; }
+  .banner .textButton { flex-basis: 100%; }
+  .dialogBody { padding: 1.25rem; }
+}

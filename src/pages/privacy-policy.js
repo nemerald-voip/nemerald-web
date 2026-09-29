@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '@theme/Layout';
+import Layout from '@site/src/components/PageLayout';
 import Link from '@docusaurus/Link';
 
 export default function PrivacyPolicy() {
@@ -26,6 +26,9 @@ export default function PrivacyPolicy() {
                 {/* --- LEGAL CONTENT --- */}
                 {/* We use max-w-3xl to ensure the line-length is perfect for comfortable reading */}
                 <div className="mx-auto max-w-3xl px-6 lg:px-8">
+                    <aside className="mb-8 rounded-2xl border-l-4 border-[#F08439] bg-[#F08439]/5 p-6 text-gray-700" aria-label="Website cookie controls">
+                        <p className="mb-0">For embedded video choices, browser privacy signals, and contact form security, read our <Link to="/cookies" className="font-semibold text-gray-900 underline">Cookie notice</Link>. You can change your choices anytime using Cookie settings in the footer.</p>
+                    </aside>
                     <div className="rounded-3xl bg-white p-8 sm:p-12 shadow-sm ring-1 ring-gray-900/5 text-base leading-relaxed text-gray-600 space-y-8">
                         
                         <p>
@@ -55,7 +58,7 @@ export default function PrivacyPolicy() {
                             </p>
                             <ul className="list-disc pl-6 space-y-2 mb-6">
                                 <li>NEMERALD TECHNOLOGIES uses personally identifiable information for billing purposes, to provide services or complete transactions Customer has requested, to anticipate and resolve problems with Customer’s services, and to create and inform Customer of products or services from NEMERALD TECHNOLOGIES or others that better meet Customer’s needs.</li>
-                                <li>Subject to Customer’s agreement, NEMERALD TECHNOLOGIES uses e-mail, telemarketing, and direct mail to inform Customer about NEMERALD TECHNOLOGIES products or services NEMERALD TECHNOLOGIES thinks will interest you. If Customer does not wish to receive these types of communications Customer can choose at any time not to continue receiving them by contacting us at <a href="mailto:info@nemerald.com" className="text-[#F08439] hover:underline font-semibold">info@nemerald.com</a>.</li>
+                                <li>Subject to Customer’s agreement, NEMERALD TECHNOLOGIES uses e-mail, telemarketing, and direct mail to inform Customer about NEMERALD TECHNOLOGIES products or services NEMERALD TECHNOLOGIES thinks will interest you. If Customer does not wish to receive these types of communications Customer can choose at any time not to continue receiving them by contacting us at <a href="mailto:info@nemerald.com" className="text-gray-900 hover:underline font-semibold">info@nemerald.com</a>.</li>
                                 <li>NEMERALD TECHNOLOGIES uses mobile device information to conduct anonymous mobile analytics so NEMERALD TECHNOLOGIES has a better idea on how Customer interacts with Customer’s mobile device.</li>
                                 <li>To allow Customer to capture and upload Customer’s profile picture, the application needs access to the camera. NEMERALD TECHNOLOGIES does not use this information for any purposes except for the designed use as mentioned here.</li>
                                 <li>To allow Customer to select a picture from Customer’s photo gallery and upload it to use the fax service and/or update Customer’s profile picture.</li>
@@ -124,7 +127,7 @@ export default function PrivacyPolicy() {
                                 Protecting Customer’s CPNI is important to us. In the United States, Federal law permits NEMERALD TECHNOLOGIES to use this information to provide the telecommunications and interconnected VoIP services Customer purchases or subscribes to, and to bill and collect for those services.
                             </p>
                             <p>
-                                In order to opt-out and restrict access to Customer’s CPNI for NEMERALD TECHNOLOGIES’ own marketing purposes, please contact us within 30 days of this notice by emailing <a href="mailto:info@nemerald.com" className="text-[#F08439] hover:underline font-semibold">info@nemerald.com</a>.
+                                In order to opt-out and restrict access to Customer’s CPNI for NEMERALD TECHNOLOGIES’ own marketing purposes, please contact us within 30 days of this notice by emailing <a href="mailto:info@nemerald.com" className="text-gray-900 hover:underline font-semibold">info@nemerald.com</a>.
                             </p>
                         </div>
 
@@ -156,7 +159,7 @@ export default function PrivacyPolicy() {
 
                         <div className="bg-gray-50 rounded-2xl p-6 mt-12 border border-gray-100 text-center">
                             <p className="text-gray-900 font-semibold mb-2">Questions about our privacy practices?</p>
-                            <p className="text-gray-600 mb-0">Contact our data protection team at <a href="mailto:info@nemerald.com" className="text-[#F08439] hover:underline font-semibold">info@nemerald.com</a></p>
+                            <p className="text-gray-600 mb-0">Contact our data protection team at <a href="mailto:info@nemerald.com" className="text-gray-900 hover:underline font-semibold">info@nemerald.com</a></p>
                         </div>
 
                     </div>

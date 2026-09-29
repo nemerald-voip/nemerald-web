@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '@theme/Layout';
+import Layout from '@site/src/components/PageLayout';
 import Link from '@docusaurus/Link';
 import { 
     CurrencyDollarIcon, 
@@ -25,7 +25,7 @@ export default function Partners() {
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 lg:px-8">
                     <div className="lg:flex lg:items-center lg:gap-x-16 2xl:gap-x-24">
                         <div className="mx-auto max-w-2xl lg:mx-0 lg:w-1/2 lg:flex-auto">
-                            <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-[#d97530] ring-1 ring-[#F08439]/15 mb-6">
+                            <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-gray-900 ring-1 ring-[#F08439]/15 mb-6">
                                 Nemerald Partner Program
                             </div>
                             <h1 className="max-w-lg text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl 2xl:text-6xl leading-tight">
@@ -35,10 +35,10 @@ export default function Partners() {
                                 Build a powerful stream of lifetime recurring revenue. Partner with Nemerald to offer your clients an AI-powered, enterprise-grade business phone system without the enterprise hassle.
                             </p>
                             <div className="mt-10 flex items-center gap-x-6">
-                                <Link to="/contacts" className="rounded-full bg-[#F08439] px-8 py-3.5 text-sm md:text-base font-semibold text-white shadow-sm hover:bg-[#d97530] hover:shadow-md transition-all duration-300">
+                                <Link to="/contacts" className="rounded-full bg-brand-fill px-8 py-3.5 text-sm md:text-base font-semibold text-gray-900 shadow-sm hover:bg-brand-fill-hover hover:shadow-md transition-all duration-300">
                                     Become a Partner
                                 </Link>
-                                <a href="#how-it-works" className="text-sm md:text-base font-semibold leading-6 text-gray-900 hover:text-[#F08439] transition-colors">
+                                <a href="#how-it-works" className="text-sm md:text-base font-semibold leading-6 text-gray-900 hover:text-gray-900 transition-colors">
                                     View Commission Tiers <span aria-hidden="true">→</span>
                                 </a>
                             </div>
@@ -134,7 +134,7 @@ export default function Partners() {
                             }`}>
                                 {tier.popular && (
                                     <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                                        <span className="inline-flex rounded-full bg-[#F08439] px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-white shadow-sm">
+                                        <span className="inline-flex rounded-full bg-brand-fill px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-gray-900 shadow-sm">
                                             Partner Average
                                         </span>
                                     </div>
@@ -174,7 +174,7 @@ export default function Partners() {
                                 { name: "Commercial Real Estate Firms", icon: BuildingOfficeIcon },
                             ].map((item, i) => (
                                 <div key={i} className="flex items-center gap-4 bg-white p-6 rounded-2xl shadow-sm ring-1 ring-gray-900/5">
-                                    <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-[#F08439]/10 text-[#F08439]">
+                                    <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-[#F08439]/10 text-gray-900">
                                         <item.icon className="w-6 h-6" />
                                     </div>
                                     <div className="text-base font-semibold text-gray-900">{item.name}</div>
@@ -189,20 +189,20 @@ export default function Partners() {
             {/* --- REUSED CTA SECTION --- */}
             <section className="py-24 bg-white">
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 lg:px-8">
-                    <div className="relative isolate overflow-hidden bg-[#F08439] rounded-[2.5rem] px-6 py-16 shadow-2xl shadow-[#F08439]/20 sm:px-16 md:py-20 lg:flex lg:items-center lg:justify-between lg:gap-x-20">
+                    <div className="relative isolate overflow-hidden bg-brand-fill rounded-[2.5rem] px-6 py-16 shadow-2xl shadow-[#F08439]/20 sm:px-16 md:py-20 lg:flex lg:items-center lg:justify-between lg:gap-x-20">
                         <div className="absolute -top-24 -right-24 -z-10 transform-gpu blur-3xl" aria-hidden="true">
                             <div className="aspect-[1404/767] w-[87.75rem] bg-gradient-to-tr from-white/30 to-white/10 opacity-40" />
                         </div>
                         <div className="text-center lg:text-left lg:w-3/5">
-                            <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-white mb-4">
+                            <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-gray-900 mb-4">
                                 Ready to grow together?
                             </h2>
-                            <p className="text-lg 2xl:text-xl text-white/90 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                            <p className="text-lg 2xl:text-xl text-gray-900 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
                                 Leave your details and our Channel Management team will reach out with the complete partner package, commission breakdowns, and onboarding details.
                             </p>
                         </div>
                         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-end gap-4 lg:mt-0 lg:w-2/5">
-                            <Link to="/contacts" className="rounded-full bg-white px-8 py-4 text-base 2xl:text-lg font-semibold text-[#F08439] shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-50">
+                            <Link to="/contacts" className="rounded-full bg-white px-8 py-4 text-base 2xl:text-lg font-semibold text-gray-900 shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-50">
                                 Apply to Partner Program
                             </Link>
                         </div>

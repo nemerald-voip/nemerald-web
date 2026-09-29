@@ -17,3 +17,43 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+Business Communications:
+  label: Business Communications
+  permalink: /business-communications
+
+Business Continuity:
+  label: Business Continuity
+  permalink: /business-continuity
+
+Cloud PBX:
+  label: Cloud PBX
+  permalink: /cloud-pbx
+
+Cloud Phone System:
+  label: Cloud Phone System
+  permalink: /cloud-phone-system
+
+Cost Savings:
+  label: Cost Savings
+  permalink: /cost-savings
+
+Enterprise Tech:
+  label: Enterprise Tech
+  permalink: /enterprise-tech
+
+Remote Work:
+  label: Remote Work
+  permalink: /remote-work
+
+Small Business:
+  label: Small Business
+  permalink: /small-business
+
+UCaaS:
+  label: UCaaS
+  permalink: /u-caa-s
+
+VoIP:
+  label: VoIP
+  permalink: /vo-ip

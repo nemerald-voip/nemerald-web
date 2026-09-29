@@ -16,6 +16,11 @@
 
 @custom-variant dark (&:is([data-theme="dark"] *));
 
+@theme {
+  --color-brand-fill: #F08439;
+  --color-brand-fill-hover: #e87322;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #F08439;
@@ -25,12 +30,19 @@
   --ifm-color-primary-light: #f29550;
   --ifm-color-primary-lighter: #f39e5c;
   --ifm-color-primary-lightest: #f7b982;
+  --ifm-link-color: #111827;
+  --ifm-link-hover-color: #111827;
+  --ifm-link-decoration: underline;
+  --ifm-color-primary-contrast-foreground: #111827;
   --ifm-code-font-size: 95%;
+  --docusaurus-blog-social-icon-size: 1.5rem;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
+  --ifm-link-color: #f9fafb;
+  --ifm-link-hover-color: #f9fafb;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -51,3 +63,71 @@ footer.footer {
   display: none !important;
 }
 
+/* Retain the brand orange, with readable text on themed orange surfaces. */
+.hero--primary {
+  --ifm-hero-text-color: #111827;
+}
+
+.blog-wrapper aside a[aria-current='page'] {
+  --ifm-color-primary: var(--ifm-font-color-base);
+  text-decoration: underline;
+  text-decoration-color: #F08439;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link:hover code,
+.table-of-contents__link--active,
+.table-of-contents__link--active code {
+  color: var(--ifm-font-color-base);
+  text-decoration: underline;
+  text-decoration-color: #F08439;
+  text-underline-offset: 4px;
+}
+
+/* Keep keyboard focus visible above both light and dark surfaces. */
+html {
+  scroll-padding-bottom: calc(var(--cookie-banner-height, 0px) + 1rem);
+}
+
+:focus-visible {
+  outline: 3px solid #111827 !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 3px white;
+}
+
+/* The radio's visible label carries its focus indicator. */
+input.sr-only:focus-visible {
+  outline: none !important;
+  box-shadow: none;
+}
+
+:where(main, [id], a, button, input, textarea, [tabindex]) {
+  scroll-margin-top: 9rem;
+}
+
+.site-skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 200;
+  transform: translateY(-200%);
+  padding: 0.75rem 1rem;
+  background: white;
+  color: #111827;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.site-skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

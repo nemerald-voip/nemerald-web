@@ -49,6 +49,8 @@ VoIP systems are inherently scalable, designed to grow exactly at the pace of yo
 
 Upgrading to VoIP technology offers undeniable benefits for small businesses. From massive cost reductions to empowering your remote workforce, cloud communications are the standard for modern business.
 
-At **Nemerald**, we’re committed to helping small businesses thrive by providing reliable, high-quality, contract-free VoIP services tailored to your exact needs. We handle the heavy lifting, including free number porting and white-glove onboarding.
+At **Nemerald**, we’re committed to helping small businesses thrive by providing reliable, high-quality VoIP services with flexible plan options tailored to your needs. We handle the heavy lifting, including free number porting and white-glove onboarding.
+
+Paid month-to-month service requires 30 days’ written cancellation notice. Special pricing may require a fixed-term commitment. See our [cancellation and renewal terms](/terms-and-conditions#billing-and-cancellation) for details.
 
 If you’re ready to take your business communication to the next level, [**Contact our team today**](/contacts) to get a free quote and learn how much you could save.

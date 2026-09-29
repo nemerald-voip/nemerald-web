@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Layout from '@theme/Layout';
+import Layout from '@site/src/components/PageLayout';
 import Link from '@docusaurus/Link';
 import {
     BuildingOffice2Icon,
@@ -15,62 +15,82 @@ export default function Contacts() {
     const turnstileContainerRef = useRef(null);
     const widgetIdRef = useRef(null);
 
+    const [verificationError, setVerificationError] = useState('');
+    const [verificationAttempt, setVerificationAttempt] = useState(0);
+
     useEffect(() => {
         const scriptId = 'cf-turnstile-script';
+        let disposed = false;
+        let script = document.getElementById(scriptId);
+        setTurnstileToken('');
+        setVerificationError('');
+
+        function verificationFailed(message) {
+            if (disposed) return;
+            setTurnstileToken('');
+            setVerificationError(message);
+        }
 
         function renderWidget() {
-            if (!window.turnstile || !turnstileContainerRef.current || widgetIdRef.current !== null) {
-                return;
+            if (disposed || !window.turnstile || !turnstileContainerRef.current || widgetIdRef.current !== null) return;
+            try {
+                widgetIdRef.current = window.turnstile.render(turnstileContainerRef.current, {
+                    sitekey: '0x4AAAAAAC2UzWmkWXJFLGYP',
+                    // Compact also fits the form at a 320px viewport / high zoom.
+                    size: 'compact',
+                    retry: 'never',
+                    callback: (token) => {
+                        if (disposed) return;
+                        setTurnstileToken(token);
+                        setVerificationError('');
+                    },
+                    'expired-callback': () => verificationFailed('Verification expired. Please verify again before sending.'),
+                    'timeout-callback': () => verificationFailed('Verification timed out. Please try again.'),
+                    'error-callback': () => verificationFailed('Verification failed. Please retry or contact us by email or phone.'),
+                });
+            } catch {
+                verificationFailed('Verification could not start. Please retry or contact us by email or phone.');
             }
+        }
 
-            widgetIdRef.current = window.turnstile.render(turnstileContainerRef.current, {
-                sitekey: '0x4AAAAAAC2UzWmkWXJFLGYP',
-                callback: function (token) {
-                    setTurnstileToken(token);
-                    setFormStatus((prev) =>
-                        prev.type === 'error' && prev.message === 'Please complete the Turnstile verification.'
-                            ? { type: '', message: '' }
-                            : prev
-                    );
-                },
-                'expired-callback': function () {
-                    setTurnstileToken('');
-                },
-                'error-callback': function () {
-                    setTurnstileToken('');
-                    setFormStatus({
-                        type: 'error',
-                        message: 'Verification failed. Please try again.',
-                    });
-                },
-            });
+        function scriptFailed() {
+            script.dataset.loadError = 'true';
+            verificationFailed('Verification could not load. Please retry or contact us by email or phone.');
         }
 
         if (window.turnstile) {
             renderWidget();
-            return;
+        } else {
+            if (script?.dataset.loadError) {
+                script.remove();
+                script = null;
+            }
+            const isNew = !script;
+            if (isNew) {
+                script = document.createElement('script');
+                script.id = scriptId;
+                script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+                script.async = true;
+            }
+            script.addEventListener('load', renderWidget);
+            script.addEventListener('error', scriptFailed);
+            if (isNew) document.head.appendChild(script);
         }
-
-        const existingScript = document.getElementById(scriptId);
-        if (existingScript) {
-            existingScript.addEventListener('load', renderWidget);
-            return () => existingScript.removeEventListener('load', renderWidget);
-        }
-
-        const script = document.createElement('script');
-        script.id = scriptId;
-        script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
-        script.defer = true;
-        script.addEventListener('load', renderWidget);
-        document.head.appendChild(script);
 
         return () => {
-            script.removeEventListener('load', renderWidget);
+            disposed = true;
+            script?.removeEventListener('load', renderWidget);
+            script?.removeEventListener('error', scriptFailed);
+            if (window.turnstile && widgetIdRef.current !== null) {
+                window.turnstile.remove(widgetIdRef.current);
+                widgetIdRef.current = null;
+            }
         };
-    }, []);
+    }, [verificationAttempt]);
 
     async function handleSubmit(e) {
         e.preventDefault();
+        if (loading) return;
         setLoading(true);
         setFormStatus({ type: '', message: '' });
 
@@ -91,20 +111,17 @@ export default function Contacts() {
             'cf-turnstile-response': turnstileToken,
         };
 
-        if (!payload.name || !payload.email || !payload.phone) {
+        if (!firstName || !lastName || !email || !phone) {
             setFormStatus({
                 type: 'error',
-                message: 'Name, email, and phone are required.',
+                message: 'First name, last name, email, and phone are required.',
             });
             setLoading(false);
             return;
         }
 
         if (!turnstileToken) {
-            setFormStatus({
-                type: 'error',
-                message: 'Please complete the Turnstile verification.',
-            });
+            setVerificationError('Please complete the verification before sending.');
             setLoading(false);
             return;
         }
@@ -118,10 +135,8 @@ export default function Contacts() {
                 body: JSON.stringify(payload),
             });
 
-            const result = await response.json();
-
             if (!response.ok) {
-                throw new Error(result.error || result.details || 'Failed to submit form.');
+                throw new Error('Your message could not be sent. Please retry or contact us by email or phone.');
             }
 
             setFormStatus({
@@ -130,18 +145,17 @@ export default function Contacts() {
             });
 
             form.reset();
-        } catch (error) {
+        } catch {
+            setFormStatus({
+                type: 'error',
+                message: 'Your message could not be sent. Please retry or contact us by email or phone.',
+            });
+        } finally {
+            // Turnstile tokens are single-use, including after successful submissions.
+            setTurnstileToken('');
             if (window.turnstile && widgetIdRef.current !== null) {
                 window.turnstile.reset(widgetIdRef.current);
             }
-
-            setTurnstileToken('');
-
-            setFormStatus({
-                type: 'error',
-                message: error.message || 'Something went wrong.',
-            });
-        } finally {
             setLoading(false);
         }
     }
@@ -158,7 +172,7 @@ export default function Contacts() {
 
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-24">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8 text-center lg:text-left">
-                        <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-[#d97530] ring-1 ring-[#F08439]/15 mb-6">
+                        <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-gray-900 ring-1 ring-[#F08439]/15 mb-6">
                             We're here to help
                         </div>
                         <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl 2xl:text-6xl leading-tight">
@@ -174,9 +188,9 @@ export default function Contacts() {
                                     <PhoneIcon className="h-6 w-6" aria-hidden="true" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-semibold text-gray-900">Sales & Support</h3>
+                                    <h2 className="text-base font-semibold text-gray-900">Sales & Support</h2>
                                     <p className="mt-2 text-sm text-gray-600">
-                                        <a href="tel:+13109292680" className="font-semibold text-[#F08439] hover:text-[#d97530]">
+                                        <a href="tel:+13109292680" className="font-semibold text-gray-900 hover:text-gray-900">
                                             +1 (310) 929 2680
                                         </a>
                                     </p>
@@ -188,9 +202,9 @@ export default function Contacts() {
                                     <EnvelopeIcon className="h-6 w-6" aria-hidden="true" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-semibold text-gray-900">Email Us</h3>
+                                    <h2 className="text-base font-semibold text-gray-900">Email Us</h2>
                                     <p className="mt-2 text-sm text-gray-600">
-                                        <a href="mailto:info@nemerald.com" className="font-semibold text-[#F08439] hover:text-[#d97530]">
+                                        <a href="mailto:info@nemerald.com" className="font-semibold text-gray-900 hover:text-gray-900">
                                             info@nemerald.com
                                         </a>
                                     </p>
@@ -202,11 +216,11 @@ export default function Contacts() {
                                     <BuildingOffice2Icon className="h-6 w-6" aria-hidden="true" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-semibold text-gray-900">Office</h3>
+                                    <h2 className="text-base font-semibold text-gray-900">Office</h2>
                                     <p className="mt-2 text-sm text-gray-600 leading-relaxed">
                                         440 N Barranca Ave #2250
                                         <br />
-                                        Covina, CA 91278, USA
+                                        Covina, CA 91723, USA
                                     </p>
                                 </div>
                             </div>
@@ -216,7 +230,7 @@ export default function Contacts() {
                                     <ClockIcon className="h-6 w-6" aria-hidden="true" />
                                 </div>
                                 <div>
-                                    <h3 className="text-base font-semibold text-gray-900">Business Hours</h3>
+                                    <h2 className="text-base font-semibold text-gray-900">Business Hours</h2>
                                     <p className="mt-2 text-sm text-gray-600 leading-relaxed">
                                         Mon-Fri: 9am - 8pm
                                         <br />
@@ -229,7 +243,8 @@ export default function Contacts() {
 
                     <div className="mt-16 lg:mt-0 lg:flex-grow lg:pl-16 2xl:pl-24 flex items-center justify-center">
                         <div className="w-full max-w-xl bg-white/60 backdrop-blur-xl rounded-[2.5rem] p-8 sm:p-10 shadow-2xl ring-1 ring-gray-900/5">
-                            <form onSubmit={handleSubmit} className="space-y-6">
+                            <form onSubmit={handleSubmit} className="space-y-6" aria-label="Contact Nemerald" aria-busy={loading}>
+                                <p className="text-sm text-gray-600">All fields except Message are required.</p>
                                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                                     <div className="sm:col-span-1">
                                         <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -242,7 +257,7 @@ export default function Contacts() {
                                                 id="first-name"
                                                 autoComplete="given-name"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -258,7 +273,7 @@ export default function Contacts() {
                                                 id="last-name"
                                                 autoComplete="family-name"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -274,7 +289,7 @@ export default function Contacts() {
                                                 id="email"
                                                 autoComplete="email"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -290,7 +305,7 @@ export default function Contacts() {
                                                 id="phone-number"
                                                 autoComplete="tel"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -304,32 +319,19 @@ export default function Contacts() {
                                                 name="message"
                                                 id="message"
                                                 rows={4}
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                                 defaultValue=""
                                             />
                                         </div>
                                     </div>
                                 </div>
 
+                                <p className="text-sm leading-6 text-gray-600">
+                                    We use the information you provide to respond to your inquiry. Read our{' '}
+                                    <Link to="/privacy-policy" className="font-semibold text-gray-900 underline">Privacy Policy</Link> and{' '}
+                                    <Link to="/cookies" className="font-semibold text-gray-900 underline">website privacy notice</Link>.
+                                </p>
                                 <div className="space-y-4 mt-6">
-                                    <div className="flex gap-x-3">
-                                        <div className="flex h-6 items-center">
-                                            <input
-                                                id="privacy"
-                                                name="privacy"
-                                                type="checkbox"
-                                                required
-                                                className="h-4 w-4 rounded border-gray-300 text-[#F08439] focus:ring-[#F08439]"
-                                            />
-                                        </div>
-                                        <label htmlFor="privacy" className="text-sm leading-6 text-gray-600">
-                                            I agree to the{' '}
-                                            <Link to="/privacy-policy" className="font-semibold text-[#F08439] hover:underline">
-                                                processing of personal data
-                                            </Link>.
-                                        </label>
-                                    </div>
-
                                     <div className="flex gap-x-3">
                                         <div className="flex h-6 items-center">
                                             <input
@@ -337,7 +339,7 @@ export default function Contacts() {
                                                 name="sms-consent"
                                                 type="checkbox"
                                                 required
-                                                className="h-4 w-4 rounded border-gray-300 text-[#F08439] focus:ring-[#F08439]"
+                                                className="h-4 w-4 rounded border-gray-500 text-gray-900 focus:ring-[#F08439]"
                                             />
                                         </div>
                                         <label htmlFor="sms-consent" className="text-sm leading-6 text-gray-600">
@@ -347,25 +349,37 @@ export default function Contacts() {
                                 </div>
 
                                 <div className="mt-6">
+                                    <p className="text-sm text-gray-600">
+                                        Cloudflare Turnstile verifies submissions to help prevent spam.{' '}
+                                        <a href="https://www.cloudflare.com/turnstile-privacy-policy/" className="text-gray-900 underline">Cloudflare privacy information</a>.
+                                    </p>
                                     <div ref={turnstileContainerRef} />
+                                    <p role="status" className="text-sm text-red-700">{verificationError}</p>
+                                    {verificationError && (
+                                        <button type="button" disabled={loading} className="rounded-lg px-3 py-2 text-sm font-semibold text-gray-900 underline" onClick={() => setVerificationAttempt((attempt) => attempt + 1)}>
+                                            Retry verification
+                                        </button>
+                                    )}
                                 </div>
 
-                                {formStatus.message && (
-                                    <div
-                                        className={`rounded-xl px-4 py-3 text-sm ${formStatus.type === 'success'
-                                            ? 'bg-green-50 text-green-700 ring-1 ring-green-200'
-                                            : 'bg-red-50 text-red-700 ring-1 ring-red-200'
-                                            }`}
-                                    >
-                                        {formStatus.message}
-                                    </div>
-                                )}
+                                <div role="status" aria-live="polite" aria-atomic="true">
+                                    {formStatus.message && (
+                                        <p className={`rounded-xl px-4 py-3 text-sm ${formStatus.type === 'success' ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}`}>
+                                            {formStatus.message}
+                                        </p>
+                                    )}
+                                </div>
+
+                                <p className="text-sm text-gray-600">
+                                    You can also email <a href="mailto:info@nemerald.com" className="text-gray-900 underline">info@nemerald.com</a> or call{' '}
+                                    <a href="tel:+13109292680" className="text-gray-900 underline">+1 (310) 929 2680</a>.
+                                </p>
 
                                 <div className="mt-8">
                                     <button
                                         type="submit"
                                         disabled={loading}
-                                        className="block w-full rounded-full bg-[#F08439] px-3.5 py-4 text-center text-base font-semibold text-white shadow-md hover:bg-[#d97530] hover:shadow-lg transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F08439] disabled:opacity-60"
+                                        className="block w-full rounded-full bg-brand-fill px-3.5 py-4 text-center text-base font-semibold text-gray-900 shadow-md hover:bg-brand-fill-hover hover:shadow-lg transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F08439] disabled:opacity-60"
                                     >
                                         {loading ? 'Sending...' : 'Send Message'}
                                     </button>

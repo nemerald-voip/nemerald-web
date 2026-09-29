@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import Layout from '@theme/Layout';
+import Layout from '@site/src/components/PageLayout';
 import Link from '@docusaurus/Link';
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import PricingSection from '../components/PricingSection';
+import FaqSection from '../components/FaqSection';
 
 import {
     ClipboardDocumentCheckIcon,
@@ -13,7 +15,9 @@ import {
 } from '@heroicons/react/24/outline'
 
 export default function Home() {
-    const [openFaq, setOpenFaq] = useState(0);
+    const [openFaq, setOpenFaq] = useState('keep-numbers');
+    // Register the custom section anchor with Docusaurus's build-time link checker.
+    useBrokenLinks().collectAnchor('devices');
 
     return (
         <Layout title="Nemerald | Business Phone System Built for Modern Teams">
@@ -50,7 +54,7 @@ export default function Home() {
                                 {/* Updated to link to Contacts page */}
                                 <Link
                                     to="/contacts"
-                                    className="rounded-full bg-[#F08439] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#d97530] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F08439] transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
+                                    className="rounded-full bg-brand-fill px-6 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-brand-fill-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#F08439] transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
                                 >
                                     Book a Demo
                                 </Link>
@@ -86,7 +90,7 @@ export default function Home() {
                             Connect from Anywhere, on Any Device
                         </h2>
                         <p className="text-lg md:text-xl 2xl:text-2xl font-medium text-gray-600 max-w-3xl mx-auto">
-                            Equip your team with premium VoIP hardware, download our powerful desktop and mobile apps, or <span className="text-[#F08439]">bring your existing devices</span> to maximize your savings.
+                            Equip your team with premium VoIP hardware, download our powerful desktop and mobile apps, or <span className="text-gray-900">bring your existing devices</span> to maximize your savings.
                         </p>
                     </div>
 
@@ -174,7 +178,7 @@ export default function Home() {
                                 <div className="absolute inset-0 bg-gradient-to-br from-[#F08439]/[0.05] via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
 
                                 <div className="relative z-10">
-                                    <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-[#d97530] ring-1 ring-[#F08439]/15">
+                                    <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-gray-900 ring-1 ring-[#F08439]/15">
                                         {feature.title}
                                     </div>
 
@@ -338,23 +342,23 @@ export default function Home() {
                                 flexibility to deploy new hardware or keep compatible devices already in use.
                             </p>
 
-                            <dl className="mt-8 space-y-4">
+                            <ul className="mt-8 space-y-4 list-none p-0">
                                 {[
                                     "Certified and supported vendor ecosystem",
                                     "Bring your own devices or purchase hardware from us",
                                 ].map((item) => (
-                                    <div key={item} className="flex items-start gap-3">
+                                    <li key={item} className="flex items-start gap-3">
                                         <div className="mt-1 h-2.5 w-2.5 rounded-full bg-[#F08439] shrink-0" />
                                         <p className="text-base md:text-lg 2xl:text-xl text-gray-700">{item}</p>
-                                    </div>
+                                    </li>
                                 ))}
-                            </dl>
+                            </ul>
 
                             <div className="mt-10 flex flex-wrap items-center gap-x-4 gap-y-4">
                                 {/* Updated to scroll up to the devices section smoothly */}
                                 <Link
                                     to="#devices"
-                                    className="rounded-full bg-[#F08439] px-6 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#d97530] transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
+                                    className="rounded-full bg-brand-fill px-6 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-brand-fill-hover transition-colors 2xl:px-8 2xl:py-3.5 2xl:text-base"
                                 >
                                     Explore Devices
                                 </Link>
@@ -401,136 +405,25 @@ export default function Home() {
             </section>
 
             {/* --- PRICING SECTION --- */}
-            <PricingSection />
+            <PricingSection onTrialDetailsClick={() => setOpenFaq('trial-details')} />
 
-
-            {/* --- FAQ --- */}
-            {/* Added id="faq" so we can smooth scroll here later */}
-            <section id="faq" className="py-24 sm:py-32 bg-[#fffaf5]">
-                <div className="mx-auto max-w-4xl 2xl:max-w-5xl px-6 lg:px-8">
-                    <div className="mx-auto max-w-3xl text-center">
-                        <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-gray-900 leading-tight">
-                            Frequently asked questions
-                        </h2>
-                        <p className="mt-6 text-lg md:text-xl 2xl:text-2xl font-medium text-gray-600 leading-8">
-                            Everything you need to know about switching, setup, devices, and pricing.
-                        </p>
-                    </div>
-
-                    <div className="mt-16 space-y-4">
-                        {[
-                            {
-                                question: "Can I keep my existing business phone numbers?",
-                                answer:
-                                    "Yes. We offer number porting so you can keep your existing business numbers when moving to Nemerald.",
-                            },
-                            {
-                                question: "Do you support desk phones, mobile apps, and desktop apps?",
-                                answer:
-                                    "Yes. Nemerald supports desk phones, mobile applications, and desktop softphones so your team can stay connected from anywhere.",
-                            },
-                            {
-                                question: "Can I use my existing phones and hardware?",
-                                answer:
-                                    "In many cases, yes. We support a wide range of compatible devices, and we can also help you choose and deploy new hardware if needed.",
-                            },
-                            {
-                                question: "How long does setup usually take?",
-                                answer:
-                                    "Setup time depends on the size of your deployment, number porting requirements, and hardware needs. Many teams can get up and running quickly with guided onboarding.",
-                            },
-                            {
-                                question: "Do you offer help with onboarding and number porting?",
-                                answer:
-                                    "Yes. We provide guided onboarding and support throughout setup, provisioning, and number transfer.",
-                            },
-                            {
-                                question: "Is Nemerald a good fit for remote or hybrid teams?",
-                                answer:
-                                    "Yes. Nemerald is built for modern teams and supports office, remote, and hybrid work with desk phones, mobile apps, and desktop calling.",
-                            },
-                            {
-                                question: "Do you offer contact center features?",
-                                answer:
-                                    "Yes. Advanced plans include contact center tools for queues, agents, reporting, and customer experience workflows.",
-                            },
-                            {
-                                question: "How does pricing work?",
-                                answer:
-                                    "Pricing varies based on the number of extensions and the plan you choose. You can preview starting prices on the homepage or contact us for a custom quote.",
-                            },
-                        ].map((item, index) => {
-                            const isOpen = openFaq === index;
-
-                            return (
-                                <div
-                                    key={item.question}
-                                    className={`rounded-3xl bg-white shadow-sm ring-1 transition-all duration-300 ${isOpen
-                                        ? 'ring-[#F08439]/20 shadow-lg shadow-[#F08439]/10'
-                                        : 'ring-gray-900/5'
-                                        }`}
-                                >
-                                    <button
-                                        type="button"
-                                        onClick={() => setOpenFaq(isOpen ? -1 : index)}
-                                        className="flex w-full items-center justify-between gap-6 px-6 py-6 text-left sm:px-8"
-                                    >
-                                        <span className="text-lg md:text-xl font-semibold text-gray-900">
-                                            {item.question}
-                                        </span>
-                                        <span
-                                            className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-colors ${isOpen
-                                                ? 'bg-[#F08439] text-white'
-                                                : 'bg-gray-100 text-gray-600'
-                                                }`}
-                                        >
-                                            <svg
-                                                className={`h-5 w-5 transition-transform duration-300 ${isOpen ? 'rotate-45' : 'rotate-0'
-                                                    }`}
-                                                viewBox="0 0 20 20"
-                                                fill="currentColor"
-                                                aria-hidden="true"
-                                            >
-                                                <path d="M10 4a1 1 0 011 1v4h4a1 1 0 110 2h-4v4a1 1 0 11-2 0v-4H5a1 1 0 110-2h4V5a1 1 0 011-1z" />
-                                            </svg>
-                                        </span>
-                                    </button>
-
-                                    <div
-                                        className={`grid transition-all duration-300 ease-in-out ${isOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
-                                            }`}
-                                    >
-                                        <div className="overflow-hidden">
-                                            <div className="px-6 pb-6 sm:px-8">
-                                                <p className="text-base md:text-lg text-gray-600 leading-8">
-                                                    {item.answer}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            </section>
-
+            <FaqSection openId={openFaq} onOpenChange={setOpenFaq} />
 
             {/* --- CTA SECTION --- */}
             <section className="py-24 sm:py-32 bg-white">
                 <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 lg:px-8">
 
-                    <div className="relative isolate overflow-hidden bg-[#F08439] rounded-[2.5rem] px-6 py-16 shadow-2xl shadow-[#F08439]/20 sm:px-16 md:py-20 lg:flex lg:items-center lg:justify-between lg:gap-x-20">
+                    <div className="relative isolate overflow-hidden bg-brand-fill rounded-[2.5rem] px-6 py-16 shadow-2xl shadow-[#F08439]/20 sm:px-16 md:py-20 lg:flex lg:items-center lg:justify-between lg:gap-x-20">
 
                         <div className="absolute -top-24 -right-24 -z-10 transform-gpu blur-3xl" aria-hidden="true">
                             <div className="aspect-[1404/767] w-[87.75rem] bg-gradient-to-tr from-white/30 to-white/10 opacity-40" />
                         </div>
 
                         <div className="text-center lg:text-left lg:w-3/5">
-                            <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-white mb-4">
+                            <h2 className="text-3xl md:text-4xl 2xl:text-5xl font-semibold tracking-tight text-gray-900 mb-4">
                                 Still have questions?
                             </h2>
-                            <p className="text-lg 2xl:text-xl text-white/90 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                            <p className="text-lg 2xl:text-xl text-gray-900 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
                                 Our team of communication experts is here to help you find the perfect setup for your business. Let's talk it through.
                             </p>
                         </div>
@@ -538,7 +431,7 @@ export default function Home() {
                         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-end gap-4 lg:mt-0 lg:w-2/5">
                             <Link
                                 to="/contacts"
-                                className="rounded-full bg-white px-8 py-4 text-base 2xl:text-lg font-semibold text-[#F08439] shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white whitespace-nowrap"
+                                className="rounded-full bg-white px-8 py-4 text-base 2xl:text-lg font-semibold text-gray-900 shadow-md transition-all duration-300 hover:scale-105 hover:bg-gray-50 hover:shadow-xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white whitespace-nowrap"
                             >
                                 Talk to an Expert
                             </Link>
@@ -546,7 +439,7 @@ export default function Home() {
                             {/* Updated to link to the new Tutorials page we built instead of a dead # link! */}
                             <Link
                                 to="/tutorials"
-                                className="text-sm 2xl:text-base font-semibold leading-6 text-white hover:text-white/80 transition-colors whitespace-nowrap px-4 py-2"
+                                className="text-sm 2xl:text-base font-semibold leading-6 text-gray-900 hover:text-gray-800 transition-colors whitespace-nowrap px-4 py-2"
                             >
                                 Watch Tutorials <span aria-hidden="true">→</span>
                             </Link>

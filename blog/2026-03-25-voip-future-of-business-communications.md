@@ -60,4 +60,6 @@ VoIP business phone systems are an absolute necessity for any organization looki
 
 If you’re considering upgrading your organization’s aging communication system, the time to act is now. 
 
-At **Nemerald**, we specialize in transitioning businesses to the cloud with zero downtime, zero long-term contracts, and white-glove local support.[**Contact our team today**](/contacts) to future-proof your business!
+At **Nemerald**, we specialize in transitioning businesses to the cloud with zero downtime, month-to-month service options, and white-glove local support. [**Contact our team today**](/contacts) to future-proof your business!
+
+Paid month-to-month service requires 30 days’ written cancellation notice. Special pricing may require a fixed-term commitment. See our [cancellation and renewal terms](/terms-and-conditions#billing-and-cancellation) for details.

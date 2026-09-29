@@ -1,30 +1,40 @@
-import React, { useState } from 'react';
+import React, { useId, useState } from 'react';
 import Link from '@docusaurus/Link';
 
-export default function PricingSection({ 
-    title = "Simple pricing that scales with your team",
-    subtitle = "Choose your team size to preview starting prices. Final pricing depends on the number of extensions and selected features.",
-    isMainHeader = false // Tells the component whether to use an H1 or H2
-}) {
-    const[pricingTab, setPricingTab] = useState(1); // 1: 1 user, 2: 2-19, 3: 20-99
+const teamSizes = [
+    { id: '1', label: '1 user', description: 'For 1 user' },
+    { id: '2-19', label: '2–19 users', description: 'For teams of 2–19 users' },
+    { id: '20-99', label: '20–99 users', description: 'For teams of 20–99 users' },
+];
 
-    const pricingData = {
-        1:[
-            { name: "Standard", price: "29.99", features:["Unlimited calling within the US", "Free number transfer", "AI voicemail transcription"] },
-            { name: "Business Pro", price: "34.99", features:["HD voice", "500 toll-free minutes", "Unlimited virtual fax"], popular: true },
-            { name: "Advanced", price: "49.99", features:["AI call transcriptions", "Contact center solution", "Popular CRM integrations"] }
-        ],
-        2:[
-            { name: "Standard", price: "19.99", features:["Unlimited calling within the US", "Free number transfer", "AI voicemail transcription"] },
-            { name: "Business Pro", price: "24.99", features:["HD voice", "500 toll-free minutes", "Unlimited virtual fax"], popular: true },
-            { name: "Advanced", price: "39.99", features:["AI call transcriptions", "Contact center solution", "Popular CRM integrations"] }
-        ],
-        3:[
-            { name: "Standard", price: "17.99", features:["Unlimited calling within the US", "Free number transfer", "AI voicemail transcription"] },
-            { name: "Business Pro", price: "19.99", features:["HD voice", "500 toll-free minutes", "Unlimited virtual fax"], popular: true },
-            { name: "Advanced", price: "34.99", features:["AI call transcriptions", "Contact center solution", "Popular CRM integrations"] }
-        ]
-    };
+const plans = [
+    {
+        name: 'Standard',
+        prices: { '1': '29.99', '2-19': '19.99', '20-99': '17.99' },
+        features: ['Unlimited calling within the US', 'Free number transfer', 'AI voicemail transcription'],
+    },
+    {
+        name: 'Business Pro',
+        prices: { '1': '34.99', '2-19': '24.99', '20-99': '19.99' },
+        features: ['HD voice', '500 toll-free minutes', 'Unlimited virtual fax'],
+        popular: true,
+    },
+    {
+        name: 'Advanced',
+        prices: { '1': '49.99', '2-19': '39.99', '20-99': '34.99' },
+        features: ['AI call transcriptions', 'Contact center solution', 'Popular CRM integrations'],
+    },
+];
+
+export default function PricingSection({
+    title = "Simple pricing that scales with your team",
+    subtitle = "Plans are for business use only. Choose your team size to see your base monthly rate per user. Taxes and fees are additional.",
+    isMainHeader = false, // Tells the component whether to use an H1 or H2
+    onTrialDetailsClick,
+}) {
+    const [selectedTeamSize, setSelectedTeamSize] = useState(teamSizes[0]);
+    const teamSizeGroupName = useId();
+    const PlanHeading = isMainHeader ? 'h2' : 'h3';
 
     return (
         <section className="relative isolate py-24 sm:py-32 bg-white overflow-hidden">
@@ -52,44 +62,48 @@ export default function PricingSection({
                     </p>
                 </div>
 
-                <div className="mt-12 flex justify-center">
-                    <div className="inline-flex rounded-full bg-gray-100/80 p-1.5 ring-1 ring-inset ring-gray-200 backdrop-blur-sm">
-                        {[
-                            { id: 1, label: '1 user' },
-                            { id: 2, label: '2–19 users' },
-                            { id: 3, label: '20–99 users' },
-                        ].map((tab) => {
-                            const isActive = pricingTab === tab.id;
-                            return (
-                                <button
-                                    key={tab.id}
-                                    onClick={() => setPricingTab(tab.id)}
-                                    className={`relative rounded-full px-7 py-2.5 text-sm md:text-base font-semibold transition-all duration-300 ease-out ${isActive
-                                        ? 'bg-[#F08439] text-white shadow-md shadow-[#F08439]/30 scale-100'
-                                        : 'text-gray-500 hover:text-gray-900 hover:bg-gray-200/50 scale-[0.98]'
-                                        }`}
-                                >
-                                    {tab.label}
-                                </button>
-                            );
-                        })}
-                    </div>
+                <div className="mx-auto mt-10 max-w-md text-center">
+                    <fieldset className="m-0 min-w-0 border-0 p-0">
+                        <legend className="mx-auto mb-4 p-0 text-sm font-semibold text-gray-900">
+                            How many users are on your team?
+                        </legend>
+                        <div className="grid grid-cols-3 gap-1 rounded-full bg-gray-100 p-1.5 ring-1 ring-inset ring-gray-200">
+                            {teamSizes.map((teamSize) => (
+                                <label key={teamSize.id} className="relative m-0 cursor-pointer">
+                                    <input
+                                        type="radio"
+                                        name={teamSizeGroupName}
+                                        value={teamSize.id}
+                                        checked={selectedTeamSize.id === teamSize.id}
+                                        onChange={() => setSelectedTeamSize(teamSize)}
+                                        className="peer sr-only"
+                                    />
+                                    <span className="flex min-h-11 items-center justify-center whitespace-nowrap rounded-full px-2 py-3 text-sm font-semibold text-gray-600 transition-colors hover:bg-gray-200/70 peer-checked:bg-[#F08439] peer-checked:text-gray-900 peer-checked:shadow-sm peer-checked:ring-2 peer-checked:ring-gray-900 peer-checked:hover:bg-[#F08439] peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gray-900 sm:px-4 sm:text-base">
+                                        {teamSize.label}
+                                    </span>
+                                </label>
+                            ))}
+                        </div>
+                    </fieldset>
+                    <p className="sr-only" role="status" aria-atomic="true">
+                        Base plan rates for {selectedTeamSize.label}: {plans.map((plan) => `${plan.name} $${plan.prices[selectedTeamSize.id]} per user per month`).join('; ')}. Government taxes and fees and provider fees are additional.
+                    </p>
                 </div>
 
-                <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3 2xl:gap-12 lg:items-center">
-                    {pricingData[pricingTab].map((plan) => {
+                <div className="mx-auto mt-14 grid max-w-lg grid-cols-1 gap-10 lg:max-w-none lg:grid-cols-3 2xl:gap-12">
+                    {plans.map((plan) => {
                         const isPopular = !!plan.popular;
                         return (
                             <div
                                 key={plan.name}
-                                className={`relative rounded-3xl p-8 2xl:p-10 transition-all duration-500 ${isPopular
-                                    ? 'bg-gradient-to-b from-[#fffaf5] to-white ring-2 ring-[#F08439] shadow-xl shadow-[#F08439]/10 lg:-translate-y-4 z-10'
+                                className={`relative flex flex-col rounded-3xl p-8 2xl:p-10 transition-shadow duration-300 ${isPopular
+                                    ? 'bg-gradient-to-b from-[#fffaf5] to-white ring-2 ring-[#F08439] shadow-xl shadow-[#F08439]/10 z-10'
                                     : 'bg-white ring-1 ring-gray-200 hover:shadow-xl hover:shadow-gray-200/50 hover:ring-gray-300 z-0'
                                     }`}
                             >
                                 {isPopular && (
                                     <div className="absolute -top-5 left-1/2 -translate-x-1/2">
-                                        <span className="inline-flex items-center gap-1.5 rounded-full bg-[#F08439] px-4 py-1.5 text-sm font-semibold text-white shadow-sm ring-1 ring-white/20">
+                                        <span className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#F08439] px-4 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-white/20">
                                             <span className="h-1.5 w-1.5 rounded-full bg-white/80 animate-pulse"></span>
                                             Most Popular
                                         </span>
@@ -97,15 +111,20 @@ export default function PricingSection({
                                 )}
 
                                 <div className="text-center">
-                                    <h3 className={`text-xl 2xl:text-2xl font-semibold tracking-tight ${isPopular ? 'text-[#F08439]' : 'text-gray-900'}`}>
+                                    <PlanHeading className="text-xl 2xl:text-2xl font-semibold tracking-tight text-gray-900">
                                         {plan.name}
-                                    </h3>
-                                    <div className="mt-6">
-                                        <p className="text-sm font-bold uppercase tracking-[0.15em] text-gray-400 mb-2">Starting at</p>
+                                    </PlanHeading>
+                                    <p className="mb-0 mt-2 text-sm font-medium text-gray-600">{selectedTeamSize.description}</p>
+                                    <div className="mt-7">
                                         <div className="flex items-end justify-center gap-1">
-                                            <span className="text-5xl 2xl:text-6xl font-semibold tracking-tight text-gray-900">${plan.price}</span>
+                                            <span className="text-5xl 2xl:text-6xl font-semibold tracking-tight text-gray-900 tabular-nums">${plan.prices[selectedTeamSize.id]}</span>
                                         </div>
-                                        <p className="mt-2 text-sm md:text-base font-medium text-gray-500">per user / month</p>
+                                        <p className="mb-0 mt-3 text-sm md:text-base font-medium text-gray-600">per user, per month</p>
+                                        <p className="mb-0 mt-2 text-sm leading-6 text-gray-600">
+                                            <Link to="/taxes-and-fees" className="text-gray-900 underline underline-offset-4" aria-label={`Taxes and fees are additional for ${plan.name}; view details`}>
+                                                Taxes and fees are additional
+                                            </Link>
+                                        </p>
                                     </div>
                                 </div>
 
@@ -114,7 +133,7 @@ export default function PricingSection({
                                 <ul className="mt-8 space-y-4">
                                     {plan.features.map((feature) => (
                                         <li key={feature} className="flex items-start gap-3">
-                                            <svg className={`h-6 w-5 flex-none ${isPopular ? 'text-[#F08439]' : 'text-gray-400'}`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                            <svg className={`h-6 w-5 flex-none ${isPopular ? 'text-gray-900' : 'text-gray-400'}`} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                 <path fillRule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clipRule="evenodd" />
                                             </svg>
                                             <span className="text-base text-gray-600 font-medium">{feature}</span>
@@ -122,24 +141,56 @@ export default function PricingSection({
                                     ))}
                                 </ul>
 
-                                <div className="mt-10">
+                                <div className="mt-auto pt-8">
                                     <Link
                                         to="/contacts"
+                                        aria-label={`Get a quote for ${plan.name} for ${selectedTeamSize.label}`}
                                         className={`flex w-full items-center justify-center rounded-full px-6 py-3.5 text-sm md:text-base font-semibold transition-all duration-200 ${isPopular
-                                            ? 'bg-[#F08439] text-white shadow-sm hover:bg-[#d97530] hover:shadow-md'
-                                            : 'bg-white text-[#F08439] ring-1 ring-inset ring-[#F08439]/30 hover:bg-[#fffaf5] hover:ring-[#F08439]'
+                                            ? 'bg-brand-fill text-gray-900 shadow-sm hover:bg-brand-fill-hover hover:shadow-md'
+                                            : 'bg-white text-gray-900 ring-1 ring-inset ring-[#F08439]/30 hover:bg-[#fffaf5] hover:ring-[#F08439]'
                                             }`}
                                     >
                                         Get a Quote
                                     </Link>
-                                    <p className="mt-4 text-center text-sm font-medium text-gray-500">14-day free trial available</p>
+                                    <div className="mt-4 text-center text-sm leading-6 text-gray-600">
+                                        <p className="mb-1 font-semibold text-gray-900">14-day free trial available</p>
+                                        <p className="mb-1">Paid service starts automatically when the trial ends unless you cancel.</p>
+                                        <Link
+                                            to="#trial-details"
+                                            onClick={(event) => {
+                                                if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+                                                    onTrialDetailsClick?.();
+                                                }
+                                            }}
+                                            className="font-medium text-gray-900 underline underline-offset-4"
+                                        >
+                                            Trial &amp; cancellation details
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         );
                     })}
                 </div>
 
-                
+                <div className="mx-auto mt-10 max-w-3xl rounded-2xl bg-gray-50 px-6 py-5 text-center ring-1 ring-inset ring-gray-200">
+                    <p className="mb-2 text-sm font-semibold text-gray-900 sm:text-base">
+                        Base plan subtotal = rate per user × number of users
+                    </p>
+                    <p className="m-0 text-sm leading-6 text-gray-600">
+                        Base rates are fixed within each team-size range. Government taxes and fees and Nemerald provider fees are additional. Optional features may cost extra.
+                    </p>
+                    <p className="mb-0 mt-3 text-sm leading-6 text-gray-600">
+                        Applicable taxes and fees are calculated when each invoice is generated and may change from month to month.{' '}
+                        <Link to="/taxes-and-fees" className="font-semibold text-gray-900 underline underline-offset-4">How taxes and fees work.</Link>
+                    </p>
+                </div>
+                <p className="mb-0 mt-5 text-center text-sm text-gray-600">
+                    Have 100+ users?{' '}
+                    <Link to="/contacts" className="font-semibold text-gray-900 underline underline-offset-4 hover:text-gray-900">
+                        Contact us for team pricing.
+                    </Link>
+                </p>
             </div>
         </section>
     );
