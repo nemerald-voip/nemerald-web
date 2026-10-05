@@ -170,8 +170,8 @@ export default function Contacts() {
                     <div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#F08439] to-[#F08439]/10 opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]" />
                 </div>
 
-                <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-24">
-                    <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8 text-center lg:text-left">
+                <div className="mx-auto max-w-7xl 2xl:max-w-[96rem] px-6 pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-16 lg:px-8 lg:py-24 2xl:gap-24">
+                    <div className="mx-auto min-w-0 max-w-2xl lg:mx-0 lg:max-w-xl lg:pt-8 text-center lg:text-left">
                         <div className="inline-flex rounded-full bg-[#F08439]/10 px-4 py-1.5 text-sm font-semibold text-gray-900 ring-1 ring-[#F08439]/15 mb-6">
                             We're here to help
                         </div>
@@ -241,8 +241,8 @@ export default function Contacts() {
                         </div>
                     </div>
 
-                    <div className="mt-16 lg:mt-0 lg:flex-grow lg:pl-16 2xl:pl-24 flex items-center justify-center">
-                        <div className="w-full max-w-xl bg-white/60 backdrop-blur-xl rounded-[2.5rem] p-8 sm:p-10 shadow-2xl ring-1 ring-gray-900/5">
+                    <div className="mt-16 min-w-0 lg:mt-0 flex items-center justify-center">
+                        <div className="w-full min-w-0 max-w-xl bg-white/60 backdrop-blur-xl rounded-[2.5rem] p-8 sm:p-10 shadow-2xl ring-1 ring-gray-900/5" style={{ colorScheme: 'light' }}>
                             <form onSubmit={handleSubmit} className="space-y-6" aria-label="Contact Nemerald" aria-busy={loading}>
                                 <p className="text-sm text-gray-600">All fields except Message are required.</p>
                                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
@@ -257,7 +257,7 @@ export default function Contacts() {
                                                 id="first-name"
                                                 autoComplete="given-name"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 bg-white px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -273,7 +273,7 @@ export default function Contacts() {
                                                 id="last-name"
                                                 autoComplete="family-name"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 bg-white px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -289,7 +289,7 @@ export default function Contacts() {
                                                 id="email"
                                                 autoComplete="email"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 bg-white px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -305,7 +305,7 @@ export default function Contacts() {
                                                 id="phone-number"
                                                 autoComplete="tel"
                                                 required
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 bg-white px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                             />
                                         </div>
                                     </div>
@@ -319,7 +319,7 @@ export default function Contacts() {
                                                 name="message"
                                                 id="message"
                                                 rows={4}
-                                                className="block w-full rounded-xl border-0 px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
+                                                className="block w-full rounded-xl border-0 bg-white px-4 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-500 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-[#F08439] sm:text-sm sm:leading-6 transition-all"
                                                 defaultValue=""
                                             />
                                         </div>

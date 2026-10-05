@@ -17,14 +17,21 @@ const services = [
     { name: 'Managed IT Services', href: '/managed-it' },
 ];
 
+function closeOnNavigation(event, close) {
+    if (!event.defaultPrevented && event.button === 0
+        && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey) {
+        close();
+    }
+}
+
 export default function Header() {
     return (
         <Disclosure as="header" className="bg-white  sticky top-0 z-[100]">
-            {({ open }) => (
+            {({ open, close }) => (
                 <>
                     <div className="mx-auto  px-4 sm:px-6 lg:px-8">
-                        {/* Reduced mobile height to 70px for a tighter look */}
-                        <div className="grid h-[70px] grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center xl:flex xl:h-[130px]">
+                        {/* Navigation can wrap within its own column as text spacing increases. */}
+                        <div className="grid min-h-[70px] grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center xl:min-h-[130px] xl:grid-cols-[auto_minmax(0,1fr)_auto] xl:gap-x-6 xl:py-4">
 
                             {/* 1. LEFT: HAMBURGER BUTTON (Mobile Only) */}
                             <div className="flex items-center xl:hidden">
@@ -39,8 +46,8 @@ export default function Header() {
                             </div>
 
                             {/* Equal side columns keep the logo centered below the desktop breakpoint. */}
-                            <div className="flex items-center justify-center xl:flex-1 xl:justify-start">
-                                <Link to="/" className="flex flex-shrink-0 flex-col items-start no-underline hover:no-underline group">
+                            <div className="flex items-center justify-center xl:justify-start">
+                                <Link to="/" onClick={(event) => { if (open) closeOnNavigation(event, close); }} className="flex flex-shrink-0 flex-col items-start no-underline hover:no-underline group">
                                     <img
                                         className="h-8 sm:h-10 xl:h-16 w-auto"
                                         src="/img/logo.png"
@@ -50,44 +57,44 @@ export default function Header() {
                                         Experience and innovation over 20 years
                                     </span>
                                 </Link>
-
-                                {/* DESKTOP LINKS (Hidden until 1280px) */}
-                                <div className="hidden xl:ml-8 xl:flex xl:items-center xl:space-x-5 2xl:ml-12 2xl:space-x-8">
-                                    <Menu as="div" className="relative">
-                                        <MenuButton className="inline-flex items-center gap-1 text-[17px] font-bold text-gray-900 bg-transparent border-none cursor-pointer hover:text-gray-900">
-                                            Services
-                                            <ChevronDownIcon className="h-4 w-4 text-gray-900" />
-                                        </MenuButton>
-                                        <MenuItems className="absolute left-0 z-10 mt-2 w-48 origin-top-left rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                            {services.map((service) => (
-                                                <MenuItem key={service.name}>
-                                                    {({ active }) => (
-                                                        <Link
-                                                            to={service.href}
-                                                            className={`${active ? 'bg-gray-100' : ''} block px-4 py-2 text-sm text-gray-700 no-underline`}
-                                                        >
-                                                            {service.name}
-                                                        </Link>
-                                                    )}
-                                                </MenuItem>
-                                            ))}
-                                        </MenuItems>
-                                    </Menu>
-
-                                    {navigation.map((item) => (
-                                        <Link
-                                            key={item.name}
-                                            to={item.href}
-                                            className="whitespace-nowrap text-[17px] font-bold text-gray-900 no-underline hover:text-gray-900"
-                                        >
-                                            {item.name}
-                                        </Link>
-                                    ))}
-                                </div>
                             </div>
 
+                            {/* DESKTOP LINKS (Hidden until 1280px) */}
+                            <nav aria-label="Main navigation" className="hidden min-w-0 flex-wrap gap-x-5 gap-y-3 xl:flex xl:items-center 2xl:gap-x-8">
+                                <Menu as="div" className="relative">
+                                    <MenuButton className="inline-flex items-center gap-1 text-[17px] font-bold text-gray-900 bg-transparent border-none cursor-pointer hover:text-gray-900">
+                                        Services
+                                        <ChevronDownIcon className="h-4 w-4 text-gray-900" />
+                                    </MenuButton>
+                                    <MenuItems className="absolute left-0 z-10 mt-2 w-48 origin-top-left rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                        {services.map((service) => (
+                                            <MenuItem key={service.name}>
+                                                {({ active }) => (
+                                                    <Link
+                                                        to={service.href}
+                                                        className={`${active ? 'bg-gray-100' : ''} block px-4 py-2 text-sm text-gray-700 no-underline`}
+                                                    >
+                                                        {service.name}
+                                                    </Link>
+                                                )}
+                                            </MenuItem>
+                                        ))}
+                                    </MenuItems>
+                                </Menu>
+
+                                {navigation.map((item) => (
+                                    <Link
+                                        key={item.name}
+                                        to={item.href}
+                                        className="whitespace-nowrap text-[17px] font-bold text-gray-900 no-underline hover:text-gray-900"
+                                    >
+                                        {item.name}
+                                    </Link>
+                                ))}
+                            </nav>
+
                             {/* Keep account access visible; show the phone number when there is room. */}
-                            <div className="flex min-w-0 items-center justify-end gap-3 sm:gap-5 xl:ml-4">
+                            <div className="flex min-w-0 items-center justify-end gap-3 sm:gap-5">
                                 <div className="hidden shrink-0 flex-col items-end leading-tight text-right md:flex">
                                     <span className="hidden xl:block text-[11px] text-gray-500 font-semibold uppercase tracking-wider">24/7 Support | Sales</span>
                                     <a
@@ -112,30 +119,30 @@ export default function Header() {
                         </div>
                     </div>
 
-                    {/* MOBILE PANEL */}
-                    <DisclosurePanel className="xl:hidden max-h-[calc(100dvh-70px)] overflow-y-auto bg-white border-b">
+                    {/* Use native links so Enter navigates before React closes the panel. */}
+                    <DisclosurePanel as="nav" aria-label="Main navigation" className="xl:hidden max-h-[calc(100dvh-70px)] overflow-y-auto bg-white border-b">
                         <div className="space-y-1 pb-6 pt-2 px-6">
                             <div className="py-2 font-bold text-gray-900 uppercase text-xs tracking-widest">Services</div>
                             {services.map((item) => (
-                                <DisclosureButton
+                                <Link
                                     key={item.name}
-                                    as={Link}
                                     to={item.href}
+                                    onClick={(event) => closeOnNavigation(event, close)}
                                     className="block py-3 text-lg font-bold text-gray-900 no-underline border-b border-gray-50"
                                 >
                                     {item.name}
-                                </DisclosureButton>
+                                </Link>
                             ))}
                             <div className="py-4 font-bold text-gray-900 uppercase text-xs tracking-widest mt-4">Company</div>
                             {navigation.map((item) => (
-                                <DisclosureButton
+                                <Link
                                     key={item.name}
-                                    as={Link}
                                     to={item.href}
+                                    onClick={(event) => closeOnNavigation(event, close)}
                                     className="block py-3 text-lg font-bold text-gray-900 no-underline border-b border-gray-50"
                                 >
                                     {item.name}
-                                </DisclosureButton>
+                                </Link>
                             ))}
                             {/* Phone number only appears in the mobile MENU drawer */}
                             <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-100">
