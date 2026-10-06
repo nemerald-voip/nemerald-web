@@ -22,9 +22,9 @@ export default function Home() {
     return (
         <Layout title="Nemerald | Business Phone System Built for Modern Teams">
 
-            <div className='bg-white'>
+            <div className="bg-white p-4 sm:p-6">
                 {/* --- HERO SECTION --- */}
-                <div className="relative isolate overflow-hidden rounded-[2.5rem] bg-gradient-to-r from-[#fffaf5] via-[#F08439]/15 to-[#F08439]/40 m-4 sm:m-6" style={{ colorScheme: 'light' }}>
+                <div className="relative isolate overflow-hidden rounded-[2.5rem] bg-gradient-to-r from-[#fffaf5] via-[#F08439]/15 to-[#F08439]/40" style={{ colorScheme: 'light' }}>
 
                     {/* Background blurred blob */}
                     <div
