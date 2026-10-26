@@ -1,0 +1,208 @@
+{
+  "source": {
+    "id": "hu6b7c2bb7xea4maymbg2xlt",
+    "slug": "ios-working-with-call-details",
+    "title": "Working with call details",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "When you make dozens of calls every day, it is tough to remember the details of every single call. By filling in a call subject and adding some comments, you can highlight the most important parts of your conversation and easily find them when you need them later."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To view/add information about a call",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ":"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open your conversation history with a contact. You can do that by switching to the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Calls",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ tab and selecting a contact from the list of your calls."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_calls_history_076104f429.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After selecting a contact, you’ll see a history of all communication with that contact. Tap on a call you’d like to add details to."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_incoming_call_9f5bc5e10c.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_details_top_537be99605.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Finding a call by its subject"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Specifying the subject of a call can help you easily find that call any time later."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To find a call by its subject, simply type a subject you want to find in the Chat Search field and press the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Search",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ button."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_search_call_subject_f86c72d70e.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can also mark a call as a ‘Favorite’ by using the long tap on a message or a call. This will make it easier to find it using chat filters."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "ios-listening-sharing-recording",
+        "title": "Viewing and sharing a call recording"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Working with call details\"\nslug: \"/apps/ios-working-with-call-details--hu6b7c2bb7xea4maymbg2xlt\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-calls\"]\n---\n\nWhen you make dozens of calls every day, it is tough to remember the details of every single call. By filling in a call subject and adding some comments, you can highlight the most important parts of your conversation and easily find them when you need them later.\n\n**To view/add information about a call**:\n\n1. Open your conversation history with a contact. You can do that by switching to the ‘**Calls**’ tab and selecting a contact from the list of your calls.\n\n![](/img/ringotel/original/5bb53ceb2a45982abb12/224d54ad1897795fe40d340a373d7028a9cbbe23c3af1d8495733a0b367bec96.png)\n\n1. After selecting a contact, you’ll see a history of all communication with that contact. Tap on a call you’d like to add details to.\n\n![](/img/ringotel/original/bda68733d21cea32734b/0e421d0d34ed5e86487c2f8a104187a0ec6c9fecbcedcf699485ec51dd7e9427.png)\n\n![](/img/ringotel/original/d5955555481574ace3db/b46331d7064b29f776e938952d2feac4d5e8d486fd1096def11e9e2ba56f199b.png)\n\n## Finding a call by its subject\n\nSpecifying the subject of a call can help you easily find that call any time later.\n\nTo find a call by its subject, simply type a subject you want to find in the Chat Search field and press the ‘**Search**’ button.\n\n![](/img/ringotel/original/e43f70067aabf6319d53/d0ef328db4c61f264c2b18c0e20af48e4f3d061242187e33bb7a3483fb2d5c60.png)\n\nYou can also mark a call as a ‘Favorite’ by using the long tap on a message or a call. This will make it easier to find it using chat filters.\n\n## Related articles\n\n- [Viewing and sharing a call recording](/docs/apps/ios-listening-sharing-recording--s99acnxuit527m1nl2j386zg)\n"
+}

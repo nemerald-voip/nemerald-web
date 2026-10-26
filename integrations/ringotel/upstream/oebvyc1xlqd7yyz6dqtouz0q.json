@@ -1,0 +1,186 @@
+{
+  "source": {
+    "id": "oebvyc1xlqd7yyz6dqtouz0q",
+    "slug": "desktop-user-presence-states",
+    "title": "User presence status",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "With the help of various user statuses your mobile app allows you to share your availability with the team and check the availability of your colleagues. There are 5 different states a user can have:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/app_status_online_337e85e7d9.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Online",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ". This state shows that the user is currently online and able to receive calls and messages."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/app_status_away_bb9c50c158.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Away",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ". This state indicates that the user is currently out of his workplace. Does not affect the ability to receive calls and messages."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/app_status_busy_321d076266.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Busy",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ". In this state, all incoming calls will be blocked but the user will still be able to receive messages."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/app_status_offline_0587c13b87.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Offline",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ". Offline Users cannot receive calls and messages."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/app_status_eq_2fa1d4e0aa.png}}"
+          },
+          {
+            "type": "text",
+            "text": "At the desk",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ". You can set this status manually if you have a desk phone connected to your Phone System and you would like for all incoming calls to be routed first to this desk phone. Meanwhile, your mobile apps will receive incoming calls with a set delay."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Changing your presence status"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To change your status:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select Menu Tab and click on current state description below your name."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the drop-down menu choose the state you want to take."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_status_menu_6b731a5dfa.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "basics",
+      "desktop"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"User presence status\"\nslug: \"/apps/desktop-user-presence-states--oebvyc1xlqd7yyz6dqtouz0q\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"basics\",\"desktop\"]\n---\n\nWith the help of various user statuses your mobile app allows you to share your availability with the team and check the availability of your colleagues. There are 5 different states a user can have:\n\n![App icon](/img/ringotel/original/093b9fe3779047e81226/048d317b02b218eb16833d840fbeb71ca6dbb8f07e21066e9ceddc15f4ef4907.png)**Online**. This state shows that the user is currently online and able to receive calls and messages.\n\n![App icon](/img/ringotel/original/11e144e6375a524eac60/fbb1c56b952dac60d525c4adc322b53a522a0d4c4125f3242625b0bbf10e6d81.png)**Away**. This state indicates that the user is currently out of his workplace. Does not affect the ability to receive calls and messages.\n\n![App icon](/img/ringotel/original/4dfa15892398143e1437/a9dcde2b8a5420bd1f36008e2d4dd3d720faf25a90fc01b493c81904a0f84f38.png)**Busy**. In this state, all incoming calls will be blocked but the user will still be able to receive messages.\n\n![App icon](/img/ringotel/original/614f8c90d4fc7321cf38/6d9471fbc6763599a84d00ac8ddc1b99e8f7876f43f3362eb2d59bed656f3ce8.png)**Offline**. Offline Users cannot receive calls and messages.\n\n![App icon](/img/ringotel/original/62980ed70681f9b0d975/d340109464110be9bb804293c32e6f96d41fa42359fe5eb0af0442519e8a2f75.png)**At the desk**. You can set this status manually if you have a desk phone connected to your Phone System and you would like for all incoming calls to be routed first to this desk phone. Meanwhile, your mobile apps will receive incoming calls with a set delay.\n\n## Changing your presence status\n\nTo change your status:\n\n1. Select Menu Tab and click on current state description below your name.\n2. In the drop-down menu choose the state you want to take.\n\n![](/img/ringotel/original/3d2eaa0de9f36740b999/79840fcd73ad8a2cb44e5fc4f220703176772e9d49f3d47ebdeb669454b11afc.png)\n"
+}

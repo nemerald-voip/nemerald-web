@@ -1,0 +1,330 @@
+{
+  "source": {
+    "id": "x7bkxmsy46nq43zq88sa8noh",
+    "slug": "android-listening-sharing-recording",
+    "title": "Viewing and sharing a call recording",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-working-with-call-recordings/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-listening-sharing-recording/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "When you record a call using your mobile or desktop app, this call recording gets synchronized between all your devices. It means that you can listen to the recording of a call on your mobile device, even if it was recorded from your desktop application."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To access a call recording from your mobile app",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ":"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open your"
+              },
+              {
+                "type": "text",
+                "text": "conversation history"
+              },
+              {
+                "type": "text",
+                "text": "with a contact."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Calls that have a voice recording will have an"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_icon_call_recording_8eb8fc8966.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_call_details_recording_57dc94e440.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on a ‘"
+              },
+              {
+                "type": "text",
+                "text": "View details",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ link of a call which recording you’d like to listen to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "On the "
+              },
+              {
+                "type": "text",
+                "text": "Call Details ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "panel, press the{{icon:https://new-kb.ringotel.com/uploads/android_icon_play_recording_37d5e7a48d.png}}icon to playback a call recording."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_call_recording_32186e27ec.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To share a call recording with other applications on your device",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ":"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the details of a call with the recording you would like to share."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the menu icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_icon_menu_e9a70d8916.png}}"
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the \"Share recording\"."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_details_recording_b418615d7e.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose an application on your device where you’d like to send a recording."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can choose this same application from the list to share a recording with your colleagues who use this app.",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "android-chats-and-messages",
+        "title": "Chats and messages overview"
+      },
+      {
+        "slug": "android-working-with-call-details",
+        "title": "Working with call details"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": true
+  },
+  "generated": "---\ntitle: \"Viewing and sharing a call recording\"\nslug: \"/apps/android-listening-sharing-recording--x7bkxmsy46nq43zq88sa8noh\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"working-with-calls\"]\n---\n\n> Availability of this feature depends on your service configuration. Contact support for details.\n\n*Looking for an&#x20;*[PC](/docs/apps/desktop-working-with-call-recordings--ssv2vm6rzstcim2xd99giaun) *or&#x20;*[iOS](/docs/apps/ios-listening-sharing-recording--s99acnxuit527m1nl2j386zg) *version of this article?*\n\nWhen you record a call using your mobile or desktop app, this call recording gets synchronized between all your devices. It means that you can listen to the recording of a call on your mobile device, even if it was recorded from your desktop application.\n\n**To access a call recording from your mobile app**:\n\n1. Open yourconversation historywith a contact.\n2. Calls that have a voice recording will have an![App icon](/img/ringotel/original/c048edc7d5d0034abd8f/93d221051e6446cff673fd993608f4fe906157522ab4569d6f7ed81567701c2f.png)icon.\n\n![](/img/ringotel/original/a89a3031db394f70dfd7/d3f8114e93718469236cad54f9ec1b5c58d0597c373a1c2029a5253c7cb591fa.png)\n\n1. Tap on a ‘**View details**’ link of a call which recording you’d like to listen to.\n2. On the **Call Details&#x20;**&#x70;anel, press the![App icon](/img/ringotel/original/d9d2c7847cb6c7d74b45/8bdfc157fba6e1ca623f6320bddc025b409eec63bfd8f6d88bd8c8838c459d3a.png)icon to playback a call recording.\n\n![](/img/ringotel/original/2ea26dee921c133a49ac/9cfed62e048fd1d7dd3ec540ac7a28ae98cf8ce35e2b7a9c303cdd8cec0afd35.png)\n\n**To share a call recording with other applications on your device**:\n\n1. Open the details of a call with the recording you would like to share.\n2. Tap on the menu icon![App icon](/img/ringotel/original/d404746dea3e7bbe0e32/c5dc0e365c7e0a5b48b11e90932007d994bbb6a8be3ded7bcd24e6c615397908.png).\n3. Tap on the \"Share recording\".\n\n![](/img/ringotel/original/e749bbd538f7badf5833/3f2d28e62654f6b720a6b172eea545ce5a059e887e03d32a80ccf897a8941a74.png)\n\n1. Choose an application on your device where you’d like to send a recording.\n\n**You can choose this same application from the list to share a recording with your colleagues who use this app.**\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n\n## Related articles\n\n- [Chats and messages overview](/docs/apps/android-chats-and-messages--wiert7wul43oyqrsq57amnnr)\n- [Working with call details](/docs/apps/android-working-with-call-details--skwusuj0tgk0s8mw74vudu53)\n"
+}

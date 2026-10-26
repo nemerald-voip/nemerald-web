@@ -1,0 +1,364 @@
+{
+  "source": {
+    "id": "ybm4k618ragnlgyy963xbwpe",
+    "slug": "desktop-call-hold-dtmf-recording",
+    "title": "During a call: Hold, DTMF, Recording",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "During a call, you can transfer a call, put a call on hold, create a conference, and much more. You can access those features by utilizing the UI components described below:"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_ActiveCall_panels_dd9f142e44.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Call panel",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": ". You can access a call panel by clicking on a contact you’re currently talking to in the list of contacts, chats, or calls, or by double-clicking on an Active Line."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Active lines panel",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": ". This is where all your active calls will be displayed."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Pop-up window",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": ". This panel will automatically pop up if a contact you’re talking to is not selected in the tabs panel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Put a call on hold"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To put a call on hold:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click the{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_hold_off_ed9c7c80e1.png}}icon on the "
+          },
+          {
+            "type": "text",
+            "text": "Call panel ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "or in the "
+          },
+          {
+            "type": "text",
+            "text": "Pop-up window",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click on the{{icon:https://new-kb.ringotel.com/uploads/desktop_menu_56f7a3c4f9.png}}icon in the "
+          },
+          {
+            "type": "text",
+            "text": "Active Lines ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "panel and choose "
+          },
+          {
+            "type": "text",
+            "text": "Hold ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "from the dropdown menu."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_activecall_notification_2c4c75f957.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_activecall_tabpanel_807fd886e3.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To resume a call from hold:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click the same icon again to resume."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_2lines_holdline_notification_b0afc878e9.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to send DTMF-signals"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click on the"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_numpad_off_4980e4f64e.png}}"
+          },
+          {
+            "type": "text",
+            "text": "icon on the Call panel or at the Pop-up window to open the dial-pad. You can use it to send a DTMF signal during a call."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Please, note that the dial pad from the Search Bar area doesn’t transmit DTMF signals.",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Turn personal call recording on/off *"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To turn the call recording on/off during a call:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click the"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_recording_off_10dcf6e03f.png}}"
+          },
+          {
+            "type": "text",
+            "text": "icon on a Call panel or Pop-up window."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click on the{{icon:https://new-kb.ringotel.com/uploads/desktop_menu_56f7a3c4f9.png}}icon of an Active Line and select "
+          },
+          {
+            "type": "text",
+            "text": "Recording ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "from the drop-down menu."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"During a call: Hold, DTMF, Recording\"\nslug: \"/apps/desktop-call-hold-dtmf-recording--ybm4k618ragnlgyy963xbwpe\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-calls\"]\n---\n\nDuring a call, you can transfer a call, put a call on hold, create a conference, and much more. You can access those features by utilizing the UI components described below:\n\n![](/img/ringotel/original/0dee3c0ddd49ba174cf2/4da9706446d465242903f6c54c492779d2b3981fdbf117abc437b989c0c42c82.png)\n\n1. **Call panel**. You can access a call panel by clicking on a contact you’re currently talking to in the list of contacts, chats, or calls, or by double-clicking on an Active Line.\n2. **Active lines panel**. This is where all your active calls will be displayed.\n3. **Pop-up window**. This panel will automatically pop up if a contact you’re talking to is not selected in the tabs panel.\n\n## Put a call on hold\n\nTo put a call on hold:\n\nClick the![App icon](/img/ringotel/original/20b9951c40318cd0cea0/7a60b4fbf45ac99e322082f446ada037afe4c9ea8caae4b199e0fb7127071ed5.png)icon on the **Call panel&#x20;**&#x6F;r in the **Pop-up window**.\n\n**OR**\n\nClick on the![App icon](/img/ringotel/original/7c10737329d19d59e3b4/6c4a75a00c5a57de9bded1029d1a4493fc8c2d6b76f174e4f44f4d38ed45f528.png)icon in the **Active Lines&#x20;**&#x70;anel and choose **Hold&#x20;**&#x66;rom the dropdown menu.\n\n![](/img/ringotel/original/ca645105f48ab1f87cc8/76d3af86f6e446f255e420704bcbf855d6a8d88c15e179591bfdda84e2f15576.png)\n\n![](/img/ringotel/original/18a6a60c91665cc39abd/b9a1adfeddedd63ad8ed21024b7ece34601c41d02928bdd4b2ffc9df54eec120.png)\n\nTo resume a call from hold:\n\nClick the same icon again to resume.\n\n![](/img/ringotel/original/f1d40fdc8f8cbde30b70/b7626c31c270b6eda8529f58a1ab498ef30fc95f163424ce18628de1604366cd.png)\n\n## How to send DTMF-signals\n\nClick on the![App icon](/img/ringotel/original/267169cff00d5dc16b24/855593d528cbc7bb44e2f0069f0c091db771747633a4821196a7f33580dd550f.png)icon on the Call panel or at the Pop-up window to open the dial-pad. You can use it to send a DTMF signal during a call.\n\n**Please, note that the dial pad from the Search Bar area doesn’t transmit DTMF signals.**\n\n## Turn personal call recording on/off \\*\n\nTo turn the call recording on/off during a call:\n\nClick the![App icon](/img/ringotel/original/12868436f7b0c680892b/ce093d3ad7d58d0c8de5d3f34c95db081c4363a3ca10ea023dcd4ad7fd53a19e.png)icon on a Call panel or Pop-up window.\n\n**OR**\n\nClick on the![App icon](/img/ringotel/original/7c10737329d19d59e3b4/6c4a75a00c5a57de9bded1029d1a4493fc8c2d6b76f174e4f44f4d38ed45f528.png)icon of an Active Line and select **Recording&#x20;**&#x66;rom the drop-down menu.\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n"
+}

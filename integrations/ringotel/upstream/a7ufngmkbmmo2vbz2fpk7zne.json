@@ -1,0 +1,165 @@
+{
+  "source": {
+    "id": "a7ufngmkbmmo2vbz2fpk7zne",
+    "slug": "desktop-start-working-with-app",
+    "title": "How to start working with your Desktop App",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-start-working-with-mobile-app/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "or",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-start-working-with-mobile-app/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To start using the application on your desktop device, you need to:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open an email from your PBX Administrator that contains links for downloading the apps, your authentication credentials, and a QR code for easy access to your account."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/onboarding_email_de9efc144e.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the icon to download the app suitable for the Operating System on your desktop device."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After installing the app on your device, click on the app icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_appicon_f0ad11504d.png}}"
+              },
+              {
+                "type": "text",
+                "text": "to launch the app."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "To log into the app, you can enter your Authentication Credentials provided in the email you received from your PBX Administrator."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "basics",
+      "desktop",
+      "get-started"
+    ],
+    "related": [
+      {
+        "slug": "desktop-contacts-and-users-tabs",
+        "title": "Contacts and Users overview"
+      },
+      {
+        "slug": "desktop-outgoing-call",
+        "title": "Outgoing call"
+      },
+      {
+        "slug": "desktop-user-interface",
+        "title": "Desktop app overview"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"How to start working with your Desktop App\"\nslug: \"/apps/desktop-start-working-with-app--a7ufngmkbmmo2vbz2fpk7zne\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"basics\",\"desktop\",\"get-started\"]\n---\n\n*Looking for an*[*iOS*](/docs/apps/ios-start-working-with-mobile-app--jxyp3rlfbawvxahjpky05p62)*or*[*Android*](/docs/apps/android-start-working-with-mobile-app--bhomyeazhcleknx00v59e4na)*version of this article?*\n\nTo start using the application on your desktop device, you need to:\n\n1. Open an email from your PBX Administrator that contains links for downloading the apps, your authentication credentials, and a QR code for easy access to your account.\n\n![](/img/ringotel/original/7d66016e59d78356bda1/2d7179b0bd972a6338fcfd81d4eaea7cba0d63d67d1765f27a7545a80eb8b1ca.png)\n\n1. Click on the icon to download the app suitable for the Operating System on your desktop device.\n2. After installing the app on your device, click on the app icon![App icon](/img/ringotel/original/575027402949337630e0/41b98c71a6c5c1c0832ac8ba70fb6b88281f80f3f3f9cef5d5b13916e5def31c.png)to launch the app.\n3. To log into the app, you can enter your Authentication Credentials provided in the email you received from your PBX Administrator.\n\n## Related articles\n\n- [Contacts and Users overview](/docs/apps/desktop-contacts-and-users-tabs--hrbdi37d949mb152d0llrw4p)\n- [Outgoing call](/docs/apps/desktop-outgoing-call--te63hnixsyugdk7wpsw59xeq)\n- [Desktop app overview](/docs/apps/desktop-user-interface--ophgjz3guikdjfl0oga2h6t5)\n"
+}

@@ -1,0 +1,231 @@
+{
+  "source": {
+    "id": "wiert7wul43oyqrsq57amnnr",
+    "slug": "android-chats-and-messages",
+    "title": "Chats and messages overview",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Using the mobile app, you can send a text message to a colleague directly via ‘"
+          },
+          {
+            "type": "text",
+            "text": "Personal",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ chat or to a group of colleagues using a ‘"
+          },
+          {
+            "type": "text",
+            "text": "Group",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ chat."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The ‘"
+          },
+          {
+            "type": "text",
+            "text": "Chats",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ tab displays all your chat conversations and all the messages you’ve sent and received."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "It is also where you can create a new ‘"
+          },
+          {
+            "type": "text",
+            "text": "Personal",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’, ‘"
+          },
+          {
+            "type": "text",
+            "text": "Group",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’, or ‘"
+          },
+          {
+            "type": "text",
+            "text": "SMS",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ chat."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_tab_and_chat_d503a4d9da.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can initiate a chat with a colleague using one of the following options:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open your colleague’s "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/android-working-with-contact/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Profile"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " . And pressing the "
+              },
+              {
+                "type": "text",
+                "text": "chat icon",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select an existing chat in the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Chats",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ tab."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Create a new chat in the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Chats",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ tab by pressing the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_fab_chat_6a82abcee4.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the bottom of the screen and then selecting the type of chat you want to create."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "working-with-chats"
+    ],
+    "related": [
+      {
+        "slug": "android-group-chat",
+        "title": "Starting a Group chat"
+      },
+      {
+        "slug": "android-sending-messages",
+        "title": "Sending messages"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Chats and messages overview\"\nslug: \"/apps/android-chats-and-messages--wiert7wul43oyqrsq57amnnr\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"working-with-chats\"]\n---\n\nUsing the mobile app, you can send a text message to a colleague directly via ‘**Personal**’ chat or to a group of colleagues using a ‘**Group**’ chat.\n\nThe ‘**Chats**’ tab displays all your chat conversations and all the messages you’ve sent and received.\n\nIt is also where you can create a new ‘**Personal**’, ‘**Group**’, or ‘**SMS**’ chat.\n\n![](/img/ringotel/original/aab139187a76b3b2dc9b/a7f20bf58bde478271a463168cbc53177cf9fa5c812bb055110699e93a028df3.png)\n\nYou can initiate a chat with a colleague using one of the following options:\n\n- Open your colleague’s [Profile](/docs/apps/android-working-with-contact--ukprk9ontafcdkvwcit3mzs6) . And pressing the **chat icon**.\n\n* Select an existing chat in the ‘**Chats**’ tab.\n* Create a new chat in the ‘**Chats**’ tab by pressing the![App icon](/img/ringotel/original/5c216d41c20b25c70472/39dd17861b340716bbd4622a4146d79ced0b8559501f20d8979465a49ccaa3ac.png)icon at the bottom of the screen and then selecting the type of chat you want to create.\n\n## Related articles\n\n- [Starting a Group chat](/docs/apps/android-group-chat--pwppgsm62tuktjnjd5t3cb50)\n- [Sending messages](/docs/apps/android-sending-messages--ztffi0qzjlvj88mlxkg556r3)\n"
+}

@@ -1,0 +1,125 @@
+{
+  "source": {
+    "id": "hrbdi37d949mb152d0llrw4p",
+    "slug": "desktop-contacts-and-users-tabs",
+    "title": "Contacts and Users overview",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In the Users tab, you can see all your colleagues with their presence statuses."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_tab_users_77fb6749fb.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "While the Contacts tab contains all your external contacts - customers, suppliers, etc."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_tab_contacts_832b0570d7.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to find a contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To find a particular contact from your list, simply enter this contact’s name in the "
+          },
+          {
+            "type": "text",
+            "text": "Search bar",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_tab_contacts_search_33bb512892.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "ios-contacts-tab",
+        "title": "Contacts tab"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Contacts and Users overview\"\nslug: \"/apps/desktop-contacts-and-users-tabs--hrbdi37d949mb152d0llrw4p\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-contacts\"]\n---\n\nIn the Users tab, you can see all your colleagues with their presence statuses.\n\n![](/img/ringotel/original/53f871d16ca313a85d23/539c49f7d3b4bc28dfa80e92c0d49a2f463547f907f1a4e6010df365d6da1cf3.png)\n\nWhile the Contacts tab contains all your external contacts - customers, suppliers, etc.\n\n![](/img/ringotel/original/ae698e8b27300488b1ad/dcd7a289880c2bb67938547c1ea48a3860f3fd871cb832bf353dc6bd68d033dd.png)\n\n## How to find a contact\n\nTo find a particular contact from your list, simply enter this contact’s name in the **Search bar**\n\n![](/img/ringotel/original/7e855bf151d58acac18e/8e05ab9b86c9db1aa2b4c8af0e83b491460e73f2d36bfe127f799b79c4780f21.png)\n\n## Related articles\n\n- [Contacts tab](/docs/apps/ios-contacts-tab--lkrx1z1ttdutfnif834m7y35)\n"
+}

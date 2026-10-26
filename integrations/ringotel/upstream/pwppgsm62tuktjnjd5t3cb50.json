@@ -1,0 +1,236 @@
+{
+  "source": {
+    "id": "pwppgsm62tuktjnjd5t3cb50",
+    "slug": "android-group-chat",
+    "title": "Starting a Group chat",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To create a new chat: "
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Switch to the "
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-chats-and-messages/",
+            "children": [
+              {
+                "type": "text",
+                "text": "‘Chats’ tab"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " and press on the{{icon:https://new-kb.ringotel.com/uploads/android_fab_chat_6a82abcee4.png}}icon at the bottom of the screen."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Press on the {{icon:https://new-kb.ringotel.com/uploads/android_fab_newgroup_93eeffe953.png}} icon to create a new ‘"
+          },
+          {
+            "type": "text",
+            "text": "Group",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ chat."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Enter the name of the group chat you would like to create."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_newGroupChat_1342d92848.png",
+          "alternativeText": "android_newGroupChat.png",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Tap on the{{icon:https://new-kb.ringotel.com/uploads/android_icon_add_participant_5a511284f6.png}}icon to add colleagues to the group."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Select participants for this group chat from the list and press ‘"
+          },
+          {
+            "type": "text",
+            "text": "Done",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_editGroupList_56881d91b5.png",
+          "alternativeText": "android_editGroupList.png",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Now you can select who, aside from you, will be this group’s Admin and will have the right to add or remove participants to this group."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Press the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Edit",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ button to edit the list of admins or participants."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To set the avatar icon for this group, press the"
+          },
+          {
+            "type": "text",
+            "text": "camera icon",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "to the left of the group name."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_editGroup_0fb1ecec73.png",
+          "alternativeText": "android_editGroup.png",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "After editing the lists of participants and admins, press ‘"
+          },
+          {
+            "type": "text",
+            "text": "Done",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ to create a group chat."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "working-with-chats"
+    ],
+    "related": [
+      {
+        "slug": "android-chats-and-messages",
+        "title": "Chats and messages overview"
+      },
+      {
+        "slug": "android-sending-messages",
+        "title": "Sending messages"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Starting a Group chat\"\nslug: \"/apps/android-group-chat--pwppgsm62tuktjnjd5t3cb50\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"working-with-chats\"]\n---\n\nTo create a new chat:&#x20;\n\nSwitch to the [‘Chats’ tab](/docs/apps/android-chats-and-messages--wiert7wul43oyqrsq57amnnr) and press on the![App icon](/img/ringotel/original/5c216d41c20b25c70472/39dd17861b340716bbd4622a4146d79ced0b8559501f20d8979465a49ccaa3ac.png)icon at the bottom of the screen.\n\nPress on the ![App icon](/img/ringotel/original/9ac4bf2af656716e4d28/63b7c3279512381fe7d6f2a1492b4a2ce2003f77ff8803f480342d4a667fc130.png) icon to create a new ‘**Group**’ chat.\n\nEnter the name of the group chat you would like to create.\n\n![android_newGroupChat.png](/img/ringotel/original/25b378981a3c5d462339/ff7b544215c8272f16e9a95c6aa1a885c517e5ea74a894584c0bc25d621a6dec.png)\n\nTap on the![App icon](/img/ringotel/original/f8190a5ce870df7dec72/bbf69d27653bd71e5a117ed13e38697f115587af0da4244f753756322201f170.png)icon to add colleagues to the group.\n\nSelect participants for this group chat from the list and press ‘**Done**’.\n\n![android_editGroupList.png](/img/ringotel/original/34b6fd8d704921ebe0de/75728d315090446c280b9a77d8824f3e9e4f8160129d60c7d79838a7ebb56802.png)\n\nNow you can select who, aside from you, will be this group’s Admin and will have the right to add or remove participants to this group.\n\nPress the ‘**Edit**’ button to edit the list of admins or participants.\n\nTo set the avatar icon for this group, press the**camera icon**to the left of the group name.\n\n![android_editGroup.png](/img/ringotel/original/dd32cc21bb09ada953cc/abde0f0c7156272ac54a135e1c621acde8ea0e443dec7ff1553354047254a777.png)\n\nAfter editing the lists of participants and admins, press ‘**Done**’ to create a group chat.\n\n## Related articles\n\n- [Chats and messages overview](/docs/apps/android-chats-and-messages--wiert7wul43oyqrsq57amnnr)\n- [Sending messages](/docs/apps/android-sending-messages--ztffi0qzjlvj88mlxkg556r3)\n"
+}

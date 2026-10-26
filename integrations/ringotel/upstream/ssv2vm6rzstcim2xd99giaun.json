@@ -1,0 +1,236 @@
+{
+  "source": {
+    "id": "ssv2vm6rzstcim2xd99giaun",
+    "slug": "desktop-working-with-call-recordings",
+    "title": "Working with call recordings",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-listening-sharing-recording/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-listening-sharing-recording/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To playback a call recording",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ":"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open your conversation history with a contact."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Find a call you would like to listen to and press the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_record_play_d33727b685.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_chat_incoming_call_8946b21ae8.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To download a call recording",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ":"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open your conversation history with a contact."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Find a call recording that you would like to download and press the "
+              },
+              {
+                "type": "text",
+                "text": "View Details ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "link."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_record_download_a287a14891.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to save this call’s recording to your computer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_call_details_recording_08eb937380.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "ios-listening-sharing-recording",
+        "title": "Viewing and sharing a call recording"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": true
+  },
+  "generated": "---\ntitle: \"Working with call recordings\"\nslug: \"/apps/desktop-working-with-call-recordings--ssv2vm6rzstcim2xd99giaun\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-calls\"]\n---\n\n> Availability of this feature depends on your service configuration. Contact support for details.\n\n*Looking for an&#x20;*[*iOS*](/docs/apps/ios-listening-sharing-recording--s99acnxuit527m1nl2j386zg) *or&#x20;*[*Android*](/docs/apps/android-listening-sharing-recording--x7bkxmsy46nq43zq88sa8noh) *version of this article?*\n\n**To playback a call recording**:\n\n1. Open your conversation history with a contact.\n2. Find a call you would like to listen to and press the![App icon](/img/ringotel/original/92be778f8f70c2ed28b4/1a9c0951d18d87c7e269e211587604ca5d60ec3b42c65f796ab7435c55709051.png)icon.\n\n![](/img/ringotel/original/53ef114c2287cee61a23/03898c26164e52d60f57d52872d95eca8081aa0149d9dd1837daa3661a7c21df.png)\n\n**To download a call recording**:\n\n1. Open your conversation history with a contact.\n2. Find a call recording that you would like to download and press the **View Details&#x20;**&#x6C;ink.\n3. Click on the![App icon](/img/ringotel/original/aaea83b3af41c2fa3303/cdcc260ea59d09a90283a563443ad4557157fdfe1a119fb54e1357191e88f0e3.png)icon to save this call’s recording to your computer.\n\n![](/img/ringotel/original/3adf986f3434377d080e/b38ec193d7fa64d5a467bd572283b55404b1e4a821571e2247095e35a63e6dd5.png)\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n\n## Related articles\n\n- [Viewing and sharing a call recording](/docs/apps/ios-listening-sharing-recording--s99acnxuit527m1nl2j386zg)\n"
+}

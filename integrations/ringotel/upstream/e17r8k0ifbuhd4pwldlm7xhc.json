@@ -1,0 +1,241 @@
+{
+  "source": {
+    "id": "e17r8k0ifbuhd4pwldlm7xhc",
+    "slug": "ios-call-settings",
+    "title": "Call Settings",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-call-settings/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-call-settings/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For various cases when you can’t pick up the call in the app, you can set the following Call Forwarding rules. Those rules will help automatically forward calls to the external phone numbers you specify."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward unconditional.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "This feature will forward all your incoming calls to a phone number specified in the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Number",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ field below."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward when unreachable",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "will forward your calls to a specified phone number only in case the app will lose a connection with your server"
+          },
+          {
+            "type": "text",
+            "text": ".",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward when busy.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "This rule will only apply during the time when you have an active call."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward when unanswered.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "You can turn this feature on if you want to forward calls you do not answer during the time set in the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Timeout",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ parameter below."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A"
+          },
+          {
+            "type": "text",
+            "text": "Voicemail",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "checkbox turns your voicemail feature on/off. To record or change your voicemail greeting, tap on the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Set Greeting",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ menu item."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Check the ‘Voice Recording’ feature to enable total call recording for all your calls. *The"
+          },
+          {
+            "type": "text",
+            "text": "call waiting",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "feature allows the suspension of an existing phone call to answer a second call. This feature is required for putting a call on hold, transferring a call, and creating a conference call."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_settings_a2b6a58868.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "settings",
+      "setup"
+    ],
+    "related": [
+      {
+        "slug": "ios-app-settings",
+        "title": "App Settings"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Call Settings\"\nslug: \"/apps/ios-call-settings--e17r8k0ifbuhd4pwldlm7xhc\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"settings\",\"setup\"]\n---\n\n*Looking for an&#x20;*[PC/Mac](/docs/apps/desktop-call-settings--w8x57mdttk6m2ucvcxpao23m) *or&#x20;*[Android](/docs/apps/android-call-settings--nnzhvklnaayrh61sd4o54ewl) *version of this article?*\n\nFor various cases when you can’t pick up the call in the app, you can set the following Call Forwarding rules. Those rules will help automatically forward calls to the external phone numbers you specify.\n\n**Forward unconditional.**&#x54;his feature will forward all your incoming calls to a phone number specified in the ‘**Number**’ field below.\n\n**Forward when unreachable**will forward your calls to a specified phone number only in case the app will lose a connection with your serve&#x72;**.**\n\n**Forward when busy.**&#x54;his rule will only apply during the time when you have an active call.\n\n**Forward when unanswered.**&#x59;ou can turn this feature on if you want to forward calls you do not answer during the time set in the ‘**Timeout**’ parameter below.\n\nA**Voicemail**checkbox turns your voicemail feature on/off. To record or change your voicemail greeting, tap on the ‘**Set Greeting**’ menu item.\n\nCheck the ‘Voice Recording’ feature to enable total call recording for all your calls. \\*The**call waiting**feature allows the suspension of an existing phone call to answer a second call. This feature is required for putting a call on hold, transferring a call, and creating a conference call.\n\n![](/img/ringotel/original/a91f9aeb5914a403b304/23e34bcff166251929ac20f7556bca9d592ad668621945ed3bb8e55b1c9d74c6.png)\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n\n## Related articles\n\n- [App Settings](/docs/apps/ios-app-settings--k6r55vy13tjohxf7yx86uo1h)\n"
+}

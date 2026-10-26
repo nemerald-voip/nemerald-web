@@ -1,0 +1,228 @@
+{
+  "source": {
+    "id": "ul52pe9cejm5vodlxm05zg0o",
+    "slug": "ios-create-a-group-chat",
+    "title": "Starting a Group chat",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To create a new group chat:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_plus_75754473ce.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the top right corner of the screen."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Group",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ menu item from the pop-up menu to create a new group chat."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enter the name of the group chat you would like to create."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select participants for this group chat from the list and press ‘"
+              },
+              {
+                "type": "text",
+                "text": "Done",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_new_group_chat_cd88268008.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "After you’ve created a group chat you can select who, aside from you, will be this group’s Admin and will have the right to add or remove participants to this group."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To edit the list of group administrators:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press on the small arrow icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_arrow_down_2d21da8dc1.png}}"
+              },
+              {
+                "type": "text",
+                "text": "at the right side of the group name to open the group settings screen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_group_chat_top_64aba3f388.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on an"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_star_cd9dbb4e7e.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to add/remove admin rights to a participant."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_group_settings_e6b8b1ee1d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-chats"
+    ],
+    "related": [
+      {
+        "slug": "ios-sending-messages-and-media",
+        "title": "Sending messages and media"
+      },
+      {
+        "slug": "ios-working-with-messages",
+        "title": "Working with messages"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Starting a Group chat\"\nslug: \"/apps/ios-create-a-group-chat--ul52pe9cejm5vodlxm05zg0o\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-chats\"]\n---\n\nTo create a new group chat:\n\n1. Press on the![App icon](/img/ringotel/original/c4c15a8e5eb3ee1b8b03/fa3a72562096b836374e36cd269b0df33a7f0e2f9e4e5848d2541289d92ba5fc.png)icon at the top right corner of the screen.\n2. Select the ‘**Group**’ menu item from the pop-up menu to create a new group chat.\n3. Enter the name of the group chat you would like to create.\n4. Select participants for this group chat from the list and press ‘**Done**’.\n\n![](/img/ringotel/original/287b952907f15ca9835b/580cbbefbda2aa20b10d0bd9a3d1a2fc5412ca0efefb8ed557f2c1c98627acdf.png)\n\nAfter you’ve created a group chat you can select who, aside from you, will be this group’s Admin and will have the right to add or remove participants to this group.\n\nTo edit the list of group administrators:\n\n1. Press on the small arrow icon![App icon](/img/ringotel/original/99a040b364b64bc047f6/73926646f483fdfa01242c12ed54a4f36235787401fdea276be2a83104b5104c.png)at the right side of the group name to open the group settings screen.\n\n![](/img/ringotel/original/a32027fcbea717cb02ae/74c63fab38c3dcd5ceacf6cc8deb6943b2bb02d99522a32405f0a916f146aa1a.png)\n\n1. Tap on an![App icon](/img/ringotel/original/951f8921641e73df54cf/3328ec950f8bcc36ebdc8c5a8e95ae006a6d2d5fe9cdf998e50551f85fdad1d5.png)icon to add/remove admin rights to a participant.\n\n![](/img/ringotel/original/91de9135f7b88eb908b6/66cc1686438be65939487b5f437c1d106fa3905ae357ef88ed7afc0e0ef920d3.png)\n\n## Related articles\n\n- [Sending messages and media](/docs/apps/ios-sending-messages-and-media--i8makyr075gev6h6elawa5hf)\n- [Working with messages](/docs/apps/ios-working-with-messages--yqzv2my3j9djxgl88ampgrm9)\n"
+}

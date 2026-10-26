@@ -1,0 +1,197 @@
+{
+  "source": {
+    "id": "r6rizuxce9ze29hbwv9o8yr9",
+    "slug": "android-app-settings",
+    "title": "App Settings",
+    "body": [
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_settings_355a04dafa.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In the App Settings, you can set Call Forwarding, Voicemail, and other features according to your needs."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To open the App Settings, switch to the "
+          },
+          {
+            "type": "text",
+            "text": "Menu tab ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "and select the "
+          },
+          {
+            "type": "text",
+            "text": "Settings ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "menu item."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Here you can set the following options:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Autoload photos/images.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "This feature lets the app preload all the images in your personal and group chats."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Make or receive calls with Android Auto.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Enabling this feature will allow you to make and receive calls while in a car using Android Auto."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Ringtone.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Here you can set the ringtone for all calls coming to the Ringotel app."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Open web pages in an external browser. When enabled, all custom web pages ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "that a user has in the menu tab will be opened in an external browser instead of the in-app one."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The call ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "settings menu is where you can set up Call forwarding and your personal Voicemail."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Report an issue",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ". While we are trying our best to make the perfect app, there may be times when you will encounter an issue or a ‘bug’. For those times, please use this feature and send us information about the issue you’ve experienced. Our support team will do our absolute best to find the resolution as soon as possible."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Version.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Here is where you can find the version of the app you are using right now."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "settings",
+      "setup"
+    ],
+    "related": [
+      {
+        "slug": "android-call-settings",
+        "title": "Call Settings"
+      },
+      {
+        "slug": "android-dnd-settings",
+        "title": "Do not disturb (DND) settings"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"App Settings\"\nslug: \"/apps/android-app-settings--r6rizuxce9ze29hbwv9o8yr9\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"settings\",\"setup\"]\n---\n\n![](/img/ringotel/original/f7439a4ec3f63890d079/7c38b1655af756b1b1d18e14869b21d2eb54548361907c5277808ae7cb82d2ef.png)\n\nIn the App Settings, you can set Call Forwarding, Voicemail, and other features according to your needs.\n\nTo open the App Settings, switch to the **Menu tab&#x20;**&#x61;nd select the **Settings&#x20;**&#x6D;enu item.\n\nHere you can set the following options:\n\n**Autoload photos/images.**&#x54;his feature lets the app preload all the images in your personal and group chats.\n\n**Make or receive calls with Android Auto.**&#x45;nabling this feature will allow you to make and receive calls while in a car using Android Auto.\n\n**Ringtone.**&#x48;ere you can set the ringtone for all calls coming to the Nemerald app.\n\n**Open web pages in an external browser. When enabled, all custom web pages&#x20;**&#x74;hat a user has in the menu tab will be opened in an external browser instead of the in-app one.\n\n**The call&#x20;**&#x73;ettings menu is where you can set up Call forwarding and your personal Voicemail.\n\n**Report an issue**. While we are trying our best to make the perfect app, there may be times when you will encounter an issue or a ‘bug’. For those times, please use this feature and send us information about the issue you’ve experienced. Our support team will do our absolute best to find the resolution as soon as possible.\n\n**Version.**&#x48;ere is where you can find the version of the app you are using right now.\n\n## Related articles\n\n- [Call Settings](/docs/apps/android-call-settings--nnzhvklnaayrh61sd4o54ewl)\n- [Do not disturb (DND) settings](/docs/apps/android-dnd-settings--mj1cxlu60naeh72jnxikyl64)\n"
+}

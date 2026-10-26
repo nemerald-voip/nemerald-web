@@ -1,0 +1,258 @@
+{
+  "source": {
+    "id": "nnzhvklnaayrh61sd4o54ewl",
+    "slug": "android-call-settings",
+    "title": "Call Settings",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-call-settings/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-call-settings/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "For various cases when you can’t pick up the call in the app, you can set the following Call Forwarding rules. Those rules will help automatically forward calls to the external phone numbers you specify."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward all calls.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "This feature will forward all your incoming calls to a phone number specified in the ‘"
+          },
+          {
+            "type": "text",
+            "text": "forward to",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ field below."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward when offline ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "will forward your calls to a specified phone number only in case the app will lose a connection with your server"
+          },
+          {
+            "type": "text",
+            "text": ".",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward when busy.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "This rule will only apply during the time when you have an active call."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Forward when no answer.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "You can turn this feature on if you want to forward calls you do not answer during the time set in the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Waiting time",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ parameter below."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A "
+          },
+          {
+            "type": "text",
+            "text": "Voice mail ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "checkbox turns your voicemail feature on/off. To record or change your voicemail greeting, tap on the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Prompt",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ link."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Check the ‘"
+          },
+          {
+            "type": "text",
+            "text": "Recording’ ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "feature to enable total call recording for all your calls. *"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The call waiting ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "feature allows the user to suspend an existing phone call to answer a second call. This feature is required for putting a call on hold, transferring a call, and creating a conference call."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_call_settings_f884f1f1e6.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "settings"
+    ],
+    "related": [
+      {
+        "slug": "android-dnd-settings",
+        "title": "Do not disturb (DND) settings"
+      },
+      {
+        "slug": "android-incoming-calls",
+        "title": "Working with incoming calls"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Call Settings\"\nslug: \"/apps/android-call-settings--nnzhvklnaayrh61sd4o54ewl\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"settings\"]\n---\n\n*Looking for an&#x20;*[PC/Mac](/docs/apps/desktop-call-settings--w8x57mdttk6m2ucvcxpao23m) *or&#x20;*[iOS](/docs/apps/ios-call-settings--e17r8k0ifbuhd4pwldlm7xhc) *version of this article?*\n\nFor various cases when you can’t pick up the call in the app, you can set the following Call Forwarding rules. Those rules will help automatically forward calls to the external phone numbers you specify.\n\n**Forward all calls.**&#x54;his feature will forward all your incoming calls to a phone number specified in the ‘**forward to**’ field below.\n\n**Forward when offline&#x20;**&#x77;ill forward your calls to a specified phone number only in case the app will lose a connection with your serve&#x72;**.**\n\n**Forward when busy.**&#x54;his rule will only apply during the time when you have an active call.\n\n**Forward when no answer.**&#x59;ou can turn this feature on if you want to forward calls you do not answer during the time set in the ‘**Waiting time**’ parameter below.\n\nA **Voice mail&#x20;**&#x63;heckbox turns your voicemail feature on/off. To record or change your voicemail greeting, tap on the ‘**Prompt**’ link.\n\nCheck the ‘**Recording’&#x20;**&#x66;eature to enable total call recording for all your calls. \\*\n\n**The call waiting&#x20;**&#x66;eature allows the user to suspend an existing phone call to answer a second call. This feature is required for putting a call on hold, transferring a call, and creating a conference call.\n\n![](/img/ringotel/original/6d20cd8619227060b8c2/0cde954dc961ba85062934ca26c25d715c96a323b8ffcaac42d22aed81d601ea.png)\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n\n## Related articles\n\n- [Do not disturb (DND) settings](/docs/apps/android-dnd-settings--mj1cxlu60naeh72jnxikyl64)\n- [Working with incoming calls](/docs/apps/android-incoming-calls--ujjxhzvdl5jc1ebe695kxuzi)\n"
+}

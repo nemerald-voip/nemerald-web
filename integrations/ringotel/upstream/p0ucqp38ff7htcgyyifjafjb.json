@@ -1,0 +1,213 @@
+{
+  "source": {
+    "id": "p0ucqp38ff7htcgyyifjafjb",
+    "slug": "desktop-speed-dial",
+    "title": "Speed Dial overview",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Speed dial list can contain phone numbers for a one-click call and indicators showing states of various features of your phone system."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_tab_speeddial_114135b3f1.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can add any contact or a phone number to your speed dial list. To do so:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the plus button"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_plus_ff73086900.png}}"
+              },
+              {
+                "type": "text",
+                "text": "at the right side of the tab name."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose the "
+              },
+              {
+                "type": "text",
+                "text": "Speed dial list ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from a drop-down menu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_create_menu_speeddial_0a96e42fa2.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In an "
+              },
+              {
+                "type": "text",
+                "text": "Add Number window ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "select which contact or user you would like to add to the list by clicking on it."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_craete_speeddial_1_30b1a23a49.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enter a new phone number in the search field and click on the "
+              },
+              {
+                "type": "text",
+                "text": "New number ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "item below to add it to the speed dial."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_craete_speeddial_2_84cf6bcd64.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "setup",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Speed Dial overview\"\nslug: \"/apps/desktop-speed-dial--p0ucqp38ff7htcgyyifjafjb\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"setup\",\"working-with-calls\"]\n---\n\nSpeed dial list can contain phone numbers for a one-click call and indicators showing states of various features of your phone system.\n\n![](/img/ringotel/original/8d49a97d15e2a783d314/810b47f39cbb32e8c5688cb0d8baccbf7bf1a649ab8ea2a44d9780ea581f40d9.png)\n\nYou can add any contact or a phone number to your speed dial list. To do so:\n\n1. Click on the plus button![App icon](/img/ringotel/original/cc1a7dcd36a2aa8941be/732f38ce89390294a03c02465fd0e412e5db687c082496a41277c5dcd6738c66.png)at the right side of the tab name.\n2. Choose the **Speed dial list&#x20;**&#x66;rom a drop-down menu.\n\n![](/img/ringotel/original/e728c2e4be771e2d85e2/413da951140d6e1e30b2a90789639596fc73de2696e0cd9ad1d2ca29e51ca914.png)\n\n1. In an **Add Number window&#x20;**&#x73;elect which contact or user you would like to add to the list by clicking on it.\n\n![](/img/ringotel/original/d6b9e56b47aff6912c0d/105552b1d2ee6ec5c2137fd28a10094adfdd4f120a36c7588b62300d02ba3f50.png)\n\n**OR**\n\n1. Enter a new phone number in the search field and click on the **New number&#x20;**&#x69;tem below to add it to the speed dial.\n\n![](/img/ringotel/original/dfcc22ec22709f455016/f43f2e9085e13e322014e199e192a9434d1eb903bdeae16fcb3c7d214371588d.png)\n"
+}

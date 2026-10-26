@@ -1,0 +1,212 @@
+{
+  "source": {
+    "id": "dyme8igul5ou82hhztgphpg1",
+    "slug": "ios-incoming-calls",
+    "title": "Working with incoming calls",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Upon receiving an incoming call, on your mobile device, you will see the following screen:"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_incoming_call_8d6d59d78c.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Drop a call"
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Answer an incoming call"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "During a call, you have access to the following features:"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_screen_description_2a1f774e6f.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open Contact’s Profile."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Put the call on hold."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Make a parallel call."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Mute / unmute microphone."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Turn the video on / off."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Turn call recording on / off."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the numpad to send DTMF."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Transfer a call."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Turn the speaker on / off."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open a chat with a caller."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "ios-switching-between-lines",
+        "title": "Switching between two lines during a call"
+      },
+      {
+        "slug": "ios-transfer-a-call",
+        "title": "Transfer a call"
+      },
+      {
+        "slug": "ios-working-with-contacts",
+        "title": "Working with contacts"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Working with incoming calls\"\nslug: \"/apps/ios-incoming-calls--dyme8igul5ou82hhztgphpg1\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-calls\"]\n---\n\nUpon receiving an incoming call, on your mobile device, you will see the following screen:\n\n![](/img/ringotel/original/c70c9c2a959cfcfd63df/f2b59b71a3ad200c279653aab12f73ecb279c8b0e7da57351f77aa3cef2186f1.png)\n\n1. Drop a call\n2. Answer an incoming call\n\nDuring a call, you have access to the following features:\n\n![](/img/ringotel/original/8001350515bfb43c6ac1/370456b7f81981498cab84f2910539b684327d1d440bc7b757a49cc62365b9aa.png)\n\n1. Open Contact’s Profile.\n2. Put the call on hold.\n3. Make a parallel call.\n4. Mute / unmute microphone.\n5. Turn the video on / off.\n6. Turn call recording on / off.\n7. Open the numpad to send DTMF.\n8. Transfer a call.\n9. Turn the speaker on / off.\n10. Open a chat with a caller.\n\n## Related articles\n\n- [Switching between two lines during a call](/docs/apps/ios-switching-between-lines--gley2co2423x5no1xjnoapcj)\n- [Transfer a call](/docs/apps/ios-transfer-a-call--fi98bkz81m665tyvhwu8p13p)\n- [Working with contacts](/docs/apps/ios-working-with-contacts--fkd2qyccst8qw7mnpdkeyppp)\n"
+}

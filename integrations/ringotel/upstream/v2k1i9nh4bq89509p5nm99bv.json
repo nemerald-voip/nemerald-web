@@ -1,0 +1,201 @@
+{
+  "source": {
+    "id": "v2k1i9nh4bq89509p5nm99bv",
+    "slug": "desktop-call-history",
+    "title": "Viewing call history",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can view the history of all your incoming and outgoing calls through the "
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-user-interface/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Calls tab"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click on the arrow icon"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_arrow_down_d21a8e1605.png}}"
+          },
+          {
+            "type": "text",
+            "text": "to switch between displaying all calls and only missed ones."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_tab_calls_538a7bec1d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Delete call history"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To remove a call from history right-click on the call entry and select Delete call from the drop-down menu."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_call_dropdown_menu_1917459781.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To remove multiple calls from your call history at once:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Right-click on any call record."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on Select multiple from the drop-down menu."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select the records you would like to delete. You can click on a specific date to select all entries from that date."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on "
+              },
+              {
+                "type": "text",
+                "text": "Delete ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "to remove entries."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_delete_multiple_calls_0f3b273bbb.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Viewing call history\"\nslug: \"/apps/desktop-call-history--v2k1i9nh4bq89509p5nm99bv\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-calls\"]\n---\n\nYou can view the history of all your incoming and outgoing calls through the [Calls tab](/docs/apps/desktop-user-interface--ophgjz3guikdjfl0oga2h6t5) .\n\nClick on the arrow icon![App icon](/img/ringotel/original/13fb944daf95b1f8924c/15361f8bd8cf1dda4fa9fcda1c9823b1cd068acd88d2a6883d4c8dd15fcb6083.png)to switch between displaying all calls and only missed ones.\n\n![](/img/ringotel/original/3afd92dbaf164d2df150/ed2527c1f56ad13346d62617cf12a7ea657fac3e7219b274f47da27cf7bc4fd3.png)\n\n## Delete call history\n\nTo remove a call from history right-click on the call entry and select Delete call from the drop-down menu.\n\n![](/img/ringotel/original/542e380a2c595984342a/addbcc12bc191a9e2d147b33cdfc11e68cc95ff441606e41111e55391e49021d.png)\n\nTo remove multiple calls from your call history at once:\n\n1. Right-click on any call record.\n2. Click on Select multiple from the drop-down menu.\n3. Select the records you would like to delete. You can click on a specific date to select all entries from that date.\n4. Click on **Delete&#x20;**&#x74;o remove entries.\n\n![](/img/ringotel/original/b32c14656231d9b8da42/f164f53a23f2bb16f605b4c6fedeba4e650130840a7c6e11fa21f5409b86798a.png)\n"
+}

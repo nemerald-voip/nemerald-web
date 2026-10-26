@@ -1,0 +1,707 @@
+{
+  "source": {
+    "id": "mj1cxlu60naeh72jnxikyl64",
+    "slug": "android-dnd-settings",
+    "title": "Do not disturb (DND) settings",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "If you are experiencing issues with app notifications while in Do Not Disturb (DND) mode, follow these steps to configure your device for optimal notification delivery. Note that in silent mode, there is no ringtone or vibration for incoming calls or notifications."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "children": [
+          {
+            "type": "text",
+            "text": "For Android 10"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "By default calls and notifications trigger vibration, if it’s activated on the phone. While in the app:"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "children": [
+          {
+            "type": "text",
+            "text": "1. For calls to come through:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to "
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Calls",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Ringtone in DND mode",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enable the switch with your "
+              },
+              {
+                "type": "text",
+                "text": "mobile App icon",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_app_icon_e5727b9884.png}}."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "children": [
+          {
+            "type": "text",
+            "text": "2. For notifications to come through:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to "
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Calls",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Call notification settings ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "and enable "
+              },
+              {
+                "type": "text",
+                "text": "Allow interruptions",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "children": [
+          {
+            "type": "text",
+            "text": "For Android 13 and 14"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "While in the mobile app:"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "children": [
+          {
+            "type": "text",
+            "text": "1. For vibration:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to "
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Call notification settings",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enable "
+              },
+              {
+                "type": "text",
+                "text": "Vibrate",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "children": [
+          {
+            "type": "text",
+            "text": "2. For calls to come through:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to "
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Calls",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Do not disturb ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "and tap "
+              },
+              {
+                "type": "text",
+                "text": "Ringtone in DND mode",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enable the switch with your "
+              },
+              {
+                "type": "text",
+                "text": "mobile App icon",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_app_icon_e5727b9884.png}}."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "children": [
+          {
+            "type": "text",
+            "text": "3. For notifications to come through:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to "
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Calls",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Do not disturb ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "and tap "
+              },
+              {
+                "type": "text",
+                "text": "Call notification settings.",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In "
+              },
+              {
+                "type": "text",
+                "text": "App notifications ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "add "
+              },
+              {
+                "type": "text",
+                "text": "this mobile app",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "children": [
+          {
+            "type": "text",
+            "text": "For Android 15"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "children": [
+          {
+            "type": "text",
+            "text": "1. For calls to come through:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to "
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Calls",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Ringtone in DND mode",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enable the switch with your "
+              },
+              {
+                "type": "text",
+                "text": "mobile App icon",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_app_icon_e5727b9884.png}}."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 4,
+        "children": [
+          {
+            "type": "text",
+            "text": "2. For notifications to come through:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to "
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Calls",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on "
+              },
+              {
+                "type": "text",
+                "text": "Call notification settings ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "and enable "
+              },
+              {
+                "type": "text",
+                "text": "Override Do Not Disturb",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enable "
+              },
+              {
+                "type": "text",
+                "text": "Vibration.",
+                "bold": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [],
+    "related": [
+      {
+        "slug": "android-call-settings",
+        "title": "Call Settings"
+      },
+      {
+        "slug": "android-incoming-calls",
+        "title": "Working with incoming calls"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Do not disturb (DND) settings\"\nslug: \"/apps/android-dnd-settings--mj1cxlu60naeh72jnxikyl64\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\"]\n---\n\nIf you are experiencing issues with app notifications while in Do Not Disturb (DND) mode, follow these steps to configure your device for optimal notification delivery. Note that in silent mode, there is no ringtone or vibration for incoming calls or notifications.\n\n### For Android 10\n\nBy default calls and notifications trigger vibration, if it’s activated on the phone. While in the app:\n\n#### 1. For calls to come through:\n\n- Navigate to **Menu**.\n- Tap on **Calls**.\n- Tap on **Ringtone in DND mode**.\n- Enable the switch with your **mobile App icon**![App icon](/img/ringotel/original/8f68f5dc25cb60a89123/304bad76481db3656455f4afae23ce35de2946d4030403ac0b2eef8dcd67f6a1.png).\n\n#### 2. For notifications to come through:\n\n- Navigate to **Menu**.\n- Tap on **Calls**.\n- Tap on **Call notification settings&#x20;**&#x61;nd enable **Allow interruptions**.\n\n### For Android 13 and 14\n\nWhile in the mobile app:\n\n#### 1. For vibration:\n\n- Navigate to **Menu**.\n- Tap on **Call notification settings**.\n- Enable **Vibrate**.\n\n#### 2. For calls to come through:\n\n- Navigate to **Menu**.\n- Tap on **Calls**.\n- Tap on **Do not disturb&#x20;**&#x61;nd tap **Ringtone in DND mode**.\n- Enable the switch with your **mobile App icon**![App icon](/img/ringotel/original/8f68f5dc25cb60a89123/304bad76481db3656455f4afae23ce35de2946d4030403ac0b2eef8dcd67f6a1.png).\n\n#### 3. For notifications to come through:\n\n- Navigate to **Menu**.\n- Tap on **Calls**.\n- Tap on **Do not disturb&#x20;**&#x61;nd tap **Call notification settings.**\n- In **App notifications&#x20;**&#x61;dd **this mobile app**.\n\n### For Android 15\n\n#### 1. For calls to come through:\n\n- Navigate to **Menu**.\n- Tap on **Calls**.\n- Tap on **Ringtone in DND mode**.\n- Enable the switch with your **mobile App icon**![App icon](/img/ringotel/original/8f68f5dc25cb60a89123/304bad76481db3656455f4afae23ce35de2946d4030403ac0b2eef8dcd67f6a1.png).\n\n#### 2. For notifications to come through:\n\n- Navigate to **Menu**.\n- Tap on **Calls**.\n- Tap on **Call notification settings&#x20;**&#x61;nd enable **Override Do Not Disturb**.\n- Enable **Vibration.**\n\n## Related articles\n\n- [Call Settings](/docs/apps/android-call-settings--nnzhvklnaayrh61sd4o54ewl)\n- [Working with incoming calls](/docs/apps/android-incoming-calls--ujjxhzvdl5jc1ebe695kxuzi)\n"
+}

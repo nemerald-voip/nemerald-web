@@ -1,0 +1,258 @@
+{
+  "source": {
+    "id": "revxed1mtc961qnyoj91m8rz",
+    "slug": "android-add-participant",
+    "title": "Add a participant to a conference",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-conference-calls/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-add-to-conference/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To add a participant to a call:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap the ‘More’ icon during an ongoing call to switch to the additional features set."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Add call",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_icon_call_add_f5d662e492.png}}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_call_more_e55f3cde18.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose а contact that you’d like to add to a call from the list."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_add_participants_c18cfeb47f.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "i. Tap the ‘Numpad’ icon to manually dial a phone number.",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After you’ve connected with a new participant, press the ‘Merge’ button to add this participant to a conference."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_call_secondline_merge_8404626ac0.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "i. Press the ‘Merge’ button to merge both lines into a conference.",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can repeat all the above steps to add more people to a conference call."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "android-making-outgoing-calls",
+        "title": "Making outgoing calls"
+      },
+      {
+        "slug": "android-switching-lines",
+        "title": "Switching between two lines during a call"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Add a participant to a conference\"\nslug: \"/apps/android-add-participant--revxed1mtc961qnyoj91m8rz\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"working-with-calls\"]\n---\n\n*Looking for an&#x20;*[PC/Mac](/docs/apps/desktop-conference-calls--vaqva2dc377xnjga0me78u8p) *or&#x20;*[iOS](/docs/apps/ios-add-to-conference--pjkfi0mfezoimgar5qa4fzg0) *version of this article?*\n\nTo add a participant to a call:\n\n1. Tap the ‘More’ icon during an ongoing call to switch to the additional features set.\n2. Press the ‘**Add call**’ icon![App icon](/img/ringotel/original/94a5a1b6db1e872deea2/93d909b9212bdbc8a387fc18e028ff5327484508960a309c0347ba8df9d908dc.png)\n\n![](/img/ringotel/original/3466f4d4d402f6414df0/5da6a9cb8100072b0ff7a4c5be44877f045e58d627cebf5cd9f3c48f6acc682c.png)\n\n1. Choose а contact that you’d like to add to a call from the list.\n\n![](/img/ringotel/original/70b14d4f6f28b8ea0d94/e8a9d349f3659cad2ded7354fbcd686b12f38199baeec9f3c20f228ccb502a7d.png)\n\n*i. Tap the ‘Numpad’ icon to manually dial a phone number.*\n\n1. After you’ve connected with a new participant, press the ‘Merge’ button to add this participant to a conference.\n\n![](/img/ringotel/original/14582d4ec900002dc81f/e4adcbd3b18d9c3504d03eda710b5f2e34747c8e361fb7a358177bb34998293d.png)\n\n*i. Press the ‘Merge’ button to merge both lines into a conference.*\n\nYou can repeat all the above steps to add more people to a conference call.\n\n\n\n\n\n## Related articles\n\n- [Making outgoing calls](/docs/apps/android-making-outgoing-calls--c4n9cbuhjtif2ymq8chdz387)\n- [Switching between two lines during a call](/docs/apps/android-switching-lines--c8e4jfo3wvtby5vkotervkh3)\n"
+}
