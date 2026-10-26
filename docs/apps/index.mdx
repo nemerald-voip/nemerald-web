@@ -5,9 +5,16 @@ sidebar_position: 1
 ---
 
 import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarSiblings, useDoc} from '@docusaurus/plugin-content-docs/client';
+
+export function AppGuideCards() {
+  const items = useCurrentSidebarSiblings();
+  const {metadata} = useDoc();
+  return <DocCardList items={items.filter(item => item.href !== metadata.permalink)} />;
+}
 
 Help with the Nemerald calling and messaging apps for desktop, Android, and iOS.
 
-<DocCardList />
+<AppGuideCards />
 
 Need help getting started or troubleshooting your app? [Contact our support team](/contacts) or call [+1 (310) 929-2680](tel:+13109292680).
