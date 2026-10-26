@@ -107,6 +107,12 @@ conflicts and `keep-local` preserves the deletion.
 
 ## Branded screenshots
 
+AI assistants must follow the image-replacement procedure in
+[the repository instructions](../../AGENTS.md#replacing-images-in-imported-app-articles).
+You can request, for example: "Replace the calling screenshot in ARTICLE_TITLE
+with this Nemerald image." The assistant should resolve the tracked image slot,
+save the asset, update its mapping and Markdown link, and validate the result.
+
 Originals are immutable under `static/img/ringotel/original/`. Never edit them:
 old originals may still be referenced by customized pages.
 
@@ -214,6 +220,29 @@ For very large imports the PR body has GitHub's size limit; the importer fails
 before opening a PR if the complete summary cannot fit.
 
 ## Commands and validation
+
+### GitHub returns 403 when opening the pull request
+
+If fetching and building succeed but PR creation returns 403, inspect the
+GitHub error message. The workflow already requests `contents: write` and
+`pull-requests: write`. GitHub also controls whether Actions can create PRs
+through a separate repository setting.
+
+Open [the repository's Actions settings](https://github.com/nemerald-voip/nemerald-web/settings/actions).
+Under **Workflow permissions**, enable **Allow GitHub Actions to create and
+approve pull requests** and save. If that option is locked, an organization
+or enterprise administrator must allow it. The importer itself only creates
+review PRs; it contains no approval or merge step.
+See [GitHub's setting documentation](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#preventing-github-actions-from-creating-or-approving-pull-requests).
+
+A PR creation failure can leave the successfully built import on an
+`automation/ringotel-*` branch. Preserve that branch and its report when
+recovering a PR, including the rejection manifest produced by
+`pullRequestBody(report)`. After correcting the setting, run the workflow again
+if there is no recovered open import PR; otherwise the workflow correctly defers
+until review is complete.
+
+### Local commands
 
 ```sh
 npm ci

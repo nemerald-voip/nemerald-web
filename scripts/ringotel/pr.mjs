@@ -66,7 +66,20 @@ export async function githubRequest(endpoint, token, options = {}) {
       ...options.headers,
     },
   });
-  assert(response.ok, 'GitHub API request failed: ' + response.status + ' ' + endpoint);
+  if (!response.ok) {
+    const details = await response.json().catch(() => null);
+    const message = typeof details?.message === 'string'
+      ? ': ' + details.message.replace(/[\r\n]+/g, ' ').slice(0, 1000) : '';
+    const method = (options.method || 'GET').toUpperCase();
+    let hint = '';
+    const repository = endpoint.match(/^\/repos\/([^/]+\/[^/]+)\/pulls$/)?.[1];
+    if (response.status === 403 && method === 'POST' && repository) {
+      hint = '\nCheck https://github.com/' + repository + '/settings/actions under Workflow permissions: ' +
+        'Allow GitHub Actions to create and approve pull requests. An organization policy can restrict this setting. ' +
+        'The workflow already requests pull-requests: write; repository policy must allow creation too.';
+    }
+    throw new Error('GitHub API request failed: ' + response.status + ' ' + method + ' ' + endpoint + message + hint);
+  }
   return response.json();
 }
 
