@@ -1,0 +1,58 @@
+name: Propose app documentation updates
+
+on:
+  schedule:
+    # 11:00 PM PST (UTC-8); midnight PDT during daylight saving time.
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ringotel-documentation-import
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Check permission and preserve open review branches
+        id: history
+        run: node scripts/ringotel/cli.mjs history
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Test import behavior
+        if: steps.history.outputs.proceed == 'true'
+        run: npm run ringotel:test
+      - name: Fetch public articles and propose changes
+        id: import
+        if: steps.history.outputs.proceed == 'true'
+        run: npm run ringotel:import
+      - name: Build proposed documentation
+        if: steps.import.outputs.changed == 'true'
+        run: npm run build
+      - name: Open review pull request
+        if: steps.import.outputs.changed == 'true'
+        run: node scripts/ringotel/cli.mjs publish-pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RINGOTEL_BASE_BRANCH: main
+      - name: Retain import report
+        if: always() && steps.import.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: ringotel-import-report
+          path: .ringotel-run/
+          include-hidden-files: true
+          retention-days: 30

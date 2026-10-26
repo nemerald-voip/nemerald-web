@@ -21,6 +21,7 @@ export default function Footer() {
     { name: 'Why Nemerald', href: '/why-nemerald' },
     { name: 'Contacts', href: '/contacts' },
     { name: 'Tutorials', href: '/tutorials' },
+    { name: 'Nemerald Apps Help', href: '/docs/apps' },
     { name: 'Blog', href: '/blog' },
   ];
 

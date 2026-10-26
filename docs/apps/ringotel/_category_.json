@@ -1,0 +1,9 @@
+{
+  "label": "App guides",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Nemerald app guides",
+    "description": "Guides for the Nemerald desktop, Android, and iOS apps."
+  }
+}

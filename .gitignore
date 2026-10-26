@@ -18,3 +18,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Transient importer summaries / GitHub PR history (never upstream baselines)
+/.ringotel-run/

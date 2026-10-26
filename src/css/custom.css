@@ -63,6 +63,42 @@ footer.footer {
   display: none !important;
 }
 
+.apps-docs-menu {
+  margin: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.5rem;
+}
+
+.apps-docs-menu summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.apps-docs-menu nav {
+  margin-top: 1rem;
+}
+
+.apps-docs-menu li {
+  margin-block: 0.5rem;
+}
+
+.docs-doc-page {
+  --ifm-navbar-height: 70px;
+}
+
+@media (min-width: 997px) {
+  .apps-docs-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .docs-doc-page {
+    --ifm-navbar-height: 130px;
+  }
+}
+
 /* Retain the brand orange, with readable text on themed orange surfaces. */
 .hero--primary {
   --ifm-hero-text-color: #111827;

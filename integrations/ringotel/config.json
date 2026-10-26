@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "reusePermissionConfirmed": true,
+  "source": {
+    "siteUrl": "https://kb.ringotel.com",
+    "apiUrl": "https://new-kb.ringotel.com",
+    "publicAssetBase": "https://knowledge-base-web.s3.amazonaws.com/kb.ringotel.com/assets/",
+    "articleHosts": ["kb.ringotel.com", "kb.ringotel.net"],
+    "imageHosts": ["new-kb.ringotel.com", "kb.ringotel.com", "knowledge-base-web.s3.amazonaws.com"],
+    "allowedAudiences": ["all"],
+    "allowedPlatforms": ["desktop-app", "android-app", "ios-app"],
+    "pageSize": 50,
+    "maxArticles": 2000,
+    "maxImageBytes": 20971520
+  },
+  "branding": {
+    "substitutions": [{"from": "Ringotel", "to": "Nemerald"}],
+    "images": {}
+  },
+  "excludedArticleIds": [],
+  "rejectedVersions": {},
+  "paths": {
+    "docs": "docs/apps/ringotel",
+    "state": "integrations/ringotel/state.json",
+    "snapshots": "integrations/ringotel/upstream",
+    "conflicts": "integrations/ringotel/conflicts",
+    "originalImages": "static/img/ringotel/original",
+    "brandedImages": "static/img/ringotel/branded"
+  }
+}
