@@ -20,6 +20,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
+      - run: node --test scripts/google-ads.test.mjs
       - run: npm run ringotel:test
       - run: npm run ringotel:check
       - run: npm run ringotel:smoke

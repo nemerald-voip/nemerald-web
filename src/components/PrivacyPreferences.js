@@ -1,11 +1,12 @@
 import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
 import Link from '@docusaurus/Link';
 import { useLocation } from '@docusaurus/router';
+import { updateGoogleAdsConsent } from '@site/src/utils/googleAds';
 import styles from './PrivacyPreferences.module.css';
 
 // Bump the version when purposes or vendors change; an old choice must not grant new permissions.
 const STORAGE_KEY = 'nemerald-privacy-preferences';
-const VERSION = 1;
+const VERSION = 2;
 const LIFETIME = 365 * 24 * 60 * 60 * 1000;
 const PrivacyContext = createContext(null);
 
@@ -13,6 +14,7 @@ function readChoice() {
     try {
         const choice = JSON.parse(window.localStorage.getItem(STORAGE_KEY));
         if (choice?.version === VERSION && typeof choice.optionalMedia === 'boolean'
+            && typeof choice.adMeasurement === 'boolean'
             && Number.isFinite(choice.savedAt) && choice.savedAt <= Date.now()
             && Date.now() - choice.savedAt < LIFETIME) return choice;
     } catch { /* Unavailable or invalid storage leaves optional content off. */ }
@@ -30,6 +32,7 @@ export default function PrivacyPreferences({ children }) {
     const [storageFailed, setStorageFailed] = useState(false);
     const [settingsOpen, setSettingsOpen] = useState(false);
     const [draftMedia, setDraftMedia] = useState(false);
+    const [draftAds, setDraftAds] = useState(false);
     const [status, setStatus] = useState('');
     const dialog = useRef(null);
     const banner = useRef(null);
@@ -38,9 +41,15 @@ export default function PrivacyPreferences({ children }) {
     const useMemoryChoice = useRef(false);
     const location = useLocation();
 
-    const saveChoice = useCallback((optionalMedia) => {
+    const saveChoice = useCallback((optionalMedia, adMeasurement = false) => {
         const signal = navigator.globalPrivacyControl === true;
-        const next = { version: VERSION, optionalMedia: optionalMedia && !signal, savedAt: Date.now() };
+        const next = {
+            version: VERSION,
+            optionalMedia: optionalMedia && !signal,
+            adMeasurement: adMeasurement && !signal,
+            savedAt: Date.now(),
+        };
+        updateGoogleAdsConsent(next.adMeasurement);
         memoryChoice.current = next;
         let saved = true;
         try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next)); }
@@ -72,9 +81,10 @@ export default function PrivacyPreferences({ children }) {
                 catch { next = memoryChoice.current; }
             }
             if (next && Date.now() - next.savedAt >= LIFETIME) next = null;
-            if (signal && (!next || next.optionalMedia)) {
+            if (signal && (!next || next.optionalMedia || next.adMeasurement)) {
                 saveChoice(false);
             } else {
+                updateGoogleAdsConsent(next?.adMeasurement === true && !signal);
                 memoryChoice.current = next;
                 setChoice(next);
                 setGpc(signal);
@@ -98,6 +108,7 @@ export default function PrivacyPreferences({ children }) {
         let timeout;
         function checkExpiry() {
             if (Date.now() - choice.savedAt >= LIFETIME) {
+                updateGoogleAdsConsent(false);
                 memoryChoice.current = null;
                 setChoice(null);
             } else {
@@ -109,14 +120,16 @@ export default function PrivacyPreferences({ children }) {
     }, [choice]);
 
     const optionalMediaAllowed = ready && !gpc && choice?.optionalMedia === true;
+    const adMeasurementAllowed = ready && !gpc && choice?.adMeasurement === true;
     const showBanner = ready && !choice && !gpc;
 
     function openSettings() {
         returnFocus.current = document.activeElement;
         const signal = navigator.globalPrivacyControl === true;
         setGpc(signal);
-        if (signal && choice?.optionalMedia) saveChoice(false);
+        if (signal && (choice?.optionalMedia || choice?.adMeasurement)) saveChoice(false);
         setDraftMedia(optionalMediaAllowed && !signal);
+        setDraftAds(adMeasurementAllowed && !signal);
         setSettingsOpen(true);
     }
 
@@ -131,8 +144,8 @@ export default function PrivacyPreferences({ children }) {
         });
     }
 
-    function commit(optionalMedia) {
-        saveChoice(optionalMedia);
+    function commit(optionalMedia, adMeasurement = false) {
+        saveChoice(optionalMedia, adMeasurement);
         if (settingsOpen) closeSettings();
     }
 
@@ -151,7 +164,10 @@ export default function PrivacyPreferences({ children }) {
     }
 
     useEffect(() => {
-        if (gpc) setDraftMedia(false);
+        if (gpc) {
+            setDraftMedia(false);
+            setDraftAds(false);
+        }
     }, [gpc]);
 
     useEffect(() => {
@@ -186,7 +202,7 @@ export default function PrivacyPreferences({ children }) {
     }, [showBanner]);
 
     return (
-        <PrivacyContext.Provider value={{ ready, gpc, optionalMediaAllowed, allowMedia: () => saveChoice(true), openSettings }}>
+        <PrivacyContext.Provider value={{ ready, gpc, optionalMediaAllowed, allowMedia: () => saveChoice(true, adMeasurementAllowed), openSettings }}>
             {children}
             <p className="sr-only" role="status">{status}</p>
             {showBanner && <>
@@ -195,11 +211,11 @@ export default function PrivacyPreferences({ children }) {
                     <div className={styles.bannerInner}>
                         <div>
                             <h2 id="cookie-banner-title">Cookies & privacy</h2>
-                            <p>We use essential technologies to run this site and prevent spam. Optional YouTube videos stay off until you allow them. Change your choice anytime in Cookie settings. <Link to="/cookies">Cookie notice</Link>.</p>
+                            <p>We use essential technologies to run this site and prevent spam. Optional YouTube videos and Google Ads measurement stay off until you allow them. Change your choices anytime in Cookie settings. <Link to="/cookies">Cookie notice</Link>.</p>
                         </div>
                         <div className={styles.actions}>
                             <button type="button" className={styles.choice} onClick={() => commit(false)}>Reject optional</button>
-                            <button type="button" className={styles.choice} onClick={() => commit(true)}>Allow optional</button>
+                            <button type="button" className={styles.choice} onClick={() => commit(true, true)}>Allow optional</button>
                             <button type="button" className={styles.textButton} onClick={openSettings} aria-haspopup="dialog">Manage choices</button>
                         </div>
                     </div>
@@ -208,7 +224,7 @@ export default function PrivacyPreferences({ children }) {
             <dialog ref={dialog} className={styles.dialog} aria-labelledby="cookie-settings-title" onKeyDown={keepDialogFocus} onCancel={(event) => { event.preventDefault(); closeSettings(); }}>
                 <div className={styles.dialogBody}>
                     <h2 id="cookie-settings-title" tabIndex={-1} autoFocus>Cookie settings</h2>
-                    <p>Choose whether this website can load optional embedded videos. You can browse and contact us with optional content turned off.</p>
+                    <p>Choose whether this website can load embedded videos and measure Google Ads results. You can browse and contact us with both turned off.</p>
                     <div className={styles.category}>
                         <h3>Essential technologies <span>Always on</span></h3>
                         <p>Remember your privacy choices and protect the contact form using Cloudflare Turnstile.</p>
@@ -220,12 +236,19 @@ export default function PrivacyPreferences({ children }) {
                         </label>
                         <p id="cookie-media-description">When you load a video, Google / YouTube receives your IP address and browser information and may use cookies or similar technologies. Allowing videos does not automatically play them.</p>
                     </div>
-                    {gpc && <p className={styles.notice}>Global Privacy Control is enabled in your browser. Optional videos are blocked.</p>}
+                    <div className={styles.category}>
+                        <label className={styles.checkbox}>
+                            <input type="checkbox" checked={draftAds && !gpc} disabled={gpc} onChange={(event) => setDraftAds(event.target.checked)} aria-describedby="cookie-ads-description" />
+                            <span>Google Ads measurement</span>
+                        </label>
+                        <p id="cookie-ads-description">Google uses cookies and receives visit information and successful contact-form events to help us measure our ads. We do not send your form entries to Google or enable personalized advertising.</p>
+                    </div>
+                    {gpc && <p className={styles.notice}>Global Privacy Control is enabled in your browser. Optional videos and Google Ads measurement are blocked.</p>}
                     {storageFailed && <p role="status">Your browser could not save this choice. It applies to this visit only.</p>}
-                    <p>Choices are saved in this browser for 365 days. Turning videos off removes loaded players; it cannot erase data already sent to YouTube. <Link to="/cookies" onClick={closeSettings}>Cookie notice</Link> · <Link to="/privacy-policy" onClick={closeSettings}>Privacy Policy</Link></p>
+                    <p>Choices are saved in this browser for 365 days. Turning videos off removes loaded players. Turning measurement off stops future contact-conversion events and tells Google consent was withdrawn. It cannot erase data already sent to Google. <Link to="/cookies" onClick={closeSettings}>Cookie notice</Link> · <Link to="/privacy-policy" onClick={closeSettings}>Privacy Policy</Link></p>
                     <div className={styles.actions}>
                         <button type="button" className={styles.choice} onClick={() => commit(false)}>Reject optional</button>
-                        <button type="button" className={styles.choice} onClick={() => commit(draftMedia)}>Save choices</button>
+                        <button type="button" className={styles.choice} onClick={() => commit(draftMedia, draftAds)}>Save choices</button>
                         <button type="button" className={styles.textButton} onClick={closeSettings}>Close without saving</button>
                     </div>
                 </div>

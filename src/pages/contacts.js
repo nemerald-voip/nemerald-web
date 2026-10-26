@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Layout from '@site/src/components/PageLayout';
 import Link from '@docusaurus/Link';
+import { trackContactConversion } from '@site/src/utils/googleAds';
 import {
     BuildingOffice2Icon,
     EnvelopeIcon,
@@ -145,6 +146,7 @@ export default function Contacts() {
             });
 
             form.reset();
+            trackContactConversion();
         } catch {
             setFormStatus({
                 type: 'error',
