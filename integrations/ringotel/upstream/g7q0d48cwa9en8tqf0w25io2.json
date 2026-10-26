@@ -1,0 +1,255 @@
+{
+  "source": {
+    "id": "g7q0d48cwa9en8tqf0w25io2",
+    "slug": "enabling-click-to-call-windows",
+    "title": "Enabling Click-to-Call (Windows)",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The click-to-call (or click-to-dial) feature lets you dial phone numbers by clicking specially formatted links on websites, CRM or other web or native applications."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How does it work?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "It works by associating the desktop client (currently supported on Windows only) as a default app for the "
+          },
+          {
+            "type": "text",
+            "text": "tel: ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "and "
+          },
+          {
+            "type": "text",
+            "text": "callto: ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "protocols in the operating system. After that, the system will launch the associated app when clicking on the "
+          },
+          {
+            "type": "text",
+            "text": "tel: ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "or "
+          },
+          {
+            "type": "text",
+            "text": "callto: ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "links in any web or native application that supports functionality."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "On the web pages where phone numbers are not formatted as either "
+          },
+          {
+            "type": "text",
+            "text": "tel: ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "or "
+          },
+          {
+            "type": "text",
+            "text": "callto: ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "links, you can install a browser extension (e.g., "
+          },
+          {
+            "type": "link",
+            "url": "https://chrome.google.com/webstore/detail/telephone-number-detectio/oolkfddhhccdciigjigaghblnlkbgjki",
+            "children": [
+              {
+                "type": "text",
+                "text": "Telephone Number Detection"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " ) that parses a web page and turn any phone number it could find on the page into the properly formatted links, enabling click-to-call functionality."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Enabling click-to-call"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "First, install the desktop app on your Windows device."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "On the "
+          },
+          {
+            "type": "text",
+            "text": "Start menu, ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "select "
+          },
+          {
+            "type": "text",
+            "text": "Settings > Apps > Default apps.",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Scroll down and navigate to "
+          },
+          {
+            "type": "text",
+            "text": "Choose defaults ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "by link type (or "
+          },
+          {
+            "type": "text",
+            "text": "Choose default apps byprotocol ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "in Windows 10)."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_click_to_call_setup_9c068a1b0c.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In the list of protocols, associate the app{{icon:https://new-kb.ringotel.com/uploads/desktop_appicon_f0ad11504d.png}}to the "
+          },
+          {
+            "type": "text",
+            "text": "CALLTO ",
+            "italic": true
+          },
+          {
+            "type": "text",
+            "text": "and "
+          },
+          {
+            "type": "text",
+            "text": "TEL ",
+            "italic": true
+          },
+          {
+            "type": "text",
+            "text": "protocols."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The click-to-call functionality now must be enabled."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "get-started",
+      "setup"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Enabling Click-to-Call (Windows)\"\nslug: \"/apps/enabling-click-to-call-windows--g7q0d48cwa9en8tqf0w25io2\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"get-started\",\"setup\"]\n---\n\nThe click-to-call (or click-to-dial) feature lets you dial phone numbers by clicking specially formatted links on websites, CRM or other web or native applications.\n\n## How does it work?\n\nIt works by associating the desktop client (currently supported on Windows only) as a default app for the **tel:&#x20;**&#x61;nd **callto:&#x20;**&#x70;rotocols in the operating system. After that, the system will launch the associated app when clicking on the **tel:&#x20;**&#x6F;r **callto:&#x20;**&#x6C;inks in any web or native application that supports functionality.\n\nOn the web pages where phone numbers are not formatted as either **tel:&#x20;**&#x6F;r **callto:&#x20;**&#x6C;inks, you can install a browser extension (e.g., [Telephone Number Detection](https://chrome.google.com/webstore/detail/telephone-number-detectio/oolkfddhhccdciigjigaghblnlkbgjki) ) that parses a web page and turn any phone number it could find on the page into the properly formatted links, enabling click-to-call functionality.\n\n## Enabling click-to-call\n\nFirst, install the desktop app on your Windows device.\n\nOn the **Start menu,&#x20;**&#x73;elect **Settings > Apps > Default apps.**\n\nScroll down and navigate to **Choose defaults&#x20;**&#x62;y link type (or **Choose default apps byprotocol&#x20;**&#x69;n Windows 10).\n\n![](/img/ringotel/original/b39f90e2dda8a912f7a2/270d61ca000357b4b6656a0bc5538630f69d3af1cafd0abe43f23b0e7bb1c559.png)\n\nIn the list of protocols, associate the app![App icon](/img/ringotel/original/575027402949337630e0/41b98c71a6c5c1c0832ac8ba70fb6b88281f80f3f3f9cef5d5b13916e5def31c.png)to the *CALLTO&#x20;*&#x61;nd *TEL&#x20;*&#x70;rotocols.\n\nThe click-to-call functionality now must be enabled.\n"
+}

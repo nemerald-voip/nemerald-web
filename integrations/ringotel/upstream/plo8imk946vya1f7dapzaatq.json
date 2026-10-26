@@ -1,0 +1,284 @@
+{
+  "source": {
+    "id": "plo8imk946vya1f7dapzaatq",
+    "slug": "desktop-call-parking",
+    "title": "Call parking",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-call-parking/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-call-parking/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Call Parking feature allows you to put a call on hold from one extension (or device) and retrieve it from another extension (or device) with permission to do so."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To park a call:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click the transfer icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_transfer_e6e68c15c0.png}}"
+              },
+              {
+                "type": "text",
+                "text": "on a "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-call-hold-dtmf-recording/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Call panel or Pop-up window"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the call menu icon{{icon:https://new-kb.ringotel.com/uploads/desktop_menu_56f7a3c4f9.png}}of an "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-call-hold-dtmf-recording/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Active Line"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " and select "
+              },
+              {
+                "type": "text",
+                "text": "Transfer ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from the drop-down menu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_transfer_window_8794045368.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose a parking slot from the “"
+              },
+              {
+                "type": "text",
+                "text": "Parking",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "” list, then confirm action. The current call will be parked, and your Active Line will be released."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Note",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ": if all parking slots are busy, you will not see any parking slots in the list."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Retrieve a parked call"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A parked call will be displayed under the Search Bar. It will be visible to all your colleagues, and they will be able to pick up this call from a parking slot. Click on the phone icon to retrieve a call."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_parked_call_panel_9bd561ba33.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": true
+  },
+  "generated": "---\ntitle: \"Call parking\"\nslug: \"/apps/desktop-call-parking--plo8imk946vya1f7dapzaatq\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-calls\"]\n---\n\n> Availability of this feature depends on your service configuration. Contact support for details.\n\n*Looking for an&#x20;*[iOS](/docs/apps/ios-call-parking--q2qw8x0fyvfmkchxq65sj8mn) *or&#x20;*[*Android*](/docs/apps/android-call-parking--vki9zw9odl9s6mdnxqnhi7vy) *version of this article?*\n\nCall Parking feature allows you to put a call on hold from one extension (or device) and retrieve it from another extension (or device) with permission to do so.\n\nTo park a call:\n\n1. Click the transfer icon![App icon](/img/ringotel/original/2fcd644d306a1713c1d3/f7b680ab582ff357c4dd29238083c600ad7fadf4ee16657c32f33701d52cf05d.png)on a [Call panel or Pop-up window](/docs/apps/desktop-call-hold-dtmf-recording--ybm4k618ragnlgyy963xbwpe) .\n\n**OR**\n\n1. Click on the call menu icon![App icon](/img/ringotel/original/7c10737329d19d59e3b4/6c4a75a00c5a57de9bded1029d1a4493fc8c2d6b76f174e4f44f4d38ed45f528.png)of an [Active Line](/docs/apps/desktop-call-hold-dtmf-recording--ybm4k618ragnlgyy963xbwpe) and select **Transfer&#x20;**&#x66;rom the drop-down menu.\n\n![](/img/ringotel/original/510820b95d2f6a9c0b89/a994894570060a0dd8bcf484b68284a045485dd00f79193ada8f7ec3ed67db19.png)\n\n1. Choose a parking slot from the “**Parking**” list, then confirm action. The current call will be parked, and your Active Line will be released.\n\n**Note**: if all parking slots are busy, you will not see any parking slots in the list.\n\n## Retrieve a parked call\n\nA parked call will be displayed under the Search Bar. It will be visible to all your colleagues, and they will be able to pick up this call from a parking slot. Click on the phone icon to retrieve a call.\n\n![](/img/ringotel/original/f9d70f79c4b27bcf5739/3a081c395ba9ef9fa0bb013e51e90943c36e3f65911b839fe8fd5fa7c351af54.png)\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n"
+}

@@ -1,0 +1,53 @@
+{
+  "source": {
+    "id": "pwsmbmo8xheebiwps6k9rs9n",
+    "slug": "desktop-list-of-hotkeys",
+    "title": "List of hotkeys",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can view all the available hotkeys in the Hotkeys settings tab."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_settings_hotkeys_f48cb30bbb.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "settings"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"List of hotkeys\"\nslug: \"/apps/desktop-list-of-hotkeys--pwsmbmo8xheebiwps6k9rs9n\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"settings\"]\n---\n\nYou can view all the available hotkeys in the Hotkeys settings tab.\n\n![](/img/ringotel/original/267132dacd217231938b/c464905275e3f9aacd3c03e927ffd4fc62f0231f8cc2a5cc0dcbc42978175fa7.png)\n"
+}

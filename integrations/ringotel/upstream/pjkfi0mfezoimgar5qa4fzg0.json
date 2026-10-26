@@ -1,0 +1,258 @@
+{
+  "source": {
+    "id": "pjkfi0mfezoimgar5qa4fzg0",
+    "slug": "ios-add-to-conference",
+    "title": "Add a participant to a conference",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-conference-calls/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-add-participant/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To add a participant to a call:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "During an ongoing call, tap on the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Add call",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_add_participant_98a10ad1f8.png}}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_screen_buttons_f04be618a1.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose а contact that you’d like to add to a call from the list."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "press the numpad icon{{icon:https://new-kb.ringotel.com/uploads/ios_icon_numpad_fff348da33.png}}to dial a phone number."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_add_participant_83b95e4214.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After you’ve connected with a new participant, press the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Join",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ button to this participant to a conference."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_screen_2lines_merge_24cad3739c.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Merge",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ button (1) to merge both lines into a conference."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can repeat all the above steps to add more people to a conference call."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "ios-dial-from-your-phone-book",
+        "title": "Dial a contact from a device’s phone book"
+      },
+      {
+        "slug": "ios-making-outgoing-calls",
+        "title": "Making outgoing calls"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Add a participant to a conference\"\nslug: \"/apps/ios-add-to-conference--pjkfi0mfezoimgar5qa4fzg0\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-calls\"]\n---\n\n*Looking for an&#x20;*[PC/Mac](/docs/apps/desktop-conference-calls--vaqva2dc377xnjga0me78u8p) *or&#x20;*[Android](/docs/apps/android-add-participant--revxed1mtc961qnyoj91m8rz) *version of this article?*\n\nTo add a participant to a call:\n\n1. During an ongoing call, tap on the ‘**Add call**’ icon![App icon](/img/ringotel/original/6b5fffabba5d60506ca5/84a30dfd13ed069f173ad424c7317fc2ee782d024917d073fffb809b12881587.png)\n\n![](/img/ringotel/original/b8e5c4b2ce737504717f/79a62a6e92c6a407b64224ba437630d05c31d018ff48bc9ef7b71ce6d8edc56b.png)\n\n1. Choose а contact that you’d like to add to a call from the list.\n\n**OR&#x20;**&#x70;ress the numpad icon![App icon](/img/ringotel/original/140fae854ca2089ce82e/27582fef43b624850b4b0519a90cc9506c69defb77026fca0c42b503969093d2.png)to dial a phone number.\n\n![](/img/ringotel/original/86a79526278cac29ee54/82bbd4d24e0cb74bb3a2b2dba8003a147bf5ad8e25d1f817cc650bf85fcd3d11.png)\n\n1. After you’ve connected with a new participant, press the ‘**Join**’ button to this participant to a conference.\n\n![](/img/ringotel/original/fe68e0fc1c26269d0b1a/7e1b743528caf0684f70032a78dd2526e6fffdc211cecb3e88c87f9336fddb2d.png)\n\n1. Press the ‘**Merge**’ button (1) to merge both lines into a conference.\n\nYou can repeat all the above steps to add more people to a conference call.\n\n## Related articles\n\n- [Dial a contact from a device’s phone book](/docs/apps/ios-dial-from-your-phone-book--zu0lwhke4ovkzk5b2q8m8mge)\n- [Making outgoing calls](/docs/apps/ios-making-outgoing-calls--pzl38a1hg4biemmmklzs264n)\n"
+}

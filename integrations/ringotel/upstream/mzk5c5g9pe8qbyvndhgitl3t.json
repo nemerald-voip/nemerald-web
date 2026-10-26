@@ -1,0 +1,137 @@
+{
+  "source": {
+    "id": "mzk5c5g9pe8qbyvndhgitl3t",
+    "slug": "desktop-sending-a-file",
+    "title": "Sending a file",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send a file:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the chat with the person you want to send the file to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_file_sharing_0b37309054.png}}icon at the right side of the "
+              },
+              {
+                "type": "text",
+                "text": "Message Input Area",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_message_field_c75ff729bf.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose a file you would like to send."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can also use "
+          },
+          {
+            "type": "text",
+            "text": "drag-n-drop ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "to send files into a chat and send files, images, and text from your clipboard by pressing "
+          },
+          {
+            "type": "text",
+            "text": "Ctrl-V ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "in the "
+          },
+          {
+            "type": "text",
+            "text": "Message Input Area",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-chats"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Sending a file\"\nslug: \"/apps/desktop-sending-a-file--mzk5c5g9pe8qbyvndhgitl3t\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-chats\"]\n---\n\nTo send a file:\n\n1. Open the chat with the person you want to send the file to.\n2. Click on the![App icon](/img/ringotel/original/88f647d88efbffa6b9e1/8a49c95a4a3b7f56a8f65e02e00f5adc435dcded4ea21f2333b1d9a6f3e250b8.png)icon at the right side of the **Message Input Area**.\n\n![](/img/ringotel/original/2c06cbff059902aec600/b9ef4e3c87f55815df5d0e4bf5712c46d9e5a27b1739b33c230768ace0b8aef1.png)\n\n1. Choose a file you would like to send.\n\nYou can also use **drag-n-drop&#x20;**&#x74;o send files into a chat and send files, images, and text from your clipboard by pressing **Ctrl-V&#x20;**&#x69;n the **Message Input Area**.\n"
+}

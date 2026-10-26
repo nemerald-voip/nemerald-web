@@ -1,0 +1,346 @@
+{
+  "source": {
+    "id": "lchl96vtphrmdtytkicr7qo8",
+    "slug": "ios-blocklist",
+    "title": "Block phone numbers",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-blocklist/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-blocklist/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can block incoming calls and SMS from the selected contacts and phone numbers."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "NOTE:",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Blocked contacts are shared across your entire organisation, so if you block a number, it will also appear on other users' blocked list."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to block a new contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To block a new number:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to Menu > Blocked."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap the \"+\" (plus) button."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the appeared pop-up, specify the phone number and (optionally) the reason for blocking this number."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the Block button to confirm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_block_num_645d8d1640.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to block an existing contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To block an existing contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to Contacts tab."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Find and select the contact in the list."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the contact profile, scroll down and press the \"Block\" button."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the appeared pop-up, (optionally) specify the reason for blocking this number."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the Block button to confirm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_block_contact_4b5f5a0ffb.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to unblock a contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To unblock a blocked contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to Menu > Blocked."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Find and select the contact in the list."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the blocked contact profile, scroll down and press the \"Unblock\" button."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_blocked_profile_651cfd39e9.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "blocklist",
+      "ios",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "desktop-blocklist",
+        "title": "Block phone numbers"
+      },
+      {
+        "slug": "ios-create-a-new-contact",
+        "title": "Create a new contact"
+      },
+      {
+        "slug": "ios-working-with-contacts",
+        "title": "Working with contacts"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Block phone numbers\"\nslug: \"/apps/ios-blocklist--lchl96vtphrmdtytkicr7qo8\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"blocklist\",\"ios\",\"working-with-contacts\"]\n---\n\n*Looking for an&#x20;*[Android](/docs/apps/android-blocklist--lg90ce3ygm72r214logejh7k) *or&#x20;*[PC/Mac](/docs/apps/desktop-blocklist--a279g7muy8kgbywr1ja8zwdo) *version of this article?*\n\nYou can block incoming calls and SMS from the selected contacts and phone numbers.\n\n**NOTE:**&#x42;locked contacts are shared across your entire organisation, so if you block a number, it will also appear on other users' blocked list.\n\n## How to block a new contact\n\nTo block a new number:\n\n1. Navigate to Menu > Blocked.\n2. Tap the \"+\" (plus) button.\n3. In the appeared pop-up, specify the phone number and (optionally) the reason for blocking this number.\n4. Press the Block button to confirm.\n\n![](/img/ringotel/original/6846927446b7c10ae10b/fe94b54796a0a1c1c68c7391480a786adac5293013c69053be04fead18bac9da.png)\n\n## How to block an existing contact\n\nTo block an existing contact:\n\n1. Navigate to Contacts tab.\n2. Find and select the contact in the list.\n3. In the contact profile, scroll down and press the \"Block\" button.\n4. In the appeared pop-up, (optionally) specify the reason for blocking this number.\n5. Press the Block button to confirm.\n\n![](/img/ringotel/original/ca3bb29fb1b1900e1668/8599b27f6e174eb810ac14adf9fdd8337450362a9d4adb3c2bd69a252019016a.png)\n\n## How to unblock a contact\n\nTo unblock a blocked contact:\n\n1. Navigate to Menu > Blocked.\n2. Find and select the contact in the list.\n3. In the blocked contact profile, scroll down and press the \"Unblock\" button.\n\n![](/img/ringotel/original/7be927d9d3c7523298f1/4abbd4cef10172163682b5a9c3a78c1bd4c670bd14f78edea3553113fd149085.png)\n\n## Related articles\n\n- [Block phone numbers](/docs/apps/desktop-blocklist--a279g7muy8kgbywr1ja8zwdo)\n- [Create a new contact](/docs/apps/ios-create-a-new-contact--oq34jldzp7zc312g712bn73x)\n- [Working with contacts](/docs/apps/ios-working-with-contacts--fkd2qyccst8qw7mnpdkeyppp)\n"
+}

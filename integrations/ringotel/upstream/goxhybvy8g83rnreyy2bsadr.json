@@ -1,0 +1,453 @@
+{
+  "source": {
+    "id": "goxhybvy8g83rnreyy2bsadr",
+    "slug": "desktop-call-transfer",
+    "title": "Call transfer",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-transfer-call/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-transfer-a-call/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Blind transfer"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To transfer a call:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click the "
+              },
+              {
+                "type": "text",
+                "text": "Transfer ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "icon{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_transfer_e6e68c15c0.png}}on a "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-call-hold-dtmf-recording/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Call panel or Pop-up window"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the menu icon{{icon:https://new-kb.ringotel.com/uploads/desktop_menu_56f7a3c4f9.png}}of an "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-call-hold-dtmf-recording/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Active Line"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " and select "
+              },
+              {
+                "type": "text",
+                "text": "Transfer ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from the drop-down menu."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose a contact you want to transfer a call to from the list or enter a new phone number in a "
+              },
+              {
+                "type": "text",
+                "text": "Search field ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "and click on the "
+              },
+              {
+                "type": "text",
+                "text": "Blind transfer ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "icon."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_transfer_window_8794045368.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Attended (warm) transfer"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To make an attended (warm) transfer:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Follow steps 1 and 2 like for Blind Transfer but press the "
+              },
+              {
+                "type": "text",
+                "text": "Attended transfer ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "button instead."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "An additional active panel will appear for the second active call while the first active call will be put on hold automatically."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the "
+              },
+              {
+                "type": "text",
+                "text": "Transfer ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "button at "
+              },
+              {
+                "type": "text",
+                "text": "Active Line ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "or "
+              },
+              {
+                "type": "text",
+                "text": "Pop-up window",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_2lines_tabpanel_compact_mode_ee7fc586a6.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_2lines_tabpanel_c290997df6.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_2lines_holdline_notification_b0afc878e9.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Alternatively"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can also transfer a call in the following way:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "During an active call, initiate a new "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-outgoing-call/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "outgoing call"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": ". The current call will be placed on hold automatically."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the "
+              },
+              {
+                "type": "text",
+                "text": "Transfer ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "button at "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-call-hold-dtmf-recording/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Active Line or Pop-up window"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " ."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Call transfer\"\nslug: \"/apps/desktop-call-transfer--goxhybvy8g83rnreyy2bsadr\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-calls\"]\n---\n\n*Looking for an&#x20;*[Android](/docs/apps/android-transfer-call--ukk2ikysb3a6guqd8gzugh87) *or&#x20;*[iOS](/docs/apps/ios-transfer-a-call--fi98bkz81m665tyvhwu8p13p) *version of this article?*\n\n## Blind transfer\n\nTo transfer a call:\n\n1. Click the **Transfer&#x20;**&#x69;con![App icon](/img/ringotel/original/2fcd644d306a1713c1d3/f7b680ab582ff357c4dd29238083c600ad7fadf4ee16657c32f33701d52cf05d.png)on a [Call panel or Pop-up window](/docs/apps/desktop-call-hold-dtmf-recording--ybm4k618ragnlgyy963xbwpe) .\n\n**OR**\n\n1. Click on the menu icon![App icon](/img/ringotel/original/7c10737329d19d59e3b4/6c4a75a00c5a57de9bded1029d1a4493fc8c2d6b76f174e4f44f4d38ed45f528.png)of an [Active Line](/docs/apps/desktop-call-hold-dtmf-recording--ybm4k618ragnlgyy963xbwpe) and select **Transfer&#x20;**&#x66;rom the drop-down menu.\n2. Choose a contact you want to transfer a call to from the list or enter a new phone number in a **Search field&#x20;**&#x61;nd click on the **Blind transfer&#x20;**&#x69;con.\n\n![](/img/ringotel/original/510820b95d2f6a9c0b89/a994894570060a0dd8bcf484b68284a045485dd00f79193ada8f7ec3ed67db19.png)\n\n## Attended (warm) transfer\n\nTo make an attended (warm) transfer:\n\n1. Follow steps 1 and 2 like for Blind Transfer but press the **Attended transfer&#x20;**&#x62;utton instead.\n\nAn additional active panel will appear for the second active call while the first active call will be put on hold automatically.\n\n1. Click on the **Transfer&#x20;**&#x62;utton at **Active Line&#x20;**&#x6F;r **Pop-up window**.\n\n![](/img/ringotel/original/dde671572b30143693c1/df5d28c9c5b5bbd995ccddfb7c5efdae2dbd4a2033115bff7c59b09c483ae12c.png)\n\n![](/img/ringotel/original/35fd09664c0961baac18/e50877a1884a2ca85630f375982e97d25f5d88953603d54867e38c8ecb4f2cea.png)\n\n![](/img/ringotel/original/f1d40fdc8f8cbde30b70/b7626c31c270b6eda8529f58a1ab498ef30fc95f163424ce18628de1604366cd.png)\n\n## Alternatively\n\nYou can also transfer a call in the following way:\n\n1. During an active call, initiate a new [outgoing call](/docs/apps/desktop-outgoing-call--te63hnixsyugdk7wpsw59xeq) . The current call will be placed on hold automatically.\n2. Click on the **Transfer&#x20;**&#x62;utton at [Active Line or Pop-up window](/docs/apps/desktop-call-hold-dtmf-recording--ybm4k618ragnlgyy963xbwpe) .\n"
+}

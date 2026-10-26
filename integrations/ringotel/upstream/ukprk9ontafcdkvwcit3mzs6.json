@@ -1,0 +1,343 @@
+{
+  "source": {
+    "id": "ukprk9ontafcdkvwcit3mzs6",
+    "slug": "android-working-with-contact",
+    "title": "Working with contacts",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A Contact’s Profile contains all the details regarding a person or an organization, including the history of communication with your company."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To open a contact’s profile, simply tap on a contact from your "
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-contacts/",
+            "children": [
+              {
+                "type": "text",
+                "text": "contacts list"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": ", or select a ‘"
+          },
+          {
+            "type": "text",
+            "text": "Contact Info",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ option from a dropdown menu on a chat screen."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_contact_profile_6adecb5f16.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Add contact to favorites."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Share contact."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Contact's menu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Edit a contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To edit a contact tap on the{{icon:https://new-kb.ringotel.com/uploads/android_icon_menu_e9a70d8916.png}}menu icon in the contact’s profile and choose "
+          },
+          {
+            "type": "text",
+            "text": "‘Edit’ ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "from a dropdown menu."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Delete a contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To delete a contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long-tap on a contact in the contacts list."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the{{icon:https://new-kb.ringotel.com/uploads/android_icon_menu_e9a70d8916.png}}menu icon in the contact’s profile and choose "
+              },
+              {
+                "type": "text",
+                "text": "‘Delete’ ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from a dropdown menu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Add a contact to favorites"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To add a contact to favorites, open a profile of contact and tap on the"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/android_icon_star_grey_d919c61607.png}}"
+          },
+          {
+            "type": "text",
+            "text": "icon."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Share a contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To share a contact with your colleagues:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the profile of a contact you want to share and tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_icon_menu_e9a70d8916.png}}"
+              },
+              {
+                "type": "text",
+                "text": "menu icon."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select \""
+              },
+              {
+                "type": "text",
+                "text": "Share with",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "\" from the dropdown menu."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select colleagues or chat groups you would like to share this contact with."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_icon_check_2a7a057d2f.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to confirm and share the contact."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "android-blocklist",
+        "title": "Block numbers"
+      },
+      {
+        "slug": "android-making-outgoing-calls",
+        "title": "Making outgoing calls"
+      },
+      {
+        "slug": "android-sending-messages",
+        "title": "Sending messages"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Working with contacts\"\nslug: \"/apps/android-working-with-contact--ukprk9ontafcdkvwcit3mzs6\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"working-with-contacts\"]\n---\n\nA Contact’s Profile contains all the details regarding a person or an organization, including the history of communication with your company.\n\nTo open a contact’s profile, simply tap on a contact from your [contacts list](/docs/apps/android-contacts--icbab0zkyvel86v5acnif2wn) , or select a ‘**Contact Info**’ option from a dropdown menu on a chat screen.\n\n![](/img/ringotel/original/4e62923114e4a978d544/1574065fa609a0a1853d30152dc9c088ba2190e292258aa379836049e4f7f96f.png)\n\n1. Add contact to favorites.\n2. Share contact.\n3. Contact's menu.\n\n## Edit a contact\n\nTo edit a contact tap on the![App icon](/img/ringotel/original/d404746dea3e7bbe0e32/c5dc0e365c7e0a5b48b11e90932007d994bbb6a8be3ded7bcd24e6c615397908.png)menu icon in the contact’s profile and choose **‘Edit’&#x20;**&#x66;rom a dropdown menu.\n\n## Delete a contact\n\nTo delete a contact:\n\n- Long-tap on a contact in the contacts list.\n\nOR\n\n- Tap on the![App icon](/img/ringotel/original/d404746dea3e7bbe0e32/c5dc0e365c7e0a5b48b11e90932007d994bbb6a8be3ded7bcd24e6c615397908.png)menu icon in the contact’s profile and choose **‘Delete’&#x20;**&#x66;rom a dropdown menu.\n\n## Add a contact to favorites\n\nTo add a contact to favorites, open a profile of contact and tap on the![App icon](/img/ringotel/original/f0f3239479c3becd4e0f/d6c77988a0c46121019ee8d1209ede21cd8b27f447a55f6a7a0cc7e708c30629.png)icon.\n\n## Share a contact\n\nTo share a contact with your colleagues:\n\n1. Open the profile of a contact you want to share and tap on the![App icon](/img/ringotel/original/d404746dea3e7bbe0e32/c5dc0e365c7e0a5b48b11e90932007d994bbb6a8be3ded7bcd24e6c615397908.png)menu icon.\n2. Select \"**Share with**\" from the dropdown menu.\n3. Select colleagues or chat groups you would like to share this contact with.\n4. Tap on the![App icon](/img/ringotel/original/752291190ae5263d1ef8/ededb9584a66211cbd4fcfa6389b91798c5882b9c00e39e186534c84a57e111b.png)icon to confirm and share the contact.\n\n## Related articles\n\n- [Block numbers](/docs/apps/android-blocklist--lg90ce3ygm72r214logejh7k)\n- [Making outgoing calls](/docs/apps/android-making-outgoing-calls--c4n9cbuhjtif2ymq8chdz387)\n- [Sending messages](/docs/apps/android-sending-messages--ztffi0qzjlvj88mlxkg556r3)\n"
+}

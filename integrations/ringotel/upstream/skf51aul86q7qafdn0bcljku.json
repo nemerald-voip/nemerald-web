@@ -1,0 +1,96 @@
+{
+  "source": {
+    "id": "skf51aul86q7qafdn0bcljku",
+    "slug": "desktop-video-settings",
+    "title": "Video settings",
+    "body": [
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Turn on your video camera for testing."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Maximum allowed video resolution during a call."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Turn on a Restricted mode, which is suited for a poor network connection environment."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Selected device for video capture. Maximum allowed upstream rate during a video call"
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Maximum allowed upstream rate during a video call."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_settings_video_bac83fce11.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "settings",
+      "setup"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Video settings\"\nslug: \"/apps/desktop-video-settings--skf51aul86q7qafdn0bcljku\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"settings\",\"setup\"]\n---\n\n1. Turn on your video camera for testing.\n2. Maximum allowed video resolution during a call.\n3. Turn on a Restricted mode, which is suited for a poor network connection environment.\n4. Selected device for video capture. Maximum allowed upstream rate during a video call\n5. Maximum allowed upstream rate during a video call.\n\n![](/img/ringotel/original/533d38e64f0233f242b6/f9b2efcfaf3e17316a971848d7f3ae14db2182c3b6ffe128851d7dbc444aec79.png)\n"
+}

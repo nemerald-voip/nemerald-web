@@ -1,0 +1,271 @@
+{
+  "source": {
+    "id": "dqa3qfyebvyy59cyk38biu10",
+    "slug": "desktop-voicemail",
+    "title": "Voicemail settings",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In case when you’re unable to pick up a call, you can send it to a voicemail. It can be enabled in your desktop app or by your PBX administrator."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To enable voicemail:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Go to the Menu tab."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select "
+              },
+              {
+                "type": "text",
+                "text": "Settings",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_tab_menu_2_0f6b15a454.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the "
+              },
+              {
+                "type": "text",
+                "text": "Call ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "settings tab toggle the Voicemail switch ON."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_settings_call_31db960313.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Set voicemail greeting"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To record a voicemail greeting:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_settings_mic_05c9739946.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the opened window click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_start_recording_deaec80440.png}}"
+              },
+              {
+                "type": "text",
+                "text": "button to start and stop recording after you finish."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_voicemail_greeting_418cb0baf8.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_send_light_313e99a662.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to save the recorded greeting."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "If the greeting isn’t recorded, an automated message will be prompted to a caller: “The following number *your extension number* is currently not available. Please call again or leave a message after a signal.”"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "If the Voicemail feature is turned on, your voicemail messages will be displayed in personal chat with a user who called like this:"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_voicemail_message_44ef400f5f.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "settings",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Voicemail settings\"\nslug: \"/apps/desktop-voicemail--dqa3qfyebvyy59cyk38biu10\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"settings\",\"working-with-calls\"]\n---\n\nIn case when you’re unable to pick up a call, you can send it to a voicemail. It can be enabled in your desktop app or by your PBX administrator.\n\nTo enable voicemail:\n\n1. Go to the Menu tab.\n2. Select **Settings**.\n\n![](/img/ringotel/original/b9c9f962d9e8ec9c59ce/2a133c5045d936d24af0e62e532ed7fea1e07d55fd7482c8543d79f935fa02a7.png)\n\n1. In the **Call&#x20;**&#x73;ettings tab toggle the Voicemail switch ON.\n\n![](/img/ringotel/original/e5d39108153d025e5e15/780db8857ea512545bfca08366dbcc0484bee541ebae5fab34e07fb0e8c20019.png)\n\n## Set voicemail greeting\n\nTo record a voicemail greeting:\n\n1. Click on the![App icon](/img/ringotel/original/12e28b7b1150065c146b/ddd1c38f4ffabaa9165d19e6ced5b4b526799209ed72c861c6d938ec65b01b48.png)icon.\n2. In the opened window click on the![App icon](/img/ringotel/original/4beb51e5406671873e3a/7d879ddd16d4e09a1e9eeb9896d78d356061418c3c4915acb0deb27226df50ce.png)button to start and stop recording after you finish.\n\n![](/img/ringotel/original/683a97f4fa08cac7388b/2598dc6a1c9b63e6b96929fd2d5d735754bfa7fc67ce9202b85ea0bd6b8d80ea.png)\n\n1. Click on the![App icon](/img/ringotel/original/206806b408c8d7a572a6/8589bdb920b0e16214181b01dbd39edae0569557f919374e846a07156be6b811.png)icon to save the recorded greeting.\n\nIf the greeting isn’t recorded, an automated message will be prompted to a caller: “The following number \\*your extension number\\* is currently not available. Please call again or leave a message after a signal.”\n\nIf the Voicemail feature is turned on, your voicemail messages will be displayed in personal chat with a user who called like this:\n\n![](/img/ringotel/original/5a7eebed485db9e094dd/ae1633b4213ffc9e81ec600c2746ad1e5b8691029f6220d1ed6db0ca6b949b55.png)\n"
+}

@@ -1,0 +1,190 @@
+{
+  "source": {
+    "id": "ahhk0yl59mshn5v92dpmdk3o",
+    "slug": "desktop-add-delete-contact",
+    "title": "How to add and delete a contact",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can add personal external contacts to your contacts list. The details of such contacts will be available to you only."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To add a personal contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_plus_ff73086900.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon on the right of the tab name."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the drop-down menu choose “Create contact”."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_create_menu_5de0fda7e0.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the "
+              },
+              {
+                "type": "text",
+                "text": "New Contact window",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": ", enter the contact’s name and any other details."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can add any type of information about your contact by clicking the"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_add_details_78a404243e.png}}"
+          },
+          {
+            "type": "text",
+            "text": "icon."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_create_contact_1bf6662f00.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To delete a personal contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click the right mouse button on the external contact you would like to delete while in the “Contacts” Tab."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the drop-down menu choose the “Delete” option."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "ios-create-a-new-contact",
+        "title": "Create a new contact"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"How to add and delete a contact\"\nslug: \"/apps/desktop-add-delete-contact--ahhk0yl59mshn5v92dpmdk3o\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-contacts\"]\n---\n\nYou can add personal external contacts to your contacts list. The details of such contacts will be available to you only.\n\nTo add a personal contact:\n\n1. Click the![App icon](/img/ringotel/original/cc1a7dcd36a2aa8941be/732f38ce89390294a03c02465fd0e412e5db687c082496a41277c5dcd6738c66.png)icon on the right of the tab name.\n2. In the drop-down menu choose “Create contact”.\n\n![](/img/ringotel/original/e8917fdc26059f49984c/d146467fc580010ee2f0bec22beef45d12449dbf208fcc7ea2137507b72265bc.png)\n\n1. In the **New Contact window**, enter the contact’s name and any other details.\n\nYou can add any type of information about your contact by clicking the![App icon](/img/ringotel/original/0dad683fefada70bf6c4/35e3087522cedb2027a7e827732400fbc11799d6ecd64491f357efc949918b4b.png)icon.\n\n![](/img/ringotel/original/ae0c3563e04d4bcae8c0/ad514017caf9a82e1a1cfa0334c2f9ef07eaef074c9c972e0af305a621da1208.png)\n\nTo delete a personal contact:\n\n1. Click the right mouse button on the external contact you would like to delete while in the “Contacts” Tab.\n2. In the drop-down menu choose the “Delete” option.\n\n## Related articles\n\n- [Create a new contact](/docs/apps/ios-create-a-new-contact--oq34jldzp7zc312g712bn73x)\n"
+}

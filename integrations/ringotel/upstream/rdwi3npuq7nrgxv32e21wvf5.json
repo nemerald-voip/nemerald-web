@@ -1,0 +1,170 @@
+{
+  "source": {
+    "id": "rdwi3npuq7nrgxv32e21wvf5",
+    "slug": "desktop-remove-chat-history",
+    "title": "Deleting chat history and messages",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To remove a message:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_h_menu_2266bffb3f.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon near the message you want to delete."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select "
+              },
+              {
+                "type": "text",
+                "text": "Delete ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from the drop-down menu to remove a message."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_outgoing_message_dropdown_menu_093577137c.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To remove chat history or a chat itself:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_menu_56f7a3c4f9.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon near the username or chat name."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select "
+              },
+              {
+                "type": "text",
+                "text": "Delete chat ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "or "
+              },
+              {
+                "type": "text",
+                "text": "Delete messages ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from the drop-down menu accordingly."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_chat_dropdown_menu_2_3ab9e2b40b.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-chats"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Deleting chat history and messages\"\nslug: \"/apps/desktop-remove-chat-history--rdwi3npuq7nrgxv32e21wvf5\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-chats\"]\n---\n\nTo remove a message:\n\n1. Click on the![App icon](/img/ringotel/original/18774bc3b39f63765a2b/87e5207e9e9ab7299d7a15aa0fc59baae11cf020e4198862c18773d8eca9bae7.png)icon near the message you want to delete.\n2. Select **Delete&#x20;**&#x66;rom the drop-down menu to remove a message.\n\n![](/img/ringotel/original/50e1f3226828067e2d4d/6128fe82425f99ee2291d6b6f3f4109a12ca3ef61ef16b1f96d3d936f2129157.png)\n\nTo remove chat history or a chat itself:\n\n1. Click on the![App icon](/img/ringotel/original/7c10737329d19d59e3b4/6c4a75a00c5a57de9bded1029d1a4493fc8c2d6b76f174e4f44f4d38ed45f528.png)icon near the username or chat name.\n2. Select **Delete chat&#x20;**&#x6F;r **Delete messages&#x20;**&#x66;rom the drop-down menu accordingly.\n\n![](/img/ringotel/original/ce2b13e0cd8dd4ad20ef/371207d1614d0751393cd062ace6d22c76adb15af6eb82278cdb275f0f070c2a.png)\n"
+}

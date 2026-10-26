@@ -1,0 +1,639 @@
+{
+  "source": {
+    "id": "yqzv2my3j9djxgl88ampgrm9",
+    "slug": "ios-working-with-messages",
+    "title": "Working with messages",
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Copying a text message"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To copy to a specific messagein a chat:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long-tap on a message that you’d like to copy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_incoming_call_9f5bc5e10c.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the pop-up menu, select the ‘Copy’ menu item."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_message_menu_e1291de5a9.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Forwarding messages"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To forward "
+          },
+          {
+            "type": "text",
+            "text": "a single message ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "to another user(s):"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long-tap on a message that you’d like to transfer."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the pop-up menu, select the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Forward",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ menu item."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_message_menu_reply_4b2796adb7.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select contacts or group chats to which you would like to transfer a message."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_forward_message_50d4b21435.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To forward "
+          },
+          {
+            "type": "text",
+            "text": "multiple messages ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "to another user(s):"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long-tap on a message that you’d like to forward."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the pop-up menu, select the ‘"
+              },
+              {
+                "type": "text",
+                "text": "More",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ menu item."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_message_edit_menu_23a0df929d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_forward_messages_bafb0c4b7d.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_multi_messages_selected_ecd745b12d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select contacts or group chats to which you would like to transfer a message."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_forward_message_50d4b21435.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Replying to a message"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To reply to a specific message in a chat:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long-tap on a message that you’d like to reply to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the pop-up menu, select the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Reply",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ menu item."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_message_menu_reply_4b2796adb7.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "At the bottom of the screen, right above the Text Area where you type your messages, you’ll see the message that you’re replying to."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_typing_reply_27282d4546.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Type your reply in the text area at the bottom of the screen."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_send_text_0b6b13cbe7.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to send your reply."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Share messages with other applications on your device"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To share a message with other applications:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Long-tap on any message in a chat."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the pop-up menu, select the ‘"
+              },
+              {
+                "type": "text",
+                "text": "More",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ menu item."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_message_edit_menu_23a0df929d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select messages /photos /files /calls you would like to share."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_multi_messages_selected_ecd745b12d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on an"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_share_messages_f27c562450.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select an application on your device you’d like to share messages with."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-chats"
+    ],
+    "related": [
+      {
+        "slug": "ios-sending-messages-and-media",
+        "title": "Sending messages and media"
+      },
+      {
+        "slug": "ios-sending-sms-message",
+        "title": "Sending an SMS message"
+      },
+      {
+        "slug": "ios-working-with-contacts",
+        "title": "Working with contacts"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Working with messages\"\nslug: \"/apps/ios-working-with-messages--yqzv2my3j9djxgl88ampgrm9\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-chats\"]\n---\n\n## Copying a text message\n\nTo copy to a specific messagein a chat:\n\n1. Long-tap on a message that you’d like to copy.\n\n![](/img/ringotel/original/bda68733d21cea32734b/0e421d0d34ed5e86487c2f8a104187a0ec6c9fecbcedcf699485ec51dd7e9427.png)\n\n1. In the pop-up menu, select the ‘Copy’ menu item.\n\n![](/img/ringotel/original/9ef0d4ec0f30f71bce53/43945c99dbbba2c97db046c59bef9b7494f73ce477c48756f00e97d0d43385de.png)\n\n## Forwarding messages\n\nTo forward **a single message&#x20;**&#x74;o another user(s):\n\n1. Long-tap on a message that you’d like to transfer.\n2. In the pop-up menu, select the ‘**Forward**’ menu item.\n\n![](/img/ringotel/original/3c699c2f13887d6cd8f2/c10dec53de25ca40fa7ab7fdb4962c3636b09ff62fc4eae19e7a5a466813ad19.png)\n\n1. Select contacts or group chats to which you would like to transfer a message.\n\n![](/img/ringotel/original/f194ce9a88026f49ed04/1d3a97de97944a101f59b9279fe52a1552faa4e4100eca7b0bd54945f9c514f4.png)\n\nTo forward **multiple messages&#x20;**&#x74;o another user(s):\n\n1. Long-tap on a message that you’d like to forward.\n2. In the pop-up menu, select the ‘**More**’ menu item.\n\n![](/img/ringotel/original/ef2d54249375999dbdde/148ec61c170be920c87d1701d41d8f9aa3ec4437753574a9bf994e6de1da1560.png)\n\n1. Tap on the![App icon](/img/ringotel/original/9c141067cebceec0506f/7c211919e85df12944e5a188cff7017ff4ec89ecb3bd934376113b42f4899abb.png)icon.\n\n![](/img/ringotel/original/945a313a3c54b9052681/e9aa4158948b866bfbc3b4c95e0e3070bc4bed152d7c40d6eeba1b3d88c6bf72.png)\n\n1. Select contacts or group chats to which you would like to transfer a message.\n\n![](/img/ringotel/original/f194ce9a88026f49ed04/1d3a97de97944a101f59b9279fe52a1552faa4e4100eca7b0bd54945f9c514f4.png)\n\n## Replying to a message\n\nTo reply to a specific message in a chat:\n\n1. Long-tap on a message that you’d like to reply to.\n2. In the pop-up menu, select the ‘**Reply**’ menu item.\n\n![](/img/ringotel/original/3c699c2f13887d6cd8f2/c10dec53de25ca40fa7ab7fdb4962c3636b09ff62fc4eae19e7a5a466813ad19.png)\n\n1. At the bottom of the screen, right above the Text Area where you type your messages, you’ll see the message that you’re replying to.\n\n![](/img/ringotel/original/8548f7ce9e5750b6a946/6ed6336df2c786b72a543ad3e8cd9f821e7758c4d8240d46c4ee4760c27032fb.png)\n\n1. Type your reply in the text area at the bottom of the screen.\n2. Press the![App icon](/img/ringotel/original/1ecb72eec15ddb023269/8efc7d22da2c89d092dffcd1ec89f74b4e170f32bce9e35b62ba73645c18591d.png)icon to send your reply.\n\n## Share messages with other applications on your device\n\nTo share a message with other applications:\n\n1. Long-tap on any message in a chat.\n2. In the pop-up menu, select the ‘**More**’ menu item.\n\n![](/img/ringotel/original/ef2d54249375999dbdde/148ec61c170be920c87d1701d41d8f9aa3ec4437753574a9bf994e6de1da1560.png)\n\n1. Select messages /photos /files /calls you would like to share.\n\n![](/img/ringotel/original/945a313a3c54b9052681/e9aa4158948b866bfbc3b4c95e0e3070bc4bed152d7c40d6eeba1b3d88c6bf72.png)\n\n1. Tap on an![App icon](/img/ringotel/original/2f46d45c9eb602ac80cc/ee3c37a631a13d89c2adedeafb23295a069ba1143eb685c7151a16a2679969d2.png)icon.\n2. Select an application on your device you’d like to share messages with.\n\n## Related articles\n\n- [Sending messages and media](/docs/apps/ios-sending-messages-and-media--i8makyr075gev6h6elawa5hf)\n- [Sending an SMS message](/docs/apps/ios-sending-sms-message--u9er4aaxgafnsgkjp9bl527u)\n- [Working with contacts](/docs/apps/ios-working-with-contacts--fkd2qyccst8qw7mnpdkeyppp)\n"
+}

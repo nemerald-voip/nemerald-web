@@ -1,0 +1,195 @@
+{
+  "source": {
+    "id": "gley2co2423x5no1xjnoapcj",
+    "slug": "ios-switching-between-lines",
+    "title": "Switching between two lines during a call",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "During a call, if you need to make an outgoing call while putting the current call on hold:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Add call",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_add_participant_98a10ad1f8.png}}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_screen_buttons_f04be618a1.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose а contact that you’d like to call from the list."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Press the Numpad icon{{icon:https://new-kb.ringotel.com/uploads/ios_icon_numpad_fff348da33.png}}to dial a phone number."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_add_participant_83b95e4214.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After the connection has been established, you can switch between the two calls by tapping on a pause icon."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_screen_2lines_swap_d297a373c5.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_swap_calls_96bf614d56.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to switch between lines."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "ios-add-to-conference",
+        "title": "Add a participant to a conference"
+      },
+      {
+        "slug": "ios-making-outgoing-calls",
+        "title": "Making outgoing calls"
+      },
+      {
+        "slug": "ios-transfer-a-call",
+        "title": "Transfer a call"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Switching between two lines during a call\"\nslug: \"/apps/ios-switching-between-lines--gley2co2423x5no1xjnoapcj\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-calls\"]\n---\n\nDuring a call, if you need to make an outgoing call while putting the current call on hold:\n\n1. Tap on the ‘**Add call**’ icon![App icon](/img/ringotel/original/6b5fffabba5d60506ca5/84a30dfd13ed069f173ad424c7317fc2ee782d024917d073fffb809b12881587.png)\n\n![](/img/ringotel/original/b8e5c4b2ce737504717f/79a62a6e92c6a407b64224ba437630d05c31d018ff48bc9ef7b71ce6d8edc56b.png)\n\n1. Choose а contact that you’d like to call from the list.\n\n**OR&#x20;**&#x50;ress the Numpad icon![App icon](/img/ringotel/original/140fae854ca2089ce82e/27582fef43b624850b4b0519a90cc9506c69defb77026fca0c42b503969093d2.png)to dial a phone number.\n\n![](/img/ringotel/original/86a79526278cac29ee54/82bbd4d24e0cb74bb3a2b2dba8003a147bf5ad8e25d1f817cc650bf85fcd3d11.png)\n\n1. After the connection has been established, you can switch between the two calls by tapping on a pause icon.\n\n![](/img/ringotel/original/5426e9575de7626bd66d/4447e97340c42b86adc432198a9b6267c1db0a6ac9aed7382c93120e4dfdc1a7.png)\n\n1. Tap on the![App icon](/img/ringotel/original/781f587a10d66a302ddb/d32eb8e7539ce715ca240d4141a459407fe55a78bacc7b5ded9cf0aae028f5c6.png)icon to switch between lines.\n\n## Related articles\n\n- [Add a participant to a conference](/docs/apps/ios-add-to-conference--pjkfi0mfezoimgar5qa4fzg0)\n- [Making outgoing calls](/docs/apps/ios-making-outgoing-calls--pzl38a1hg4biemmmklzs264n)\n- [Transfer a call](/docs/apps/ios-transfer-a-call--fi98bkz81m665tyvhwu8p13p)\n"
+}

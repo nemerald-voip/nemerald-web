@@ -1,0 +1,176 @@
+{
+  "source": {
+    "id": "im5eg24mu3srsmufop1eml2m",
+    "slug": "desktop-creating-group-chat",
+    "title": "Creating a group chat",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To create a group chat:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the plus button"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_plus_ff73086900.png}}"
+              },
+              {
+                "type": "text",
+                "text": "at the right side of the tab name."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose "
+              },
+              {
+                "type": "text",
+                "text": "Create group ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from a drop-down menu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_create_menu_newgroup_90610d9247.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In a "
+              },
+              {
+                "type": "text",
+                "text": "New Group window ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "enter the name of a group chat and choose participants you want to add to a group chat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Click on"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_group_admin_off_92ed907357.png}}"
+          },
+          {
+            "type": "text",
+            "text": "if you’d like to give a user admin rights. The highlighted label means a user will have admin privileges."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_newgroup_window_ad1b4c1c41.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the "
+              },
+              {
+                "type": "text",
+                "text": "Create group ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "button."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-chats"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Creating a group chat\"\nslug: \"/apps/desktop-creating-group-chat--im5eg24mu3srsmufop1eml2m\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-chats\"]\n---\n\nTo create a group chat:\n\n1. Click on the plus button![App icon](/img/ringotel/original/cc1a7dcd36a2aa8941be/732f38ce89390294a03c02465fd0e412e5db687c082496a41277c5dcd6738c66.png)at the right side of the tab name.\n2. Choose **Create group&#x20;**&#x66;rom a drop-down menu.\n\n![](/img/ringotel/original/9a5560f6dce0fa726b78/a3f71bafb73f342e03be7c5d2a5bd7ee7638f259d0dde79841c7fb5677a299e8.png)\n\n1. In a **New Group window&#x20;**&#x65;nter the name of a group chat and choose participants you want to add to a group chat.\n\nClick on![App icon](/img/ringotel/original/105ecf1a377fbaf1be93/6bd024a00d206bb0ced8dcd4e9e51427391c5f9878bda4b5798ef9db16675af1.png)if you’d like to give a user admin rights. The highlighted label means a user will have admin privileges.\n\n![](/img/ringotel/original/7114877a6878ca1ac26c/b7a96dbebd33361b5f873ff7ddc1b4a2b79fb78e745a2a2e0c7e47508196f317.png)\n\n1. Click on the **Create group&#x20;**&#x62;utton.\n"
+}

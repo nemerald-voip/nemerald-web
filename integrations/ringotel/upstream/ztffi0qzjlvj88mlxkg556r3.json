@@ -1,0 +1,506 @@
+{
+  "source": {
+    "id": "ztffi0qzjlvj88mlxkg556r3",
+    "slug": "android-sending-messages",
+    "title": "Sending messages",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-creating-chat-sms/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-sending-sms-message/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Sending a text message"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send a text message to another app user:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open a chat with a colleague(s) you would like to send a message to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the text area at the bottom of the screen."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After you’ve finished typing your message, press the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_chat_send_5c7eb43f58.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to send it."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Sending an SMS message *"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send an SMS message to a contact or a phone number:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/android-chats-and-messages/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "‘Chats’ tab"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "press on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_fab_chat_6a82abcee4.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the bottom of the screen and then tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_fab_chat_6a82abcee4.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to create a new chat."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select a contact you’d like to send an SMS message or type in a phone number at the top of the screen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_create_chat_4f31f8c631.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the text area at the bottom of the screen and type in your message."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_sending_text_message_7953e9ae3f.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After you’ve finished typing your message, press the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_chat_send_5c7eb43f58.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to send it."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Sending files, photos, and locations"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send a file, photo, or your current location:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open a chat with a colleague(s) you would like to send a file to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_chat_plus_342c3e5f9b.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the bottom of the screen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_chat_typefield_f5ff3e18fc.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select the type of message that you would like to send."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_chat_share_bar_ff65173744.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Sending voice messages"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send a voice message to your colleagues who are using the app:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open a chat with a colleague(s) you would like to send a file to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_chat_mic_f1e0d0fe56.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the bottom of the screen."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "The recording will start, and the appearance of the microphone icon will change."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_chat_voicemessage_1a5fe4c7d5.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After you’ve finished recording your message, tap again on the microphone icon to send you a message."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To cancel the recording press and hold the microphone icon and slide it to the left.",
+            "bold": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "sms",
+      "working-with-chats"
+    ],
+    "related": [
+      {
+        "slug": "android-group-chat",
+        "title": "Starting a Group chat"
+      },
+      {
+        "slug": "android-working-with-messages",
+        "title": "Working with messages"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Sending messages\"\nslug: \"/apps/android-sending-messages--ztffi0qzjlvj88mlxkg556r3\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"sms\",\"working-with-chats\"]\n---\n\n*Looking for an&#x20;*[PC/Mac](/docs/apps/desktop-creating-chat-sms--wq59474ron4rofgdi73acjxw) *or&#x20;*[iOS](/docs/apps/ios-sending-sms-message--u9er4aaxgafnsgkjp9bl527u) *version of this article?*\n\n## Sending a text message\n\nTo send a text message to another app user:\n\n1. Open a chat with a colleague(s) you would like to send a message to.\n2. Tap on the text area at the bottom of the screen.\n3. After you’ve finished typing your message, press the![App icon](/img/ringotel/original/38ebfc91dccd26a6cff6/c41538069d3c67cf954a3fb5d8b1149a8c357208824c15d350cadf9c0aea101e.png)icon to send it.\n\n## Sending an SMS message \\*\n\nTo send an SMS message to a contact or a phone number:\n\n1. In the [‘Chats’ tab](/docs/apps/android-chats-and-messages--wiert7wul43oyqrsq57amnnr) press on the![App icon](/img/ringotel/original/5c216d41c20b25c70472/39dd17861b340716bbd4622a4146d79ced0b8559501f20d8979465a49ccaa3ac.png)icon at the bottom of the screen and then tap on the![App icon](/img/ringotel/original/5c216d41c20b25c70472/39dd17861b340716bbd4622a4146d79ced0b8559501f20d8979465a49ccaa3ac.png)icon to create a new chat.\n2. Select a contact you’d like to send an SMS message or type in a phone number at the top of the screen.\n\n![](/img/ringotel/original/10d2c84a83a457f67395/c21da93068a3afd1441c80429386ec47b7606ccea104d8c411ed629ae6382dde.png)\n\n1. Tap on the text area at the bottom of the screen and type in your message.\n\n![](/img/ringotel/original/ca5ccf93a1a260bdb6cc/6926a8bd5a9312d3046e02d9e98c06ba6f07a7fcbfecf21c28125c75b0e79f84.png)\n\n1. After you’ve finished typing your message, press the![App icon](/img/ringotel/original/38ebfc91dccd26a6cff6/c41538069d3c67cf954a3fb5d8b1149a8c357208824c15d350cadf9c0aea101e.png)icon to send it.\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n\n## Sending files, photos, and locations\n\nTo send a file, photo, or your current location:\n\n1. Open a chat with a colleague(s) you would like to send a file to.\n2. Tap on the![App icon](/img/ringotel/original/0931bf1932daabce1ba5/64be2758ad7f08ab569dfd41bae6a526596862258be9c5a73f5d84a6d5f5a2f3.png)icon at the bottom of the screen.\n\n![](/img/ringotel/original/c0aa4f6898b647e3779f/e9f9b9788867b3557cc08ad50184806dadc624e25ca87562ea1779e62886a0ed.png)\n\n1. Select the type of message that you would like to send.\n\n![](/img/ringotel/original/3a1e42a59dc3521b4b38/383eebfceedde9109f6f0af284b6542fb2d6f2852b4b8a6c380db97391dbf8e1.png)\n\n## Sending voice messages\n\nTo send a voice message to your colleagues who are using the app:\n\n1. Open a chat with a colleague(s) you would like to send a file to.\n2. Tap on the![App icon](/img/ringotel/original/63b816423febbcefd6ef/c3bef85b4b24029c6aa146e34738456c47718226171487c072ebbd9a45286a92.png)icon at the bottom of the screen.\n3. The recording will start, and the appearance of the microphone icon will change.\n\n![](/img/ringotel/original/53c289999bdba1675f12/a95e7278d9a59d10c3528a83c2f55b104fe109fc9152d8361561a0732b20ddc4.png)\n\n1. After you’ve finished recording your message, tap again on the microphone icon to send you a message.\n\n**To cancel the recording press and hold the microphone icon and slide it to the left.**\n\n## Related articles\n\n- [Starting a Group chat](/docs/apps/android-group-chat--pwppgsm62tuktjnjd5t3cb50)\n- [Working with messages](/docs/apps/android-working-with-messages--e110ybupptzidqpmccp0t8nv)\n"
+}
