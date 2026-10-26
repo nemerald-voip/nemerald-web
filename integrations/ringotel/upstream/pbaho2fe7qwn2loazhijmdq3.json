@@ -1,0 +1,94 @@
+{
+  "source": {
+    "id": "pbaho2fe7qwn2loazhijmdq3",
+    "slug": "highlight-to-call",
+    "title": "Highlight-To-Call",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The Highlight-To-Call feature allows you to highlight a phone number anywhere on the computer screen and automatically make a call via the Softphone app on Windows."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "How does it work?",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your desktop app must be launched and logged in with your user account."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Highlight a phone number in any native app, like a web browser, Word, Acrobat Reader (PDF), etc."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "To dial the highlighted number via the desktop app, press the"
+              },
+              {
+                "type": "text",
+                "text": "Pause/Break",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "button or"
+              },
+              {
+                "type": "text",
+                "text": "CTRL+F6",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "combination."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Highlight-To-Call\"\nslug: \"/apps/highlight-to-call--pbaho2fe7qwn2loazhijmdq3\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\"]\n---\n\nThe Highlight-To-Call feature allows you to highlight a phone number anywhere on the computer screen and automatically make a call via the Softphone app on Windows.\n\n**How does it work?**\n\n1. Your desktop app must be launched and logged in with your user account.\n2. Highlight a phone number in any native app, like a web browser, Word, Acrobat Reader (PDF), etc.\n3. To dial the highlighted number via the desktop app, press the**Pause/Break**button or**CTRL+F6**combination.\n"
+}

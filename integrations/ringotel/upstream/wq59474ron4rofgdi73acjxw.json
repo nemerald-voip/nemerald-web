@@ -1,0 +1,218 @@
+{
+  "source": {
+    "id": "wq59474ron4rofgdi73acjxw",
+    "slug": "desktop-creating-chat-sms",
+    "title": "Creating a chat / Sending SMS",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-sending-messages/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-sending-sms-message/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To create a chat or send an SMS:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on an"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_plus_ff73086900.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the right side of the tab name."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose "
+              },
+              {
+                "type": "text",
+                "text": "Create Chat ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from a drop-down menu."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select a "
+              },
+              {
+                "type": "text",
+                "text": "User ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "from the list to create a personal chat"
+              },
+              {
+                "type": "text",
+                "text": ".",
+                "bold": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enter a phone number in the search field and choose an external contact to create an SMS chat. *"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_create_chat_88927bcae6.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_create_sms_number_eaa619dadd.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "sms",
+      "working-with-chats"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": true
+  },
+  "generated": "---\ntitle: \"Creating a chat / Sending SMS\"\nslug: \"/apps/desktop-creating-chat-sms--wq59474ron4rofgdi73acjxw\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"sms\",\"working-with-chats\"]\n---\n\n> Availability of this feature depends on your service configuration. Contact support for details.\n\n*Looking for an&#x20;*[Android](/docs/apps/android-sending-messages--ztffi0qzjlvj88mlxkg556r3) *or&#x20;*[iOS](/docs/apps/ios-sending-sms-message--u9er4aaxgafnsgkjp9bl527u) *version of this article?*\n\nTo create a chat or send an SMS:\n\n1. Click on an![App icon](/img/ringotel/original/cc1a7dcd36a2aa8941be/732f38ce89390294a03c02465fd0e412e5db687c082496a41277c5dcd6738c66.png)icon at the right side of the tab name.\n2. Choose **Create Chat&#x20;**&#x66;rom a drop-down menu.\n3. Select a **User&#x20;**&#x66;rom the list to create a personal cha&#x74;**.**\n\n**OR**\n\n1. Enter a phone number in the search field and choose an external contact to create an SMS chat. \\*\n\n![](/img/ringotel/original/62886e1cb757c3e9ca0b/10040b5fc80e15bb526cb0185bebb78f25d11eb33e12357f969953fc982bfebe.png)\n\n![](/img/ringotel/original/eadd6cb4d8a6b19504d9/561e72341f9c19dd13fcb3f965f77795a560fa8b11466be29a89aa027dbec306.png)\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n"
+}

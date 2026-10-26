@@ -1,0 +1,151 @@
+{
+  "source": {
+    "id": "k6r55vy13tjohxf7yx86uo1h",
+    "slug": "ios-app-settings",
+    "title": "App Settings",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In the App Settings, you can set Call Forwarding, Voicemail, and some other features according to your needs."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To open the App Settings, you need to tap on the"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_tab_menu_bd632450b6.png}}"
+          },
+          {
+            "type": "text",
+            "text": "icon."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The app settings are divided into two groups:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Call Settings;"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "unordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Media and Files."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_menu_screen_71d6141670.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Media and Files"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Here you can set how to store call history, files, and pictures."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_media_files_settings_fb2afc1fef.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "settings",
+      "setup"
+    ],
+    "related": [
+      {
+        "slug": "ios-call-settings",
+        "title": "Call Settings"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"App Settings\"\nslug: \"/apps/ios-app-settings--k6r55vy13tjohxf7yx86uo1h\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"settings\",\"setup\"]\n---\n\nIn the App Settings, you can set Call Forwarding, Voicemail, and some other features according to your needs.\n\nTo open the App Settings, you need to tap on the![App icon](/img/ringotel/original/372d31604f9aad756a4d/333869be89320abaaecc421555ae29a292946fce6ebab4b970aafde9f13fd3e1.png)icon.\n\nThe app settings are divided into two groups:\n\n- Call Settings;\n\n* Media and Files.\n\n![](/img/ringotel/original/6d0ce70ad0094dc640c3/98fb27b98e21c5fb1ef316456d7f25dfe323b31a4285af3590ea8401bdafc088.png)\n\n## Media and Files\n\nHere you can set how to store call history, files, and pictures.\n\n![](/img/ringotel/original/6d29dc9996b68223fdaf/37c347c9c13fb1c4efe4e4423203f40655acb5dd37904ed88570a6fd45a61c26.png)\n\n## Related articles\n\n- [Call Settings](/docs/apps/ios-call-settings--e17r8k0ifbuhd4pwldlm7xhc)\n"
+}

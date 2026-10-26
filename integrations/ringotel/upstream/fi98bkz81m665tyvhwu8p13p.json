@@ -1,0 +1,266 @@
+{
+  "source": {
+    "id": "fi98bkz81m665tyvhwu8p13p",
+    "slug": "ios-transfer-a-call",
+    "title": "Transfer a call",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-transfer-call/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-call-transfer/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To transfer a call:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "During an ongoing call, press the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Transfer",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_transfer_9207bd7ca2.png}}"
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enter a phone number or choose a contact from the list, where you want to transfer a call."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_transfer_call_82a4e9c4e0.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "1. Tap on the ‘Numpad’ icon to dial a phone number.",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Choose if you would like to do a Blind or Attended transfer."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_transfer_menu_2218873126.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "If you choose a ‘"
+          },
+          {
+            "type": "text",
+            "text": "Blind transfer",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’, you will be disconnected from this call while the caller will be transferred to the number you selected."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In the case of ‘"
+          },
+          {
+            "type": "text",
+            "text": "Attended transfer",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’, the caller will be put on hold, while the app will make an outgoing call to the number/contact you chose to transfer a call to."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_screen_2lines_transfer_354ff86d3f.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the highlighted ‘"
+              },
+              {
+                "type": "text",
+                "text": "Transfer",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ button (1) to confirm the call transfer."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "ios-making-outgoing-calls",
+        "title": "Making outgoing calls"
+      },
+      {
+        "slug": "ios-switching-between-lines",
+        "title": "Switching between two lines during a call"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Transfer a call\"\nslug: \"/apps/ios-transfer-a-call--fi98bkz81m665tyvhwu8p13p\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-calls\"]\n---\n\n*Looking for an&#x20;*[Android](/docs/apps/android-transfer-call--ukk2ikysb3a6guqd8gzugh87) *or&#x20;*[PC/Mac](/docs/apps/desktop-call-transfer--goxhybvy8g83rnreyy2bsadr) *version of this article?*\n\nTo transfer a call:\n\n1. During an ongoing call, press the ‘**Transfer**’ icon![App icon](/img/ringotel/original/b427aeba262a7f68c9e5/d0e3ed4c40a8dd53aaf31cd446c20e5b6876e621b0629f5a2b498569901d8577.png)\n2. Enter a phone number or choose a contact from the list, where you want to transfer a call.\n\n![](/img/ringotel/original/edb8bfc351b898686012/0d0fca22298c3f4d424c3c6ff35f7c5841005312008f283c4d7a7ba75651b22e.png)\n\n*1. Tap on the ‘Numpad’ icon to dial a phone number.*\n\n1. Choose if you would like to do a Blind or Attended transfer.\n\n![](/img/ringotel/original/a65f213d6061835daaaa/7c90b54691d7e34f4651cb03930259cb8996a7655bfef3eb9f41cc038f56333e.png)\n\nIf you choose a ‘**Blind transfer**’, you will be disconnected from this call while the caller will be transferred to the number you selected.\n\nIn the case of ‘**Attended transfer**’, the caller will be put on hold, while the app will make an outgoing call to the number/contact you chose to transfer a call to.\n\n![](/img/ringotel/original/34be4df9ff0292e0f5b5/dee8f68a5270725e4eddd2fd99f424bacbbbd7fbfcde4ee5f38949baf1c63857.png)\n\n1. Press the highlighted ‘**Transfer**’ button (1) to confirm the call transfer.\n\n## Related articles\n\n- [Making outgoing calls](/docs/apps/ios-making-outgoing-calls--pzl38a1hg4biemmmklzs264n)\n- [Switching between two lines during a call](/docs/apps/ios-switching-between-lines--gley2co2423x5no1xjnoapcj)\n"
+}

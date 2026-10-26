@@ -1,0 +1,177 @@
+{
+  "source": {
+    "id": "v89kgvaxke36tc1ceqmngw6c",
+    "slug": "ios-import-contacts",
+    "title": "Import contacts",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To import a contact from your iOS device into the mobile app:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Contacts",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ tab and tap on the '"
+              },
+              {
+                "type": "text",
+                "text": "Phone Contacts",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "'."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_contacts_tab_import_a21ec34c3d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Import ’",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "button to select the contacts you want to import."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_contacts_import_1_ecc65f1059.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select the contacts you would like to import and press the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Done",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ button to finish importing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_contacts_import_2_c2535caa10.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "ios-dial-from-your-phone-book",
+        "title": "Dial a contact from a device’s phone book"
+      },
+      {
+        "slug": "ios-working-with-contacts",
+        "title": "Working with contacts"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Import contacts\"\nslug: \"/apps/ios-import-contacts--v89kgvaxke36tc1ceqmngw6c\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-contacts\"]\n---\n\nTo import a contact from your iOS device into the mobile app:\n\n1. Open the ‘**Contacts**’ tab and tap on the '**Phone Contacts**'.\n\n![](/img/ringotel/original/d52214e7a3e2f2fedaf8/c811081839173a132bc651fa7f70cee1efaf47b0f41690d6a9528e7403887235.png)\n\n1. Tap on the ‘**Import ’**&#x62;utton to select the contacts you want to import.\n\n![](/img/ringotel/original/3cf01f762067c48aefc7/fea34d220ddd14c96fbe241479a885c4762231b678f0d930933b51f0f00b4a2e.png)\n\n1. Select the contacts you would like to import and press the ‘**Done**’ button to finish importing.\n\n![](/img/ringotel/original/db1548e09d8a22c5742b/36d796eed378245f31c7a720093fa6bbd0e7c4af509115ddf662c5258fc36401.png)\n\n## Related articles\n\n- [Dial a contact from a device’s phone book](/docs/apps/ios-dial-from-your-phone-book--zu0lwhke4ovkzk5b2q8m8mge)\n- [Working with contacts](/docs/apps/ios-working-with-contacts--fkd2qyccst8qw7mnpdkeyppp)\n"
+}

@@ -1,0 +1,324 @@
+{
+  "source": {
+    "id": "lg90ce3ygm72r214logejh7k",
+    "slug": "android-blocklist",
+    "title": "Block numbers",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/remove-participants-from-a-conference-windows-mac-desktop/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-blocklist/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "You can block incoming calls and SMS from the selected contacts and phone numbers."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "NOTE:",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Blocked contacts are shared across your entire organisation, so if you block a number, it will also appear on other users' blocked list."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to add a phone number to Block list"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To add a new phone number to your Block list:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to Menu > Blocked."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap the \"Add\" button."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "On the Create contact screen, specify the phone number and (optionally) the reason for blocking this number."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the Save button to confirm."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_block_list_9068e70371.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to block an existing contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To block an existing contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to Contacts tab."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Find and select the contact in the list."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the contact profile, tap on the menu icon and select the Block option."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_block_contact_profile_e67dc9f7d9.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "How to unblock a contact"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To unblock a blocked contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to Menu > Blocked."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Find and select the contact in the list."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "In the pop-up menu press the \"Remove\" button or open the contact details and unblock in from its profile."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_block_list_menu_cb01436613.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "blocklist",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "android-create-new-contact",
+        "title": "Create a new contact"
+      },
+      {
+        "slug": "android-working-with-contact",
+        "title": "Working with contacts"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Block numbers\"\nslug: \"/apps/android-blocklist--lg90ce3ygm72r214logejh7k\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"blocklist\",\"working-with-contacts\"]\n---\n\n*Looking for an&#x20;*[PC/Mac](/docs/apps/remove-participants-from-a-conference-windows-mac-desktop--nppp2oyqarg76q5ssezwxwp9) *or&#x20;*[iOS](/docs/apps/ios-blocklist--lchl96vtphrmdtytkicr7qo8) *version of this article?*\n\nYou can block incoming calls and SMS from the selected contacts and phone numbers.\n\n**NOTE:**&#x42;locked contacts are shared across your entire organisation, so if you block a number, it will also appear on other users' blocked list.\n\n## How to add a phone number to Block list\n\nTo add a new phone number to your Block list:\n\n1. Navigate to Menu > Blocked.\n2. Tap the \"Add\" button.\n3. On the Create contact screen, specify the phone number and (optionally) the reason for blocking this number.\n4. Press the Save button to confirm.\n\n![](/img/ringotel/original/40a11cdaec9456b6e67a/f330b6b5f8fde61e8c7ceb1d91ddd6766e6ff06118dfe33277119299410813d2.png)\n\n## How to block an existing contact\n\nTo block an existing contact:\n\n1. Navigate to Contacts tab.\n2. Find and select the contact in the list.\n3. In the contact profile, tap on the menu icon and select the Block option.\n\n![](/img/ringotel/original/72fb2013764e4ba8af0a/2756c25747a3e088ac37ab32762c8de9829c2601506811ea3d81dc226d015160.png)\n\n## How to unblock a contact\n\nTo unblock a blocked contact:\n\n1. Navigate to Menu > Blocked.\n2. Find and select the contact in the list.\n3. In the pop-up menu press the \"Remove\" button or open the contact details and unblock in from its profile.\n\n![](/img/ringotel/original/0a3543b8fc3ecb4dff1e/30534b65db612326c2658256b6cca14a8d2878a85f2d49328d00d6397a060e94.png)\n\n## Related articles\n\n- [Create a new contact](/docs/apps/android-create-new-contact--xfi4qswn3bq55vlygnatx1kk)\n- [Working with contacts](/docs/apps/android-working-with-contact--ukprk9ontafcdkvwcit3mzs6)\n"
+}

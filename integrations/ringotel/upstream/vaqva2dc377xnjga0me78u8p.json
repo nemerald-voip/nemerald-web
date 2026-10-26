@@ -1,0 +1,329 @@
+{
+  "source": {
+    "id": "vaqva2dc377xnjga0me78u8p",
+    "slug": "desktop-conference-calls",
+    "title": "Starting a conference call",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/ios-add-to-conference/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "or",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-add-participant/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "There are two ways to initiate a conference call from your desktop app:"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Adding participants to a call"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To make a conference during a call:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "While you are on a call with the first participant, make an outgoing call to a person you want to add to the conference. Thus putting the first participant on hold."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "After you’ve successfully connected with the second participant:"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_2lines_tabpanel_compact_mode_ee7fc586a6.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_2lines_tabpanel_c290997df6.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_2lines_holdline_notification_b0afc878e9.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click the "
+              },
+              {
+                "type": "text",
+                "text": "Merge ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "button{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_merge_1fe9fc23ce.png}}on the "
+              },
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-call-hold-dtmf-recording/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Active Line or Pop-up window"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " . Your two active lines will merge into one."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Repeat the above steps to add more participants to a conference.",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Audio&video calls in group chats"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To organise an audio conference with predefined lists of participants, you need to:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "link",
+                "url": "https://kb.ringotel.net/desktop-creating-group-chat/",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Create a group"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "text": "and add participants from the list of users."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open a group chat you’ve created and click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_audio_6843b05b5e.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the top right corner."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_groupchat_1_a132a2ce4b.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To create a video meeting, click the \"video\" button"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_video_e858793169.png}}"
+          },
+          {
+            "type": "text",
+            "text": "and confirm the action."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "If you don't see a video button, it means that this feature is disabled for your account. Please contact your system administrator for more information."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "basics",
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Starting a conference call\"\nslug: \"/apps/desktop-conference-calls--vaqva2dc377xnjga0me78u8p\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"basics\",\"desktop\",\"working-with-calls\"]\n---\n\n*Looking for an*[*iOS*](/docs/apps/ios-add-to-conference--pjkfi0mfezoimgar5qa4fzg0)*or*[*Android*](/docs/apps/android-add-participant--revxed1mtc961qnyoj91m8rz)*version of this article?*\n\nThere are two ways to initiate a conference call from your desktop app:\n\n## Adding participants to a call\n\nTo make a conference during a call:\n\n1. While you are on a call with the first participant, make an outgoing call to a person you want to add to the conference. Thus putting the first participant on hold.\n\nAfter you’ve successfully connected with the second participant:\n\n![](/img/ringotel/original/dde671572b30143693c1/df5d28c9c5b5bbd995ccddfb7c5efdae2dbd4a2033115bff7c59b09c483ae12c.png)\n\n![](/img/ringotel/original/35fd09664c0961baac18/e50877a1884a2ca85630f375982e97d25f5d88953603d54867e38c8ecb4f2cea.png)\n\n![](/img/ringotel/original/f1d40fdc8f8cbde30b70/b7626c31c270b6eda8529f58a1ab498ef30fc95f163424ce18628de1604366cd.png)\n\n1. Click the **Merge&#x20;**&#x62;utton![App icon](/img/ringotel/original/f7930021809510262edb/8e6728d22194452efaab84dd70d4ae1e517906d7a7950afc26b5a6e7294b3d9e.png)on the [Active Line or Pop-up window](/docs/apps/desktop-call-hold-dtmf-recording--ybm4k618ragnlgyy963xbwpe) . Your two active lines will merge into one.\n\n**Repeat the above steps to add more participants to a conference.**\n\n## Audio\\&video calls in group chats\n\nTo organise an audio conference with predefined lists of participants, you need to:\n\n1. [Create a group](/docs/apps/desktop-creating-group-chat--im5eg24mu3srsmufop1eml2m) and add participants from the list of users.\n2. Open a group chat you’ve created and click on the![App icon](/img/ringotel/original/15b7b4545e7baeb6c1f6/8184015fda112d6829f5edccd9131a16385dbf1826908036caccbf2ba593ad4b.png)icon at the top right corner.\n\n![](/img/ringotel/original/958c73f81f2689a2547d/94a08a15be12ea118d35578402bda4f53b628400335675b99f676fe5238640a1.png)\n\nTo create a video meeting, click the \"video\" button![App icon](/img/ringotel/original/f9e7bc348ca940a431a2/c0ef03e9a9b6cf1b2c927606e2327678bee0496366929d76ef71fb104b72ba1f.png)and confirm the action.\n\nIf you don't see a video button, it means that this feature is disabled for your account. Please contact your system administrator for more information.\n"
+}

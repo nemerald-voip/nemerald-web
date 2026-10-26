@@ -1,0 +1,177 @@
+{
+  "source": {
+    "id": "oq34jldzp7zc312g712bn73x",
+    "slug": "ios-create-a-new-contact",
+    "title": "Create a new contact",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To create a new contact:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_plus_75754473ce.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the top right corner of the screen."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select ‘"
+              },
+              {
+                "type": "text",
+                "text": "Contact",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ from a pop-up menu:"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_create_menu_1ec4037052.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then fill in the name of the contact and add additional details."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_new_contact_efb562b0c8.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enter a contact’s name"
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press ‘Save’ to finish editing the contact."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Add an avatar picture to the contact."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Add details like phone numbers, company name, job title, etc."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "android-create-new-contact",
+        "title": "Create a new contact"
+      },
+      {
+        "slug": "desktop-add-delete-contact",
+        "title": "How to add and delete a contact"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Create a new contact\"\nslug: \"/apps/ios-create-a-new-contact--oq34jldzp7zc312g712bn73x\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-contacts\"]\n---\n\nTo create a new contact:\n\n1. Tap on the![App icon](/img/ringotel/original/c4c15a8e5eb3ee1b8b03/fa3a72562096b836374e36cd269b0df33a7f0e2f9e4e5848d2541289d92ba5fc.png)icon at the top right corner of the screen.\n2. Select ‘**Contact**’ from a pop-up menu:\n\n![](/img/ringotel/original/4c0e43c36eb56bc70068/a29a523f960b4f242bb1d6f24375ee2fbc4cb5fd836bc23886e41b9a033243d1.png)\n\n1. Then fill in the name of the contact and add additional details.\n\n![](/img/ringotel/original/c449d75fd1003d633076/3783c5d06eec87b276688848dfde3e54c2c5d0e6f169199c641cc385dacfc667.png)\n\n1. Enter a contact’s name\n2. Press ‘Save’ to finish editing the contact.\n3. Add an avatar picture to the contact.\n4. Add details like phone numbers, company name, job title, etc.\n\n## Related articles\n\n- [Create a new contact](/docs/apps/android-create-new-contact--xfi4qswn3bq55vlygnatx1kk)\n- [How to add and delete a contact](/docs/apps/desktop-add-delete-contact--ahhk0yl59mshn5v92dpmdk3o)\n"
+}

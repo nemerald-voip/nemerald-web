@@ -1,0 +1,127 @@
+{
+  "source": {
+    "id": "icbab0zkyvel86v5acnif2wn",
+    "slug": "android-contacts",
+    "title": "Contacts tab overview",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The ‘Contacts’ Tab is where you can find contacts of all your colleagues and clients."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "All your colleagues will be displayed in the ‘"
+          },
+          {
+            "type": "text",
+            "text": "My team",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "’ section together with their presence statuses."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_contacts_n_a0b7f0e705.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Search for contacts."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Switch between displaying all contacts, extensions only, and external contacts(clients, partners, suppliers, etc.)."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "List of external contacts stored on the device or accessible via integrations."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "List of extensions within your organization."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "basics",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "android-chats-and-messages",
+        "title": "Chats and messages overview"
+      },
+      {
+        "slug": "android-create-new-contact",
+        "title": "Create a new contact"
+      },
+      {
+        "slug": "android-making-outgoing-calls",
+        "title": "Making outgoing calls"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Contacts tab overview\"\nslug: \"/apps/android-contacts--icbab0zkyvel86v5acnif2wn\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"basics\",\"working-with-contacts\"]\n---\n\nThe ‘Contacts’ Tab is where you can find contacts of all your colleagues and clients.\n\nAll your colleagues will be displayed in the ‘**My team**’ section together with their presence statuses.\n\n![](/img/ringotel/original/b24a0cd559955f5586bf/ae8e88fbb53e385a37cbc1eae5de7b6d2d5e7e8fd694a1bbf92f42942e11bc0f.png)\n\n1. Search for contacts.\n2. Switch between displaying all contacts, extensions only, and external contacts(clients, partners, suppliers, etc.).\n3. List of external contacts stored on the device or accessible via integrations.\n4. List of extensions within your organization.\n\n## Related articles\n\n- [Chats and messages overview](/docs/apps/android-chats-and-messages--wiert7wul43oyqrsq57amnnr)\n- [Create a new contact](/docs/apps/android-create-new-contact--xfi4qswn3bq55vlygnatx1kk)\n- [Making outgoing calls](/docs/apps/android-making-outgoing-calls--c4n9cbuhjtif2ymq8chdz387)\n"
+}

@@ -1,0 +1,152 @@
+{
+  "source": {
+    "id": "nppp2oyqarg76q5ssezwxwp9",
+    "slug": "remove-participants-from-a-conference-windows-mac-desktop",
+    "title": "Remove participants from a conference",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/remove-participants-from-a-conference-ios/",
+            "children": [
+              {
+                "type": "text",
+                "text": "iOS"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/remove-participants-from-a-conference-android/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "text": " ",
+            "type": "text"
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To remove participant from a conference:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "During an ongoing conference call, click on the \"Remove participant\" button to open the list of participants."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop-remove-from-conference-1_d461ca2633.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "2. In the participant list, hover over the user or contact you want to disconnect from the conference, then click the three dots and in the opened menu select "
+          },
+          {
+            "type": "text",
+            "text": "Drop call",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop-remove-from-conference-2_fbb30fafa9.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Remove participants from a conference\"\nslug: \"/apps/remove-participants-from-a-conference-windows-mac-desktop--nppp2oyqarg76q5ssezwxwp9\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-calls\"]\n---\n\n*Looking for an&#x20;*[iOS](/docs/apps/remove-participants-from-a-conference-ios--sauzezxvntgq18g8ddsip3t9) *or&#x20;*[*Android*](/docs/apps/remove-participants-from-a-conference-android--u3ni2o03p2evicpl2b4o7r6l) *version of this article?*\n\nTo remove participant from a conference:\n\n1. During an ongoing conference call, click on the \"Remove participant\" button to open the list of participants.\n\n![](/img/ringotel/original/8085e1b56f35d6532481/9fe23557ad473758ff33bbc676486221b0595b6afc28a3362bf1565772672281.png)\n\n2\\. In the participant list, hover over the user or contact you want to disconnect from the conference, then click the three dots and in the opened menu select **Drop call**.\n\n![](/img/ringotel/original/f1b1ba02bb367461de48/e63c5e3b4dc244000614dffb55b7f90533374f45fe5b4b79ed5b75c1c224c186.png)\n"
+}

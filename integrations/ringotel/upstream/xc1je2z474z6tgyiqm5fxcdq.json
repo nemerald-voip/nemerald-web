@@ -1,0 +1,167 @@
+{
+  "source": {
+    "id": "xc1je2z474z6tgyiqm5fxcdq",
+    "slug": "desktop-sending-voice-message",
+    "title": "Sending a voice message",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send a voice message:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the chat with a person you would like to send a voice message to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click the{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_voice_message_b17e2fbd5a.png}}icon at the right side of the "
+              },
+              {
+                "type": "text",
+                "text": "Message Input Area",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_message_field_icons_9994e316fd.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click the{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_start_recording_deaec80440.png}}icon at the center of the "
+              },
+              {
+                "type": "text",
+                "text": "Message Recording Panel ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "to start/pause the voice recording."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_voice_message_20a29ae277.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the chat"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_send_light_313e99a662.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to send your voice message."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To cancel the recording of a voice message, just click on the"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_close_77f4493851.png}}"
+          },
+          {
+            "type": "text",
+            "text": "icon at the upper-right side of the voice recording panel."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "messages"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Sending a voice message\"\nslug: \"/apps/desktop-sending-voice-message--xc1je2z474z6tgyiqm5fxcdq\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"messages\"]\n---\n\nTo send a voice message:\n\n1. Open the chat with a person you would like to send a voice message to.\n2. Click the![App icon](/img/ringotel/original/cbc16026c556aa75d047/497862f9954086029f6cc518a8c0e9a61e7a04e8fcccad740c2b756b2265c5a6.png)icon at the right side of the **Message Input Area**.\n\n![](/img/ringotel/original/7a7f8636b91aaa169b2a/714e81ea12ec2ded5a42f4afadcf3fbae9c7fd9284c993174402b12ad58fd78c.png)\n\n1. Click the![App icon](/img/ringotel/original/4beb51e5406671873e3a/7d879ddd16d4e09a1e9eeb9896d78d356061418c3c4915acb0deb27226df50ce.png)icon at the center of the **Message Recording Panel&#x20;**&#x74;o start/pause the voice recording.\n\n![](/img/ringotel/original/c34fba3ec8254a003fc3/0214496728144827bd1997a4ac68a90a37eda3c5b7e007f8bac2624dd237c243.png)\n\n1. Click on the chat![App icon](/img/ringotel/original/206806b408c8d7a572a6/8589bdb920b0e16214181b01dbd39edae0569557f919374e846a07156be6b811.png)icon to send your voice message.\n\nTo cancel the recording of a voice message, just click on the![App icon](/img/ringotel/original/ebcd8583f70af91840fc/c60af30ce72dac962017ea4672df2735b6127b28de424d171665f7759fdb2165.png)icon at the upper-right side of the voice recording panel.\n"
+}

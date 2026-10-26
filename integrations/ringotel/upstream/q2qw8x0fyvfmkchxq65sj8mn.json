@@ -1,0 +1,243 @@
+{
+  "source": {
+    "id": "q2qw8x0fyvfmkchxq65sj8mn",
+    "slug": "ios-call-parking",
+    "title": "How to park a call",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Looking for an ",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/desktop-call-parking/",
+            "children": [
+              {
+                "type": "text",
+                "text": "PC/Mac"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " "
+          },
+          {
+            "type": "text",
+            "text": "or",
+            "italic": true
+          },
+          {
+            "type": "link",
+            "url": "https://kb.ringotel.net/android-call-parking/",
+            "children": [
+              {
+                "type": "text",
+                "text": "Android",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "version of this article?",
+            "italic": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Call Parking feature allows you to put a call on hold from one extension (or device) and retrieve it from another extension (or device) with permission to do so."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To park a call:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "During an ongoing call, press the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Transfer",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ icon"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_transfer_9207bd7ca2.png}}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_call_screen_buttons_f04be618a1.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select a parking slot where you would like to park a call and confirm action."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Note",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ": if all parking slots are busy, you will not see any parking slots in the list."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_transfer_call_82a4e9c4e0.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Retrieve a parked call"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "A parked call will be displayed in the Contacts tab above the list of users/contacts. It will be visible to all your colleagues, and they will be able to pick up this call from a parking slot."
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Navigate to the Contacts tab and click on a parking slot to retrieve a call."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Confirm action in the pop-up window to connect with the call waiting on a parking slot."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "* Please check the availability of this feature with your PBX Administrator.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-calls"
+    ],
+    "related": [
+      {
+        "slug": "ios-switching-between-lines",
+        "title": "Switching between two lines during a call"
+      },
+      {
+        "slug": "ios-transfer-a-call",
+        "title": "Transfer a call"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": true
+  },
+  "generated": "---\ntitle: \"How to park a call\"\nslug: \"/apps/ios-call-parking--q2qw8x0fyvfmkchxq65sj8mn\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-calls\"]\n---\n\n> Availability of this feature depends on your service configuration. Contact support for details.\n\n*Looking for an&#x20;*[PC/Mac](/docs/apps/desktop-call-parking--plo8imk946vya1f7dapzaatq) *or*[*Android*](/docs/apps/android-call-parking--vki9zw9odl9s6mdnxqnhi7vy)*version of this article?*\n\nCall Parking feature allows you to put a call on hold from one extension (or device) and retrieve it from another extension (or device) with permission to do so.\n\nTo park a call:\n\n1. During an ongoing call, press the ‘**Transfer**’ icon![App icon](/img/ringotel/original/b427aeba262a7f68c9e5/d0e3ed4c40a8dd53aaf31cd446c20e5b6876e621b0629f5a2b498569901d8577.png)\n\n![](/img/ringotel/original/b8e5c4b2ce737504717f/79a62a6e92c6a407b64224ba437630d05c31d018ff48bc9ef7b71ce6d8edc56b.png)\n\n1. Select a parking slot where you would like to park a call and confirm action.\n\n**Note**: if all parking slots are busy, you will not see any parking slots in the list.\n\n![](/img/ringotel/original/edb8bfc351b898686012/0d0fca22298c3f4d424c3c6ff35f7c5841005312008f283c4d7a7ba75651b22e.png)\n\n## Retrieve a parked call\n\nA parked call will be displayed in the Contacts tab above the list of users/contacts. It will be visible to all your colleagues, and they will be able to pick up this call from a parking slot.\n\n1. Navigate to the Contacts tab and click on a parking slot to retrieve a call.\n2. Confirm action in the pop-up window to connect with the call waiting on a parking slot.\n\n*\\* Please check the availability of this feature with your PBX Administrator.*\n\n## Related articles\n\n- [Switching between two lines during a call](/docs/apps/ios-switching-between-lines--gley2co2423x5no1xjnoapcj)\n- [Transfer a call](/docs/apps/ios-transfer-a-call--fi98bkz81m665tyvhwu8p13p)\n"
+}

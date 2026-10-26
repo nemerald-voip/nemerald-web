@@ -1,0 +1,212 @@
+{
+  "source": {
+    "id": "zu0lwhke4ovkzk5b2q8m8mge",
+    "slug": "ios-dial-from-your-phone-book",
+    "title": "Dial a contact from a device’s phone book",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To call a phone number that is in your device’s contacts list and is not imported into the mobile app:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Menu",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ screen and select the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Phone Contacts",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ menu item."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_phone_contacts_19b2063a40.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "On the screen with the list of your contacts, tap on a contact you want to call."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_phone_down_270e85dc0f.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to make a call."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_contact_profile_details_65771bd617.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Alternatively",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Keypad",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ tab"
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_phone_book_538a293a89.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon on the bottom left corner of the numpad."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_numpad_28450f1d61.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "calls",
+      "ios"
+    ],
+    "related": [
+      {
+        "slug": "ios-import-contacts",
+        "title": "Import contacts"
+      },
+      {
+        "slug": "ios-working-with-contacts",
+        "title": "Working with contacts"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Dial a contact from a device’s phone book\"\nslug: \"/apps/ios-dial-from-your-phone-book--zu0lwhke4ovkzk5b2q8m8mge\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"calls\",\"ios\"]\n---\n\nTo call a phone number that is in your device’s contacts list and is not imported into the mobile app:\n\n1. Open the ‘**Menu**’ screen and select the ‘**Phone Contacts**’ menu item.\n\n![](/img/ringotel/original/c006e1dc80e9d268746e/214328149e11fe1dd8f9e0fdb9dedba2b897c2d0cc23077e00edd384739cb9d3.png)\n\n1. On the screen with the list of your contacts, tap on a contact you want to call.\n2. Press the![App icon](/img/ringotel/original/9981afcb838199f838e3/456bc1831988045ace4340d6cb13ef670f2b907b8f41d9bc45b46a623455519e.png)icon to make a call.\n\n![](/img/ringotel/original/15ef78caf15254f63934/22e13acddfb227bbcec691c28c4d188c0626cc33c84ad748768e99cfd85e31a3.png)\n\n**Alternatively**\n\n1. Open the ‘**Keypad**’ tab\n2. Press the![App icon](/img/ringotel/original/2ed4425297b9673088b4/4c58022126ade37f7c2a26c377b2a59de746a1a5dd3fb90e86e7010ec4016ee5.png)icon on the bottom left corner of the numpad.\n\n![](/img/ringotel/original/d950801451c68b52f0c5/cb8a1d79dcefc5e7530684524b99525276409959293807bff646df44daf1eae9.png)\n\n## Related articles\n\n- [Import contacts](/docs/apps/ios-import-contacts--v89kgvaxke36tc1ceqmngw6c)\n- [Working with contacts](/docs/apps/ios-working-with-contacts--fkd2qyccst8qw7mnpdkeyppp)\n"
+}

@@ -1,0 +1,125 @@
+{
+  "source": {
+    "id": "z1hnjyua9dewdivc7n2zsjzj",
+    "slug": "desktop-login-screen",
+    "title": "How to log in to the app",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To start using the app on your Mac or Windows PC, click on the app icon"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_appicon_f0ad11504d.png}}"
+          },
+          {
+            "type": "text",
+            "text": "in the launchpad (Mac) or Start menu (Windows). Then enter the authentication parameters in the email you received from your PBX Admin, as shown below."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_signin_6426bc458d.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "After you have entered your domain name, click the "
+          },
+          {
+            "type": "text",
+            "text": "Login ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "button to start the app."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "If you're using a Proxy server to access the Internet, click on the "
+          },
+          {
+            "type": "text",
+            "text": "Settings ",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "button to open the app's proxy settings:"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_signin_proxy_687d63778b.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "In case of any errors occurring during the authentication process - please check if the information you entered is correct and if you have a stable internet connection.",
+            "italic": true
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "basics",
+      "desktop",
+      "get-started"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"How to log in to the app\"\nslug: \"/apps/desktop-login-screen--z1hnjyua9dewdivc7n2zsjzj\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"basics\",\"desktop\",\"get-started\"]\n---\n\nTo start using the app on your Mac or Windows PC, click on the app icon![App icon](/img/ringotel/original/575027402949337630e0/41b98c71a6c5c1c0832ac8ba70fb6b88281f80f3f3f9cef5d5b13916e5def31c.png)in the launchpad (Mac) or Start menu (Windows). Then enter the authentication parameters in the email you received from your PBX Admin, as shown below.\n\n![](/img/ringotel/original/7ce6ea4adbe60f56a29e/511737db3dd73f75b73b039acb62001fb70674cec4cfa00d272c518feb0490ce.png)\n\nAfter you have entered your domain name, click the **Login&#x20;**&#x62;utton to start the app.\n\nIf you're using a Proxy server to access the Internet, click on the **Settings&#x20;**&#x62;utton to open the app's proxy settings:\n\n![](/img/ringotel/original/2825629aa65afba6daaf/dcfec69ffbc45038c08453dbaf5a0e1e18b70cbd531f3555308e85bcfc8fa07b.png)\n\n*In case of any errors occurring during the authentication process - please check if the information you entered is correct and if you have a stable internet connection.*\n"
+}

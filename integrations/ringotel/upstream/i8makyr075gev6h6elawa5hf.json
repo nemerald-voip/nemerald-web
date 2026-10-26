@@ -1,0 +1,240 @@
+{
+  "source": {
+    "id": "i8makyr075gev6h6elawa5hf",
+    "slug": "ios-sending-messages-and-media",
+    "title": "Sending messages and media",
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Sending a text message"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send a text message to another app user:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open a chat with a colleague(s) you would like to send a message to."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_aa04ca3493.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the text area at the bottom of the screen."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "After you’ve finished typing your message, press the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_send_text_0b6b13cbe7.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to send it."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_typing_message_73c39f4116.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "children": [
+          {
+            "type": "text",
+            "text": "Sending files, photos, and locations"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To send a file, photo, or your current location:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Open a chat with a colleague(s) you would like to send a file to."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/ios_icon_send_plus_a702d2d904.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon at the bottom of the screen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_footer_e201912e87.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select the type of message that you would like to send."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/ios_chat_footer_media_a04732136c.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "ios-app",
+      "name": "iOS"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "ios",
+      "working-with-chats"
+    ],
+    "related": [
+      {
+        "slug": "ios-create-a-group-chat",
+        "title": "Starting a Group chat"
+      },
+      {
+        "slug": "ios-sending-sms-message",
+        "title": "Sending an SMS message"
+      },
+      {
+        "slug": "ios-working-with-messages",
+        "title": "Working with messages"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Sending messages and media\"\nslug: \"/apps/ios-sending-messages-and-media--i8makyr075gev6h6elawa5hf\"\nmdx: {\"format\":\"md\"}\ntags: [\"iOS\",\"General\",\"ios\",\"working-with-chats\"]\n---\n\n## Sending a text message\n\nTo send a text message to another app user:\n\n1. Open a chat with a colleague(s) you would like to send a message to.\n\n![](/img/ringotel/original/1c0cd6fd2ee371501be6/98b53d7df5a8a539d65d68fc1ade4ed3121b82c5a9a010b0550de68552da67fe.png)\n\n1. Tap on the text area at the bottom of the screen.\n2. After you’ve finished typing your message, press the![App icon](/img/ringotel/original/1ecb72eec15ddb023269/8efc7d22da2c89d092dffcd1ec89f74b4e170f32bce9e35b62ba73645c18591d.png)icon to send it.\n\n![](/img/ringotel/original/158bc076859e36410235/8d636b33461f1167a381adde5cf1ded5f20327d604bda1019fda8a5c8d4fd64c.png)\n\n## Sending files, photos, and locations\n\nTo send a file, photo, or your current location:\n\n1. Open a chat with a colleague(s) you would like to send a file to.\n2. Tap on the![App icon](/img/ringotel/original/cc44930326287ee60c38/c0a3a3da30abf5180132d794e5c7e4d31ad5bc0838f6814962ae20536598a250.png)icon at the bottom of the screen.\n\n![](/img/ringotel/original/e4e40cf3102e5363c187/852949f50a769662723799f34a1a1c4a0a5592a2ec7218fd71ab8eaf9daa52e8.png)\n\n1. Select the type of message that you would like to send.\n\n![](/img/ringotel/original/4565ec3ba0ad61ac210e/30c605f3ef98402a55f018306d1c8023b99a914574e810997660e57aff33bcf9.png)\n\n## Related articles\n\n- [Starting a Group chat](/docs/apps/ios-create-a-group-chat--ul52pe9cejm5vodlxm05zg0o)\n- [Sending an SMS message](/docs/apps/ios-sending-sms-message--u9er4aaxgafnsgkjp9bl527u)\n- [Working with messages](/docs/apps/ios-working-with-messages--yqzv2my3j9djxgl88ampgrm9)\n"
+}

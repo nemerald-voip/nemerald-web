@@ -1,0 +1,188 @@
+{
+  "source": {
+    "id": "ophgjz3guikdjfl0oga2h6t5",
+    "slug": "desktop-user-interface",
+    "title": "Desktop app overview",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "After you’ve logged into the app, you’ll see a user interface as shown in a screenshot below:"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_ui_8a98e868c8.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "The navigation panel on the left side of the desktop app has the following tabs:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_tab_speeddial_8e1cf5850f.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Speed dial",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": ". In this tab, you or your PBX administrator can add phone numbers, emergency contacts, and buttons to access various PBX features quickly."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_tab_users_f633e6fcb3.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Users.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "This is where you can find your colleague's contacts and all internal office phone numbers."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_tab_chats_5ec3dee1d1.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Chats.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Here you can chat with your team, share files, photos, etc., and send SMS to your external contacts (only if the SMS feature is enabled for your account in the admin portal)."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_tab_calls_005981fcce.png}}"
+          },
+          {
+            "type": "text",
+            "text": "The"
+          },
+          {
+            "type": "text",
+            "text": "Calls",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "tab is where you can dial a phone number to make a call and view the history of all your calls."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_tab_contacts_1a1dfd5063.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Contacts.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "This is where all your external contacts, like clients, partners, etc., are listed."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_tab_menu_e0551a4ebb.png}}"
+          },
+          {
+            "type": "text",
+            "text": "Menu.",
+            "bold": true
+          },
+          {
+            "type": "text",
+            "text": "Here you can find all the app settings, including your profile and presence status selection."
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "basics",
+      "desktop",
+      "get-started"
+    ],
+    "related": [
+      {
+        "slug": "desktop-contacts-and-users-tabs",
+        "title": "Contacts and Users overview"
+      },
+      {
+        "slug": "desktop-creating-chat-sms",
+        "title": "Creating a chat / Sending SMS"
+      },
+      {
+        "slug": "desktop-outgoing-call",
+        "title": "Outgoing call"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Desktop app overview\"\nslug: \"/apps/desktop-user-interface--ophgjz3guikdjfl0oga2h6t5\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"basics\",\"desktop\",\"get-started\"]\n---\n\nAfter you’ve logged into the app, you’ll see a user interface as shown in a screenshot below:\n\n![](/img/ringotel/original/9c03535d9465fc56937d/32a78fd6ff5fa336217d72b7790e616f820f95927411ae1425e58370421750aa.png)\n\nThe navigation panel on the left side of the desktop app has the following tabs:\n\n![App icon](/img/ringotel/original/fc4327a813011104aeee/f29cdef20189e4e38cb42143e5b425d9d6acb6c6d6a5f17cf5495b2a4692a5f9.png)**Speed dial**. In this tab, you or your PBX administrator can add phone numbers, emergency contacts, and buttons to access various PBX features quickly.\n\n![App icon](/img/ringotel/original/3091526ccc1491301ccb/dc65be74c8b8780e15cc30eaa81ff4b2bd3e98fd46b09b1381cc6cdbc1de3266.png)**Users.**&#x54;his is where you can find your colleague's contacts and all internal office phone numbers.\n\n![App icon](/img/ringotel/original/a030a5ef98fad64b8ad7/b6f541d2376c7fc489968cecebf3c419c86a0cad7dcdd82f076b94cdbc83ffb0.png)**Chats.**&#x48;ere you can chat with your team, share files, photos, etc., and send SMS to your external contacts (only if the SMS feature is enabled for your account in the admin portal).\n\n![App icon](/img/ringotel/original/781f367114f3dd6335e7/041a32102bfc1716064e9419048e569b7afaca02ca7d6dbf3b6629bc88c28760.png)The**Calls**tab is where you can dial a phone number to make a call and view the history of all your calls.\n\n![App icon](/img/ringotel/original/c2d4ea610eec4f9031bb/641a8b14b00c889ae5b3d1d58414eede73c65aaaebe26f883da31132f5a37c47.png)**Contacts.**&#x54;his is where all your external contacts, like clients, partners, etc., are listed.\n\n![App icon](/img/ringotel/original/7c9b434b153358880fb0/207c1238f01b48e56462d5031dc43d3758dfd100298251e869271092b076b650.png)**Menu.**&#x48;ere you can find all the app settings, including your profile and presence status selection.\n\n## Related articles\n\n- [Contacts and Users overview](/docs/apps/desktop-contacts-and-users-tabs--hrbdi37d949mb152d0llrw4p)\n- [Creating a chat / Sending SMS](/docs/apps/desktop-creating-chat-sms--wq59474ron4rofgdi73acjxw)\n- [Outgoing call](/docs/apps/desktop-outgoing-call--te63hnixsyugdk7wpsw59xeq)\n"
+}

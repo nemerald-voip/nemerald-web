@@ -1,0 +1,177 @@
+{
+  "source": {
+    "id": "twt6kz5lgz19ekqy8mwn6zz2",
+    "slug": "android-import-contacts",
+    "title": "Import contacts",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "To import a contact from your Android device into the mobile app:"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Phone",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ icon in the ’"
+              },
+              {
+                "type": "text",
+                "text": "Contacts",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ tab."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_contacts_import_3a78ccd3f0.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Tap on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/android_fab_import_aaf851c49e.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to select the contacts you want to import."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_phonebook_99e530b7a4.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select the contacts you would like to import and press the ‘"
+              },
+              {
+                "type": "text",
+                "text": "Done",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "’ button to finish importing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/android_importlist_0b59ce3b86.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "android-app",
+      "name": "Android"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "android",
+      "import",
+      "working-with-contacts"
+    ],
+    "related": [
+      {
+        "slug": "android-dial-from-phone-book",
+        "title": "Dial a contact from a device’s phone book"
+      },
+      {
+        "slug": "android-working-with-contact",
+        "title": "Working with contacts"
+      }
+    ],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Import contacts\"\nslug: \"/apps/android-import-contacts--twt6kz5lgz19ekqy8mwn6zz2\"\nmdx: {\"format\":\"md\"}\ntags: [\"Android\",\"General\",\"android\",\"import\",\"working-with-contacts\"]\n---\n\nTo import a contact from your Android device into the mobile app:\n\n1. Tap on the ‘**Phone**’ icon in the ’**Contacts**’ tab.\n\n![](/img/ringotel/original/4fbd3e285f6d41728906/3d34f6b85473986a15e542d1247bc15ec2808ea7ece2be3f4177325c4d4cf756.png)\n\n1. Tap on the![App icon](/img/ringotel/original/91f055fa03b13c57b78c/cc539f3fb8944d128b72e89e7c5f787b1b3a7f7250d2bd692b7edc154405e6d3.png)icon to select the contacts you want to import.\n\n![](/img/ringotel/original/dd83ceb4698f526a5a85/562259591efcc28b498545002db02d233fa7b9f3e9f49855272e1078ec0b7bfe.png)\n\n1. Select the contacts you would like to import and press the ‘**Done**’ button to finish importing.\n\n![](/img/ringotel/original/dd2e1680114ac3d62aee/5b703a6e7ab8d755b0f1f547683abd6b4ae80c05533fd83bb79ccb9cd119ec30.png)\n\n## Related articles\n\n- [Dial a contact from a device’s phone book](/docs/apps/android-dial-from-phone-book--bgh7hvr47y6wx203k9w62tja)\n- [Working with contacts](/docs/apps/android-working-with-contact--ukprk9ontafcdkvwcit3mzs6)\n"
+}

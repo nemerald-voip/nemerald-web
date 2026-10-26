@@ -1,0 +1,276 @@
+{
+  "source": {
+    "id": "te63hnixsyugdk7wpsw59xeq",
+    "slug": "desktop-outgoing-call",
+    "title": "Outgoing call",
+    "body": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "There are several ways you can make an outgoing call from the desktop app:"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OPTION 1",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Right-click ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "on a contact, chat, or call record in any of the tabs."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Select Dial from the drop-down menu to make an audio call."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_contact_dropdown_menu_4301d63e5e.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OPTION 2",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Left-click ",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "on a contact, chat, or call record to open a chat."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_audio_6843b05b5e.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to initiate an audio call or click on the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_video_e858793169.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to initiate a video call (available only for Users)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_chat_top_panel_9e65f95329.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OPTION 3",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "format": "ordered",
+        "children": [
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Enter a contact’s name or phone number in the "
+              },
+              {
+                "type": "text",
+                "text": "Search bar",
+                "bold": true
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ]
+          },
+          {
+            "type": "list-item",
+            "children": [
+              {
+                "type": "text",
+                "text": "Press Enter or the"
+              },
+              {
+                "type": "text",
+                "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_call_searchfield_5f6c9242e2.png}}"
+              },
+              {
+                "type": "text",
+                "text": "icon to make an audio call."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_tab_searchfield_call_299e460114.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "OR",
+            "bold": true
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "text": "Open the dial pad by clicking on the"
+          },
+          {
+            "type": "text",
+            "text": "{{icon:https://new-kb.ringotel.com/uploads/desktop_icon_numpad_5526ea0bc2.png}}"
+          },
+          {
+            "type": "text",
+            "text": "icon in the Search field to call extensions or external numbers."
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "image": {
+          "url": "/uploads/desktop_numpad_d0a5246929.png",
+          "alternativeText": "",
+          "caption": "",
+          "provider_metadata": {
+            "source": null
+          }
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "bodyHtml": null,
+    "description": "",
+    "platform": {
+      "slug": "desktop-app",
+      "name": "Desktop"
+    },
+    "category": {
+      "slug": "general",
+      "name": "General"
+    },
+    "tags": [
+      "desktop",
+      "working-with-calls"
+    ],
+    "related": [],
+    "crossPlatform": [],
+    "featureNotice": false
+  },
+  "generated": "---\ntitle: \"Outgoing call\"\nslug: \"/apps/desktop-outgoing-call--te63hnixsyugdk7wpsw59xeq\"\nmdx: {\"format\":\"md\"}\ntags: [\"Desktop\",\"General\",\"desktop\",\"working-with-calls\"]\n---\n\nThere are several ways you can make an outgoing call from the desktop app:\n\n**OPTION 1**\n\n1. **Right-click&#x20;**&#x6F;n a contact, chat, or call record in any of the tabs.\n2. Select Dial from the drop-down menu to make an audio call.\n\n![](/img/ringotel/original/baae641bdf8d020be390/4b9ee501f9bad912267232e21e9b249858d2cb18fa6e62c154df2f5d2209b073.png)\n\n**OPTION 2**\n\n1. **Left-click&#x20;**&#x6F;n a contact, chat, or call record to open a chat.\n2. Click on the![App icon](/img/ringotel/original/15b7b4545e7baeb6c1f6/8184015fda112d6829f5edccd9131a16385dbf1826908036caccbf2ba593ad4b.png)icon to initiate an audio call or click on the![App icon](/img/ringotel/original/f9e7bc348ca940a431a2/c0ef03e9a9b6cf1b2c927606e2327678bee0496366929d76ef71fb104b72ba1f.png)icon to initiate a video call (available only for Users).\n\n![](/img/ringotel/original/cccfbd2b83aa49e16226/9693768bbb6fe301c1da6d93435f54c3f6f99ddaa8c692f123f276a756d23bb0.png)\n\n**OPTION 3**\n\n1. Enter a contact’s name or phone number in the **Search bar**.\n2. Press Enter or the![App icon](/img/ringotel/original/aabcd8b4d1a3aa06b2b4/ef86d543f0c8f03bfb41e4faf5f5783cb995b93a111758f308b60ef67fa82c72.png)icon to make an audio call.\n\n![](/img/ringotel/original/f719c17697715cdccd1d/ba9066d1d22c3a0fb3060c4cd056edbe4d3091afad7e685efee923c34120d8a9.png)\n\n**OR**\n\nOpen the dial pad by clicking on the![App icon](/img/ringotel/original/64a011f113f729ebf9e5/1b73071c716acfdafb59b0cc097ffd95afcb70b7bf6e43694ad71e3af912903f.png)icon in the Search field to call extensions or external numbers.\n\n![](/img/ringotel/original/bfe6cf2c8a255b750b70/0c87f914e42ece975454c7f8ee8ce2e179a594b40a078e3c8b21b3990c931978.png)\n"
+}
